@@ -16,5 +16,13 @@ header,
   color: black;
   font-size: 16px;
 }
+.nonactive {
+  color: rgb(96, 96, 96);
+}
+.nonactive:hover {
+  color: black;
+  transition: color 1s;
+}
+
 /*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
 ainakin todella iso joten vaihdwettu px*/
