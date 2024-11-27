@@ -1,3 +1,10 @@
+:root {
+  --case1: #84bee4;
+  --case2: #c8d338;
+  --case3: #ffc520;
+  --case4: #f0a0b3;
+}
+
 body {
   background-color: #dce8f6;
 }
@@ -16,6 +23,8 @@ header,
   color: black;
   font-size: 16px;
 }
+/*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
+ainakin todella iso joten vaihdwettu px*/
 .nonactive {
   color: rgb(96, 96, 96);
 }
@@ -23,6 +32,3 @@ header,
   color: black;
   transition: color 1s;
 }
-
-/*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
-ainakin todella iso joten vaihdwettu px*/
