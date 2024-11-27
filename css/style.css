@@ -1,0 +1,20 @@
+body {
+  background-color: #dce8f6;
+}
+.yellow {
+  background-color: #fdf7db !important;
+}
+.sidenav {
+  width: 150px;
+  padding: 5px;
+  margin: 2px 0;
+}
+header,
+.sidebar {
+  font-family: helvetica;
+  font-weight: bold;
+  color: black;
+  font-size: 16px;
+}
+/*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
+ainakin todella iso joten vaihdwettu px*/
