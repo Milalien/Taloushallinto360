@@ -52,29 +52,100 @@
         </div>
       </nav>
     </header>
-    <ul class="navbar-nav sidebar">
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link nonactive" href="saimaaAccounting.html"
-          >Saimaa Accounting Oy</a
-        >
-      </li>
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link nonactive" href="golfKauppa.html"
-          >Golfkauppa Ranta Oy</a
-        >
-      </li>
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link nonactive" href="kalusteTehdas.html"
-          >Kalustetehdas Tyynelä Oy</a
-        >
-      </li>
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link nonactive" href="nakkiKioski.html"
-          >Eevan nakkikioski tmi</a
-        >
-      </li>
-    </ul>
+    <div class="main">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Tab navs -->
+          <div
+            class="nav flex-sm-column nav-tabs text-center"
+            id="v-tabs-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <a
+              data-mdb-tab-init
+              class="case1 nav-link yellow active"
+              id="saimaaAccounting-tab"
+              href="#saimaaAccounting"
+              role="tab"
+              aria-controls="saimaaAccounting"
+              aria-selected="true"
+              >Saimaa Accounting Oy</a
+            >
+            <a
+              data-mdb-tab-init
+              class="case2 nav-link yellow"
+              id="golfkauppa-tab"
+              href="#golfkauppa"
+              role="tab"
+              aria-controls="golfkauppa"
+              aria-selected="false"
+              >Golfkauppa Ranta Oy</a
+            >
+            <a
+              data-mdb-tab-init
+              class="case3 nav-link yellow"
+              id="kalustetehdas-tab"
+              href="#kalustetehdas"
+              role="tab"
+              aria-controls="kalustetehdas"
+              aria-selected="false"
+              >Kalustetehdas Tyynelä Oy</a
+            >
+            <a
+              data-mdb-tab-init
+              class="case4 nav-link yellow"
+              id="nakkikioski-tab"
+              href="#nakkikioski"
+              role="tab"
+              aria-controls="nakkikioski"
+              aria-selected="false"
+              >Eevan nakkikioski tmi</a
+            >
+          </div>
+          <!-- Tab navs -->
+        </div>
 
+        <div class="col-md-9">
+          <!-- Tab content -->
+          <div class="tab-content" id="v-tabs-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="saimaaAccounting"
+              role="tabpanel"
+              aria-labelledby="saimaaAccounting-tab"
+            >
+              Saimaa Accounting Oy
+            </div>
+            <div
+              class="tab-pane fade"
+              id="golfkauppa"
+              role="tabpanel"
+              aria-labelledby="golfkauppa-tab"
+            >
+              Golfkauppa Ranta Oy
+            </div>
+            <div
+              class="tab-pane fade"
+              id="kalustetehdas"
+              role="tabpanel"
+              aria-labelledby="kalustetehdas-tab"
+            >
+              Kalustetehdas Tyynelä Oy
+            </div>
+            <div
+              class="tab-pane fade"
+              id="nakkikioski"
+              role="tabpanel"
+              aria-labelledby="nakkikioski-tab"
+            >
+              Eevan nakkikioski tmi
+            </div>
+          </div>
+          <!-- Tab content -->
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="js/mdb.umd.min.js"></script>
   </body>
 </html>

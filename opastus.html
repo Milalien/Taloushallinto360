@@ -52,18 +52,82 @@
         </div>
       </nav>
     </header>
-    <ul class="navbar-nav sidebar">
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link" href="opastus.html">Sanasto ja tiedot</a>
-      </li>
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link nonactive" href="UKK.html">UKK</a>
-      </li>
-      <li class="yellow nav-item sidenav">
-        <a class="nav-link nonactive" href="linkit.html">Linkit</a>
-      </li>
-    </ul>
+    <div class="main">
+      <div class="row">
+        <div class="col-md-3">
+          <!-- Tab navs -->
+          <div
+            class="nav flex-sm-column nav-tabs text-center"
+            id="v-tabs-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <a
+              data-mdb-tab-init
+              class="nav-link yellow active"
+              id="sanasto-tab"
+              href="#sanasto"
+              role="tab"
+              aria-controls="sanasto"
+              aria-selected="true"
+              >Sanasto ja tiedot</a
+            >
+            <a
+              data-mdb-tab-init
+              class="nav-link yellow"
+              id="ukk-tab"
+              href="#ukk"
+              role="tab"
+              aria-controls="ukk"
+              aria-selected="false"
+              >UKK</a
+            >
+            <a
+              data-mdb-tab-init
+              class="nav-link yellow"
+              id="linkit-tab"
+              href="#linkit"
+              role="tab"
+              aria-controls="linkit"
+              aria-selected="false"
+              >Linkit</a
+            >
+          </div>
+          <!-- Tab navs -->
+        </div>
 
+        <div class="col-md-9">
+          <!-- Tab content -->
+          <div class="tab-content" id="v-tabs-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="sanasto"
+              role="tabpanel"
+              aria-labelledby="sanasto-tab"
+            >
+              Sanasto ja tiedot
+            </div>
+            <div
+              class="tab-pane fade"
+              id="ukk"
+              role="tabpanel"
+              aria-labelledby="ukk-tab"
+            >
+              UKK
+            </div>
+            <div
+              class="tab-pane fade"
+              id="linkit"
+              role="tabpanel"
+              aria-labelledby="linkit-tab"
+            >
+              Linkit
+            </div>
+          </div>
+          <!-- Tab content -->
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="js/mdb.umd.min.js"></script>
   </body>
 </html>

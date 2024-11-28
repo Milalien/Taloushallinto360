@@ -4,31 +4,61 @@
   --case3: #ffc520;
   --case4: #f0a0b3;
 }
-
+html,
 body {
+  font-family: helvetica;
   background-color: #dce8f6;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+.main {
+  margin-top: 10px;
 }
 .yellow {
   background-color: #fdf7db !important;
+  font-weight: bold !important;
+  font-size: 16px;
 }
-.sidenav {
-  width: 150px;
-  padding: 5px;
-  margin: 2px 0;
-}
-header,
-.sidebar {
-  font-family: helvetica;
+header {
   font-weight: bold;
   color: black;
   font-size: 16px;
 }
 /*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
 ainakin todella iso joten vaihdwettu px*/
-.nonactive {
-  color: rgb(96, 96, 96);
-}
-.nonactive:hover {
+
+.nav-tabs .nav-link.active {
   color: black;
-  transition: color 1s;
+  border-color: black;
+}
+.nav-tabs .nav-link:hover {
+  background-color: #ece1af !important;
+  border: none;
+}
+.nav-tabs .nav-link.active.case1 {
+  background-color: var(--case1) !important;
+}
+.nav-tabs .nav-link.active.case2 {
+  background-color: var(--case2) !important;
+}
+.nav-tabs .nav-link.active.case3 {
+  background-color: var(--case3) !important;
+}
+.nav-tabs .nav-link.active.case4 {
+  background-color: var(--case4) !important;
+}
+.nav-tabs .nav-link.case1:hover {
+  background-color: var(--case1) !important;
+}
+.nav-tabs .nav-link.case2:hover {
+  background-color: var(--case2) !important;
+}
+.nav-tabs .nav-link.case3:hover {
+  background-color: var(--case3) !important;
+}
+.nav-tabs .nav-link.case4:hover {
+  background-color: var(--case4) !important;
 }
