@@ -25,6 +25,15 @@ body {
   font-size: 16px;
 }
 
+.tehtavat td,
+.tehtavat th {
+  background-color: #dce8f6 !important;
+}
+
+.tehtavat .btn {
+  background-color: #fdf7db !important;
+}
+
 header {
   font-weight: bold;
   color: black;
