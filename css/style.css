@@ -34,6 +34,11 @@ body {
   background-color: #fdf7db !important;
 }
 
+.tehtavat {
+  border: black;
+  max-width: 90%;
+}
+
 header {
   font-weight: bold;
   color: black;
