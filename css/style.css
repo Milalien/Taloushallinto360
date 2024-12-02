@@ -4,6 +4,7 @@
   --case3: #ffc520;
   --case4: #f0a0b3;
 }
+
 html,
 body {
   font-family: helvetica;
@@ -17,48 +18,62 @@ body {
 .main {
   margin-top: 10px;
 }
+
 .yellow {
   background-color: #fdf7db !important;
   font-weight: bold !important;
   font-size: 16px;
 }
+
 header {
   font-weight: bold;
   color: black;
   font-size: 16px;
 }
+
 /*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
 ainakin todella iso joten vaihdwettu px*/
 
 .nav-tabs .nav-link.active {
   color: black;
-  border-color: black;
+
+  background-color: #ece1af !important;
+
 }
+
+.nav-tabs .nav-link {
+  border: none !important;
+}
+
 .nav-tabs .nav-link:hover {
   background-color: #ece1af !important;
-  border: none;
+
 }
-.nav-tabs .nav-link.active.case1 {
+
+.nav-tabs .nav-link.active.case1,
+.nav-tabs .nav-link.case1:hover,
+.navbar-nav .nav-item .nav-link.active.case1,
+.navbar-nav .nav-item .nav-link.case1:hover {
   background-color: var(--case1) !important;
 }
-.nav-tabs .nav-link.active.case2 {
+
+.nav-tabs .nav-link.active.case2,
+.nav-tabs .nav-link.case2:hover,
+.navbar-nav .nav-item .nav-link.active.case2,
+.navbar-nav .nav-item .nav-link.case2:hover {
   background-color: var(--case2) !important;
 }
-.nav-tabs .nav-link.active.case3 {
+
+.nav-tabs .nav-link.active.case3,
+.nav-tabs .nav-link.case3:hover,
+.navbar-nav .nav-item .nav-link.active.case3,
+.navbar-nav .nav-item .nav-link.case3:hover {
   background-color: var(--case3) !important;
 }
-.nav-tabs .nav-link.active.case4 {
-  background-color: var(--case4) !important;
-}
-.nav-tabs .nav-link.case1:hover {
-  background-color: var(--case1) !important;
-}
-.nav-tabs .nav-link.case2:hover {
-  background-color: var(--case2) !important;
-}
-.nav-tabs .nav-link.case3:hover {
-  background-color: var(--case3) !important;
-}
-.nav-tabs .nav-link.case4:hover {
+
+.nav-tabs .nav-link.active.case4,
+.nav-tabs .nav-link.case4:hover,
+.navbar-nav .nav-item .nav-link.active.case4,
+.navbar-nav .nav-item .nav-link.case4:hover {
   background-color: var(--case4) !important;
 }

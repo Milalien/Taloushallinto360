@@ -1,151 +1,81 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Taloushallinnon taituri</title>
-    <link rel="icon" type="image/x-icon" href="img/tt-favicon.ico" />
-    <!-- MDB -->
-    <link rel="stylesheet" href="css/mdb.min.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary yellow">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="aloitus.html"
-            >Taloushallinnon Taituri</a
-          >
-          <button
-            data-mdb-collapse-init
-            class="navbar-toggler"
-            type="button"
-            data-mdb-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="caseYritykset.html"
-                  >Case-yritykset</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="opastus.html">Opastus</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="opintojaksot.html">Opintojaksot</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <div class="main">
-      <div class="row">
-        <div class="col-md-3">
-          <!-- Tab navs -->
-          <div
-            class="nav flex-sm-column nav-tabs text-center"
-            id="v-tabs-tab"
-            role="tablist"
-            aria-orientation="vertical"
-          >
-            <a
-              data-mdb-tab-init
-              class="case1 nav-link yellow active"
-              id="saimaaAccounting-tab"
-              href="#saimaaAccounting"
-              role="tab"
-              aria-controls="saimaaAccounting"
-              aria-selected="true"
-              >Saimaa Accounting Oy</a
-            >
-            <a
-              data-mdb-tab-init
-              class="case2 nav-link yellow"
-              id="golfkauppa-tab"
-              href="#golfkauppa"
-              role="tab"
-              aria-controls="golfkauppa"
-              aria-selected="false"
-              >Golfkauppa Ranta Oy</a
-            >
-            <a
-              data-mdb-tab-init
-              class="case3 nav-link yellow"
-              id="kalustetehdas-tab"
-              href="#kalustetehdas"
-              role="tab"
-              aria-controls="kalustetehdas"
-              aria-selected="false"
-              >Kalustetehdas Tyynelä Oy</a
-            >
-            <a
-              data-mdb-tab-init
-              class="case4 nav-link yellow"
-              id="nakkikioski-tab"
-              href="#nakkikioski"
-              role="tab"
-              aria-controls="nakkikioski"
-              aria-selected="false"
-              >Eevan nakkikioski tmi</a
-            >
-          </div>
-          <!-- Tab navs -->
-        </div>
 
-        <div class="col-md-9">
-          <!-- Tab content -->
-          <div class="tab-content" id="v-tabs-tabContent">
-            <div
-              class="tab-pane fade show active"
-              id="saimaaAccounting"
-              role="tabpanel"
-              aria-labelledby="saimaaAccounting-tab"
-            >
-              Saimaa Accounting Oy
-            </div>
-            <div
-              class="tab-pane fade"
-              id="golfkauppa"
-              role="tabpanel"
-              aria-labelledby="golfkauppa-tab"
-            >
-              Golfkauppa Ranta Oy
-            </div>
-            <div
-              class="tab-pane fade"
-              id="kalustetehdas"
-              role="tabpanel"
-              aria-labelledby="kalustetehdas-tab"
-            >
-              Kalustetehdas Tyynelä Oy
-            </div>
-            <div
-              class="tab-pane fade"
-              id="nakkikioski"
-              role="tabpanel"
-              aria-labelledby="nakkikioski-tab"
-            >
-              Eevan nakkikioski tmi
-            </div>
-          </div>
-          <!-- Tab content -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Taloushallinnon taituri</title>
+  <link rel="icon" type="image/x-icon" href="img/tt-favicon.ico" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary yellow">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="aloitus.html">Taloushallinnon Taituri</a>
+        <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="caseYritykset.html">Case-yritykset</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="opastus.html">Opastus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="opintojaksot.html">Opintojaksot</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </header>
+  <div class="main">
+    <div class="row">
+      <div class="col-md-3">
+        <!-- Tab navs -->
+        <div class="nav flex-sm-column nav-tabs text-center" id="v-tabs-tab" role="tablist" aria-orientation="vertical">
+          <a data-mdb-tab-init class="case1 nav-link yellow active" id="saimaaAccounting-tab" href="#saimaaAccounting"
+            role="tab" aria-controls="saimaaAccounting" aria-selected="true">Saimaa Accounting Oy</a>
+          <a data-mdb-tab-init class="case2 nav-link yellow" id="golfkauppa-tab" href="#golfkauppa" role="tab"
+            aria-controls="golfkauppa" aria-selected="false">Golfkauppa Ranta Oy</a>
+          <a data-mdb-tab-init class="case3 nav-link yellow" id="kalustetehdas-tab" href="#kalustetehdas" role="tab"
+            aria-controls="kalustetehdas" aria-selected="false">Kalustetehdas Tyynelä Oy</a>
+          <a data-mdb-tab-init class="case4 nav-link yellow" id="nakkikioski-tab" href="#nakkikioski" role="tab"
+            aria-controls="nakkikioski" aria-selected="false">Eevan nakkikioski tmi</a>
+        </div>
+        <!-- Tab navs -->
+      </div>
+
+      <div class="col-md-9">
+        <!-- Tab content -->
+        <div class="tab-content" id="v-tabs-tabContent">
+          <div class="tab-pane fade show active" id="saimaaAccounting" role="tabpanel"
+            aria-labelledby="saimaaAccounting-tab">
+            Saimaa Accounting Oy
+          </div>
+          <div class="tab-pane fade" id="golfkauppa" role="tabpanel" aria-labelledby="golfkauppa-tab">
+            Golfkauppa Ranta Oy
+          </div>
+          <div class="tab-pane fade" id="kalustetehdas" role="tabpanel" aria-labelledby="kalustetehdas-tab">
+            Kalustetehdas Tyynelä Oy
+          </div>
+          <div class="tab-pane fade" id="nakkikioski" role="tabpanel" aria-labelledby="nakkikioski-tab">
+            Eevan nakkikioski tmi
+          </div>
+        </div>
+        <!-- Tab content -->
+      </div>
     </div>
-    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
-  </body>
+  </div>
+  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+</body>
+
 </html>
