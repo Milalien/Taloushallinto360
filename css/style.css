@@ -19,59 +19,20 @@ body {
   margin-top: 10px;
 }
 
-header {
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  font-size: 16px;
-}
-
-.navbar-brand {
-  color: white;
-}
-
-.navbar-brand.active {
-  color: rgb(0, 0, 0);
-  background-color: white;
-  border-radius: 30px;
-  padding: 0 10px;
-}
 
 .nav-tabs .nav-link {
   border: none !important;
   color: rgb(255, 255, 255);
   font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+  border-radius: 40px;
+  margin: 0 3px;
 }
 
-.nav-tabs .nav-link.active {
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:hover {
   color: black;
+  background-color: white;
+
 }
-
-
-
-/*.nav-tabs .nav-link.active.case1,
-.nav-tabs .nav-link.case1:hover,
-.navbar-nav .nav-item .nav-link.active.case1,
-.navbar-nav .nav-item .nav-link.case1:hover {
-  background-color: var(--case1) !important;
-}
-
-.nav-tabs .nav-link.active.case2,
-.nav-tabs .nav-link.case2:hover,
-.navbar-nav .nav-item .nav-link.active.case2,
-.navbar-nav .nav-item .nav-link.case2:hover {
-  background-color: var(--case2) !important;
-}
-
-.nav-tabs .nav-link.active.case3,
-.nav-tabs .nav-link.case3:hover,
-.navbar-nav .nav-item .nav-link.active.case3,
-.navbar-nav .nav-item .nav-link.case3:hover {
-  background-color: var(--case3) !important;
-}
-
-.nav-tabs .nav-link.active.case4,
-.nav-tabs .nav-link.case4:hover,
-.navbar-nav .nav-item .nav-link.active.case4,
-.navbar-nav .nav-item .nav-link.case4:hover {
-  background-color: var(--case4) !important;
-}*/
