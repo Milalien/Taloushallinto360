@@ -2,75 +2,181 @@
 <html>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Taloushallinnon taituri</title>
-  <link rel="icon" type="image/x-icon" href="img/tt-favicon.ico" />
-  <!-- MDB -->
-  <link rel="stylesheet" href="css/mdb.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Taloushallinnon taituri</title>
+    <link rel="icon" type="image/x-icon" href="img/tt-favicon.ico" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary yellow">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="aloitus.html">Taloushallinnon Taituri</a>
-        <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="caseYritykset.html">Case-yritykset</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="opastus.html">Opastus</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="opintojaksot.html">Opintojaksot</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <div class="main">
-    <div class="row">
-      <div class="col-md-3">
-        <!-- Tab navs -->
-        <div class="nav flex-sm-column nav-tabs text-center" id="v-tabs-tab" role="tablist" aria-orientation="vertical">
-          <a data-mdb-tab-init class="nav-link yellow active" id="moikka-tab" href="#moikka" role="tab"
-            aria-controls="moikka" aria-selected="true">Moikka opiskelija!</a>
-          <a data-mdb-tab-init class="nav-link yellow" id="tietoa-tab" href="#tietoa" role="tab" aria-controls="tietoa"
-            aria-selected="false">Tietoa projektista</a>
-          <a data-mdb-tab-init class="nav-link yellow" id="yhteystiedot-tab" href="#yhteystiedot" role="tab"
-            aria-controls="yhteystiedot" aria-selected="false">Yhteystiedot</a>
-        </div>
-        <!-- Tab navs -->
-      </div>
+    <header>
 
-      <div class="col-md-9">
-        <!-- Tab content -->
-        <div class="tab-content" id="v-tabs-tabContent">
-          <div class="tab-pane fade show active" id="moikka" role="tabpanel" aria-labelledby="moikka-tab">
-            <h1>Moikka opiskelija!</h1>
-          </div>
-          <div class="tab-pane fade" id="tietoa" role="tabpanel" aria-labelledby="tietoa-tab">
-            <h1>Tietoa projektista</h1>
-          </div>
-          <div class="tab-pane fade" id="yhteystiedot" role="tabpanel" aria-labelledby="yhteystiedot-tab">
-            <h1>Yhteystiedot</h1>
-          </div>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand active" href="aloitus.html">Taloushallinnon Taituri</a>
+
+
+                <ul class="nav nav-tabs nav-fill" id="navbar-tabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a data-mdb-tab-init class="nav-link" id="case1" href="#nav-tab1" role="tab"
+                            aria-controls="nav-tab1" aria-selected="true">Saimaa Account Oy</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a data-mdb-tab-init class="nav-link" id="case2" href="#nav-tab2" role="tab"
+                            aria-controls="nav-tab2" aria-selected="false">Golfkauppa Ranta Oy</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a data-mdb-tab-init class="nav-link" id="case3" href="#nav-tab3" role="tab"
+                            aria-controls="nav-tab3" aria-selected="false">Kalustetehdas Tyynelä Oy</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a data-mdb-tab-init class="nav-link" id="case4" href="#nav-tab4" role="tab"
+                            aria-controls="nav-tab4" aria-selected="false">Eevan nakkikioski Tmi</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a data-mdb-tab-init class="nav-link" id="opintojaksot" href="#nav-tab5" role="tab"
+                            aria-controls="nav-tab5" aria-selected="false">Opintojaksot</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
+        <!-- Saimaa Account -->
+        <div class="tab-content" id="navbar-tabs-content">
+            <div class="tab-pane fade" id="nav-tab1" role="tabpanel" aria-labelledby="case1">
+                <div class="container">
+                    <div class="card">
+                        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" />
+                        <div class="card-body">
+                            <h5 class="card-title">Saimaa Account Oy</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#c1t1" class="btn btn-primary" data-mdb-ripple-init>Lue lisää</a>
+                        </div>
+                    </div>
+                    <table class="table tehtavat">
+                        <thead>
+                            <tr>
+                                <th scope="col">No</th>
+                                <th scope="col">Tehtävän nimi</th>
+                                <th scope="col">Opintojakso</th>
+
+                                <th scope="col"></th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>xxx</td>
+                                <td>xxx</td>
+                                <td><a class="btn btn-floating" data-mdb-collapse-init data-mdb-ripple-init href="#t1"
+                                        role="button" aria-expanded="false" aria-controls="t1">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="collapse" id="t1">
+                                    <div>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad
+                                        squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                        nesciunt
+                                        sapiente ea proident.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>xxx</td>
+                                <td>xxx</td>
+                                <td><a class="btn btn-floating" data-mdb-collapse-init data-mdb-ripple-init href="#t2"
+                                        role="button" aria-expanded="false" aria-controls="t2">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a></td>
+
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="collapse" id="t2">
+                                    <div>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad
+                                        squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                        nesciunt
+                                        sapiente ea proident.
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>xxx</td>
+                                <td>xxx</td>
+                                <td><a class="btn btn-floating" data-mdb-collapse-init data-mdb-ripple-init href="#t3"
+                                        role="button" aria-expanded="false" aria-controls="t3">
+                                        <i class="fas fa-angle-right"></i>
+                                    </a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" class="collapse" id="t3">
+                                    <div>
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad
+                                        squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                        nesciunt
+                                        sapiente ea proident.
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Golfkauppa Ranta Oy -->
+            <div class="tab-pane fade" id="nav-tab2" role="tabpanel" aria-labelledby="case2">
+                Tab 2 content
+            </div>
+
+
+            <!-- Kalustetehdas Tyynelä Oy -->
+            <div class="tab-pane fade" id="nav-tab3" role="tabpanel" aria-labelledby="case3">
+                Tab 3 content
+            </div>
+
+            <!-- Eevan Nakkikioski Tmi -->
+            <div class="tab-pane fade" id="nav-tab4" role="tabpanel" aria-labelledby="case4">
+                Tab 4 content
+            </div>
+
+            <!-- Opintojaksot -->
+            <div class="tab-pane fade" id="nav-tab5" role="tabpanel" aria-labelledby="opintojaksot">
+                Tab 5 content
+            </div>
         </div>
-        <!-- Tab content -->
-      </div>
     </div>
-  </div>
 
-  <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <footer style="padding:5px; background-color: rgba(255, 255, 255, 0.05);">
+        <div class="row">
+            <div class="col-lg-4 col-md-5">
+                © 2024 Taloushallinnon Taituri. Kaikki oikeudet pidätetään
+            </div>
+            <div class="col-lg-4 col-md-2"></div>
+            <div class="col-lg-4 col-md-5">
+                <a href="#">Tietoa projektista</a>
+                <a href="#">Yhteystiedot</a>
+                <a href="aloitus1.html">Home</a>
+
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
 </body>
 
 </html>

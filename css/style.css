@@ -8,7 +8,7 @@
 html,
 body {
   font-family: helvetica;
-  background-color: #dce8f6;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -19,52 +19,36 @@ body {
   margin-top: 10px;
 }
 
-.yellow {
-  background-color: #fdf7db !important;
-  font-weight: bold !important;
-  font-size: 16px;
-}
-
-.tehtavat td,
-.tehtavat th {
-  background-color: #dce8f6 !important;
-}
-
-.tehtavat .btn {
-  background-color: #fdf7db !important;
-}
-
-.tehtavat {
-  border: black;
-  max-width: 90%;
-}
-
 header {
   font-weight: bold;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 16px;
 }
 
-/*^ tekstin kooksi ilmoitettu "16,8pt" mutta 16pt 
-ainakin todella iso joten vaihdwettu px*/
+.navbar-brand {
+  color: white;
+}
 
-.nav-tabs .nav-link.active {
-  color: black;
-
-  background-color: #ece1af !important;
-
+.navbar-brand.active {
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 30px;
+  padding: 0 10px;
 }
 
 .nav-tabs .nav-link {
   border: none !important;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
 }
 
-.nav-tabs .nav-link:hover {
-  background-color: #ece1af !important;
-
+.nav-tabs .nav-link.active {
+  color: black;
 }
 
-.nav-tabs .nav-link.active.case1,
+
+
+/*.nav-tabs .nav-link.active.case1,
 .nav-tabs .nav-link.case1:hover,
 .navbar-nav .nav-item .nav-link.active.case1,
 .navbar-nav .nav-item .nav-link.case1:hover {
@@ -90,4 +74,4 @@ ainakin todella iso joten vaihdwettu px*/
 .navbar-nav .nav-item .nav-link.active.case4,
 .navbar-nav .nav-item .nav-link.case4:hover {
   background-color: var(--case4) !important;
-}
+}*/
