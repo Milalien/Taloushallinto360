@@ -24,7 +24,7 @@ body {
 
 .page {
   position: relative;
-  min-height: 100%;
+  min-height: 100vh;
   padding-bottom: 50px;
 }
 
@@ -44,7 +44,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
+  height: fit-content;
   color: rgb(143, 143, 143);
 }
 footer a {
@@ -62,7 +62,27 @@ footer a {
   width: fit-content;
   padding: 10px;
 }
-
+@media only screen and (max-width: 992px) {
+  .brand {
+    display: none;
+  }
+  a.mobile {
+    display: block;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .brand {
+    display: block;
+  }
+  a.mobile {
+    display: none;
+  }
+}
+a.mobile {
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px;
+}
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   color: black;
