@@ -39,7 +39,10 @@ body {
 #nappi {
   border-radius: 40px;
 }
-
+.card-img-top{
+  max-height: 400px;
+  height: auto;
+}
 footer {
   position: absolute;
   bottom: 0;
