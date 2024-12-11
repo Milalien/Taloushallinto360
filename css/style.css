@@ -25,12 +25,9 @@ body {
 .page {
   position: relative;
   min-height: 100vh;
-  padding-bottom: 50px;
+  padding: 70px 0;
 }
 
-.main {
-  margin: 20px 0;
-}
 #nappi:hover {
   color: rgb(0, 0, 0) !important;
   background-color: rgb(255, 255, 255);
@@ -39,31 +36,63 @@ body {
 #nappi {
   border-radius: 40px;
 }
-.card-img-top{
+.card-img-top {
   max-height: 400px;
   height: auto;
 }
 footer {
+  font-size: 14px;
+
+  background-color: rgba(124, 124, 124, 0.1);
+  padding: 24px;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: fit-content;
-  color: rgb(143, 143, 143);
+  color: rgb(255, 255, 255);
 }
 footer a {
-  color: rgb(143, 143, 143);
-  padding: 0 5px;
+  color: rgb(255, 255, 255);
+  padding: 0 10px;
 }
 
-.navbar-nav .nav-link {
+.navbar-nav .nav-link,
+.navbar-brand {
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 500;
   text-transform: none;
   border-radius: 40px;
-  margin: 3px;
+  margin: 5px;
   width: fit-content;
-  padding: 10px;
+  padding: 4px 8px;
+}
+a.mobile {
+  background-color: white;
+  border-radius: 40px;
+  padding: 4px 8px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-brand.active,
+.navbar-brand:hover {
+  color: black;
+  background-color: white;
+  transition: all 600ms;
+}
+.navbar {
+  background-color: #000000;
+}
+@media only screen and (min-width: 992px) {
+  .brand {
+    display: block;
+  }
+  a.mobile {
+    display: none;
+  }
+  .main {
+    margin: 20px 160px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .brand {
@@ -72,23 +101,27 @@ footer a {
   a.mobile {
     display: block;
   }
-}
-@media only screen and (min-width: 993px) {
-  .brand {
-    display: block;
+  .navbar .container-fluid {
+    margin: auto 80px;
   }
-  a.mobile {
-    display: none;
+  .main {
+    margin: 20px 100px;
   }
 }
-a.mobile {
-  background-color: white;
-  border-radius: 40px;
-  padding: 10px;
+
+@media only screen and (max-width: 768px) {
+  .main {
+    margin: 20px 60px;
+  }
+  .navbar .container-fluid {
+    margin: auto 50px;
+  }
 }
-.navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover {
-  color: black;
-  background-color: white;
-  transition: all 600ms;
+@media only screen and (max-width: 576px) {
+  .main {
+    margin: 20px 10px;
+  }
+  .navbar .container-fluid {
+    margin: auto 5px;
+  }
 }

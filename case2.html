@@ -22,7 +22,7 @@
   <body>
     <div class="page">
       <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar fixed-top navbar-expand-lg">
           <div class="container-fluid">
             <button
               data-mdb-collapse-init
@@ -78,144 +78,142 @@
         </nav>
       </header>
       <div class="main">
-        <div class="container">
-          <div class="card">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
-              class="card-img-top"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Golfkauppa Ranta Oy</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
-              </p>
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+            class="card-img-top"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Golfkauppa Ranta Oy</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
 
-              <a
-                class="btn"
+            <a
+              class="btn"
+              data-mdb-collapse-init
+              data-mdb-ripple-init
+              href="#caseinfo"
+              role="button"
+              aria-expanded="false"
+              aria-controls="caseinfo"
+            >
+              Lue lisää
+            </a>
+            <div class="collapse" id="caseinfo">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life
+              accusamus terry richardson ad squid. Nihil anim keffiyeh
+              helvetica, craft beer labore wes anderson cred nesciunt sapiente
+              ea proident.
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="tehtavat">
+          <div class="accordion-item head">
+            <h4>
+              <div class="row w-100">
+                <div class="col-2">No</div>
+                <div class="col-5">Tehtävän nimi</div>
+                <div class="col-5">Opintojakso</div>
+              </div>
+            </h4>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="t1heading">
+              <button
                 data-mdb-collapse-init
-                data-mdb-ripple-init
-                href="#caseinfo"
-                role="button"
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-target="#t1"
                 aria-expanded="false"
-                aria-controls="caseinfo"
+                aria-controls="t1"
               >
-                Lue lisää
-              </a>
-              <div class="collapse" id="caseinfo">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. Nihil anim keffiyeh
-                helvetica, craft beer labore wes anderson cred nesciunt sapiente
-                ea proident.
+                <div class="row w-100">
+                  <div class="col-2">1 / 3</div>
+                  <div class="col-5">Palkanlaskenta</div>
+                  <div class="col-5">xxx</div>
+                </div>
+              </button>
+            </h2>
+            <div
+              id="t1"
+              class="accordion-collapse collapse"
+              aria-labelledby="t1heading"
+              data-mdb-parent="#tehtavat"
+            >
+              <div class="accordion-body">
+                Tehävä:<br />
+                <a href="#">Palkanlaskenta.docx</a><br />
+                Vastaus:<br />
+                <a href="#">Palkanlaskenta vastaus.xlsx</a>
               </div>
             </div>
           </div>
-          <div class="accordion" id="tehtavat">
-            <div class="accordion-item head">
-              <h4>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="t2heading">
+              <button
+                data-mdb-collapse-init
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-target="#t2"
+                aria-expanded="false"
+                aria-controls="t2"
+              >
                 <div class="row w-100">
-                  <div class="col-2">No</div>
-                  <div class="col-5">Tehtävän nimi</div>
-                  <div class="col-5">Opintojakso</div>
+                  <div class="col-2">2 / 3</div>
+                  <div class="col-5">Tilintarkastus</div>
+                  <div class="col-5">xxx</div>
                 </div>
-              </h4>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="t1heading">
-                <button
-                  data-mdb-collapse-init
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-mdb-target="#t1"
-                  aria-expanded="false"
-                  aria-controls="t1"
-                >
-                  <div class="row w-100">
-                    <div class="col-2">1 / 3</div>
-                    <div class="col-5">Palkanlaskenta</div>
-                    <div class="col-5">xxx</div>
-                  </div>
-                </button>
-              </h2>
-              <div
-                id="t1"
-                class="accordion-collapse collapse"
-                aria-labelledby="t1heading"
-                data-mdb-parent="#tehtavat"
-              >
-                <div class="accordion-body">
-                  Tehävä:<br>
-                  <a href="#">Palkanlaskenta.docx</a><br>
-                  Vastaus:<br>
-                  <a href="#">Palkanlaskenta vastaus.xlsx</a>
-                </div>
+              </button>
+            </h2>
+            <div
+              id="t2"
+              class="accordion-collapse collapse"
+              aria-labelledby="t2heading"
+              data-mdb-parent="#tehtavat"
+            >
+              <div class="accordion-body">
+                Tehtävä:<br />
+                <a href="#">tilintarkastus.docx</a>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="t2heading">
-                <button
-                  data-mdb-collapse-init
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-mdb-target="#t2"
-                  aria-expanded="false"
-                  aria-controls="t2"
-                >
-                  <div class="row w-100">
-                    <div class="col-2">2 / 3</div>
-                    <div class="col-5">Tilintarkastus</div>
-                    <div class="col-5">xxx</div>
-                  </div>
-                </button>
-              </h2>
-              <div
-                id="t2"
-                class="accordion-collapse collapse"
-                aria-labelledby="t2heading"
-                data-mdb-parent="#tehtavat"
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="t3heading">
+              <button
+                data-mdb-collapse-init
+                class="accordion-button collapsed"
+                type="button"
+                data-mdb-target="#t3"
+                aria-expanded="false"
+                aria-controls="t3"
               >
-                <div class="accordion-body">
-                  Tehtävä:<br>
-                  <a href="#">tilintarkastus.docx</a>
+                <div class="row w-100">
+                  <div class="col-2">3 / 3</div>
+                  <div class="col-5">Kokonaisharjoitus</div>
+                  <div class="col-5">xxx</div>
                 </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="t3heading">
-                <button
-                  data-mdb-collapse-init
-                  class="accordion-button collapsed"
-                  type="button"
-                  data-mdb-target="#t3"
-                  aria-expanded="false"
-                  aria-controls="t3"
-                >
-                  <div class="row w-100">
-                    <div class="col-2">3 / 3</div>
-                    <div class="col-5">Kokonaisharjoitus</div>
-                    <div class="col-5">xxx</div>
-                  </div>
-                </button>
-              </h2>
-              <div
-                id="t3"
-                class="accordion-collapse collapse"
-                aria-labelledby="t3heading"
-                data-mdb-parent="#tehtavat"
-              >
-                <div class="accordion-body">
-                  Tehtävän kuvaus:<br>
-                  <a href="#">Kokonaisharjoitus.docx</a><br>
-                  Aputilinpäätös:<br>
-                  <a href="#">Aputilinpäätös.pdf</a>
-                </div>
+              </button>
+            </h2>
+            <div
+              id="t3"
+              class="accordion-collapse collapse"
+              aria-labelledby="t3heading"
+              data-mdb-parent="#tehtavat"
+            >
+              <div class="accordion-body">
+                Tehtävän kuvaus:<br />
+                <a href="#">Kokonaisharjoitus.docx</a><br />
+                Aputilinpäätös:<br />
+                <a href="#">Aputilinpäätös.pdf</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <footer style="padding: 5px; background-color: rgba(255, 255, 255, 0.05)">
+      <footer>
         <div class="row">
           <div class="col-lg-4 col-md-5">
             © 2024 Taloushallinnon Taituri. Kaikki oikeudet pidätetään
