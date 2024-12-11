@@ -17,47 +17,91 @@
   <div class="page">
     <header>
 
-      <nav class="navbar fixed-top navbar-expand-lg ">
-        <div class="container-fluid ">
+      <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
+          <div class="container-fluid justify-content-between">
+            <div class="d-flex">
+              <a
+                class="navbar-brand d-flex align-items-center"
+                href="aloitus.html"
+              >
+                TALOUSHALLINNON TAITURI
+              </a>
+            </div>
 
-          <button data-mdb-collapse-init class="navbar-toggler" type="button" data-mdb-target="#navbar"
-            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars" style="color: white"></i>
-          </button>
-          <a class="navbar-brand mobile" href="aloitus.html">
-            TALOUSHALLINNON TAITURI
-          </a>
-          <div class="collapse navbar-collapse justify-content-center text-center" id="navbar">
-            <ul class="navbar-nav ">
-              <li class="nav-item brand">
-                <a class="nav-link " href="aloitus.html">TALOUSHALLINNON
-                  TAITURI</a>
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link " href="case1.html">Saimaa Account
-                  Oy</a>
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case2.html"> Golfkauppa Ranta Oy </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="case2.html">Golfkauppa Ranta Oy</a>
 
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case3.html">
+                  Kalustetalo Tyynelä Oy
+                </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="case3.html">Kalustetehdas Tyynelä Oy</a>
 
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="case4.html">Eevan nakkikioski Tmi</a>
-
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="opintojaksot.html">Opintojaksot</a>
-
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case4.html">
+                  Eevan nakkikioski Tmi
+                </a>
               </li>
             </ul>
 
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a class="nav-link active" href="opintojaksot.html"> Opintojaksot </a>
+              </li>
+            </ul>
           </div>
+        </nav>
+        <nav class="navbar fixed-top d-lg-none">
+          <div class="container-fluid">
+            <button
+              data-mdb-button-init
+              class="navbar-toggler"
+              type="button"
+              data-mdb-collapse-init
+              data-mdb-target="#mobilenav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars text-white"></i>
+            </button>
+            <a class="navbar-brand " href="aloitus.html">
+              TALOUSHALLINNON TAITURI
+            </a>
+          </div>
+        </nav>
+        <div class="collapse d-lg-none" id="mobilenav">
+          <ul class="navbar-nav">
+           
+            <li data-mdb-ripple-init class="nav-item ">
+                <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
+              </li>
+              <li data-mdb-ripple-init class="nav-item ">
+                <a class="nav-link" href="case2.html"> Golfkauppa Ranta Oy </a>
+              </li>
+
+              <li data-mdb-ripple-init class="nav-item ">
+                <a class="nav-link" href="case3.html">
+                  Kalustetalo Tyynelä Oy
+                </a>
+              </li>
+
+              <li data-mdb-ripple-init class="nav-item ">
+                <a class="nav-link" href="case4.html">
+                  Eevan nakkikioski Tmi
+                </a>
+              </li>
+                 <li data-mdb-ripple-init class="nav-item ">
+                <a class="nav-link active" href="opintojaksot.html">
+                  Opintojaksot
+                </a>
+              </li>
+          </ul>
         </div>
-      </nav>
     </header>
     
 
