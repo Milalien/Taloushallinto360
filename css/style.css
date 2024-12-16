@@ -5,6 +5,8 @@
   --case4: #f0a0b3;
 }
 
+
+
 html,
 body {
   font-family: helvetica !important;
@@ -14,12 +16,35 @@ body {
   overflow-x: hidden;
 }
 
+
+header.moikka .navbar *,
+footer.moikka * {
+  color: #2e2e2e !important;
+
+}
+
 #tehtavat {
   margin: 10px 0;
+  text-align: start;
 
   .head {
-    padding: 5px;
+    padding: 10px;
+
+    .col-2 {
+      margin-left: 1%;
+      width: 15%;
+    }
+
+    .col-5 {
+      padding-right: 0;
+      padding-left: 15px;
+    }
   }
+}
+
+.tasknr {
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .page {
@@ -30,16 +55,21 @@ body {
 
 #nappi:hover {
   color: rgb(0, 0, 0) !important;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.5);
   transition: all 600ms;
 }
+
 #nappi {
   border-radius: 40px;
+  position: absolute;
+  top: 40vh
 }
+
 .card-img-top {
   max-height: 400px;
   height: auto;
 }
+
 footer {
   font-size: 14px;
 
@@ -51,6 +81,7 @@ footer {
   height: fit-content;
   color: rgb(255, 255, 255);
 }
+
 footer a {
   color: rgb(255, 255, 255);
   padding: 0 10px;
@@ -70,28 +101,39 @@ footer a {
 }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .nav-link:hover,
 .navbar-brand.active,
-.navbar-brand:hover,
-.btn-link.active,
-.btn-link:hover {
+.btn-link.active {
   color: black;
   background-color: white;
+
+
   transition: all 600ms;
 }
+
+.navbar-nav .nav-link:hover,
+.navbar-brand:hover,
+.btn-link:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 600ms;
+}
+
 .navbar {
   background-color: #000000;
 }
+
 @media only screen and (min-width: 1400px) {
   .navbar {
     margin: auto 160px;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .main {
     margin: 20px 160px;
   }
 }
+
 @media only screen and (max-width: 992px) {
   .main {
     margin: 20px 100px;
@@ -103,6 +145,7 @@ footer a {
     margin: 20px 60px;
   }
 }
+
 @media only screen and (max-width: 576px) {
   .main {
     margin: 20px 10px;
