@@ -62,7 +62,9 @@ footer.moikka * {
 #nappi {
   border-radius: 40px;
   position: absolute;
-  top: 40vh
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .card-img-top {
