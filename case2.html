@@ -17,79 +17,92 @@
 <body>
   <div class="page">
     <header>
-      <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
-        <div class="container-fluid justify-content-between">
-          <div class="d-flex">
-            <a class="navbar-brand d-flex align-items-center" href="aloitus.html">
-              TALOUSHALLINNON TAITURI
+        <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
+          <div class="container-fluid justify-content-between">
+            <div class="d-flex">
+              <a
+                class="navbar-brand d-flex align-items-center"
+                href="aloitus.html"
+              >
+                <img
+                  src="img/images-icons-buttons_PNG/logo_00_color_taloushallinnon-taituri_corners5.png"
+                  height="48px"
+                />
+              </a>
+            </div>
+
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
+              </li>
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link active" href="case2.html">Eevan nakkikioski Tmi  </a>
+              </li>
+
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case3.html">
+                  Kalustetalo Tyynelä Oy
+                </a>
+              </li>
+
+              <li class="nav-item me-3 me-lg-1">
+                <a class="nav-link" href="case4.html">
+                  Golfkauppa Ranta Oy
+                </a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav flex-row">
+              <li class="nav-item">
+                <a class="nav-link" href="opintojaksot.html"> Opintojaksot </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <nav class="navbar fixed-top d-lg-none">
+          <div class="container-fluid">
+            <button
+              data-mdb-button-init
+              class="navbar-toggler"
+              type="button"
+              data-mdb-collapse-init
+              data-mdb-target="#mobilenav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars text-white"></i>
+            </button>
+            <a class="navbar-brand" href="aloitus.html">
+              <img
+                src="img/images-icons-buttons_PNG/logo_00_color_taloushallinnon-taituri_corners5.png"
+                height="48px"
+              />
             </a>
           </div>
-
-          <ul class="navbar-nav flex-row">
-            <li class="nav-item me-3 me-lg-1">
+        </nav>
+        <div class="collapse d-lg-none" id="mobilenav">
+          <ul class="navbar-nav">
+            <li data-mdb-ripple-init class="nav-item">
               <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
             </li>
-            <li class="nav-item me-3 me-lg-1">
-              <a class="nav-link active" href="case2.html">
-                Golfkauppa Ranta Oy
-              </a>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link active" href="case2.html"> Eevan nakkikioski Tmi</a>
             </li>
 
-            <li class="nav-item me-3 me-lg-1">
-              <a class="nav-link" href="case3.html">
-                Kalustetalo Tyynelä Oy
-              </a>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case3.html"> Kalustetehdas Tyynelä Oy </a>
             </li>
 
-            <li class="nav-item me-3 me-lg-1">
-              <a class="nav-link" href="case4.html">
-                Eevan nakkikioski Tmi
-              </a>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case4.html"> Golfkauppa Ranta Oy </a>
             </li>
-          </ul>
-
-          <ul class="navbar-nav flex-row">
-            <li class="nav-item">
+            <li data-mdb-ripple-init class="nav-item">
               <a class="nav-link" href="opintojaksot.html"> Opintojaksot </a>
             </li>
           </ul>
         </div>
-      </nav>
-      <nav class="navbar fixed-top d-lg-none">
-        <div class="container-fluid">
-          <button data-mdb-button-init class="navbar-toggler" type="button" data-mdb-collapse-init
-            data-mdb-target="#mobilenav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars text-white"></i>
-          </button>
-          <a class="navbar-brand" href="aloitus.html">
-            TALOUSHALLINNON TAITURI
-          </a>
-        </div>
-      </nav>
-      <div class="collapse d-lg-none" id="mobilenav">
-        <ul class="navbar-nav">
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
-          </li>
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link active" href="case2.html">
-              Golfkauppa Ranta Oy
-            </a>
-          </li>
+      </header>
 
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case3.html"> Kalustetalo Tyynelä Oy </a>
-          </li>
-
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case4.html"> Eevan nakkikioski Tmi </a>
-          </li>
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="opintojaksot.html"> Opintojaksot </a>
-          </li>
-        </ul>
-      </div>
-    </header>
     <div class="main">
       <div class="card">
         <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" />
@@ -185,18 +198,18 @@
     </div>
 
     <footer>
-      <div class="row">
-        <div class="col-lg-4 col-md-5">
-          © 2024 Taloushallinnon Taituri. Kaikki oikeudet pidätetään
+        <div class="row justify-content-between align-items-center">
+          <div class="col">
+            © 2024 Taloushallinnon Taituri. Kaikki oikeudet pidätetään
+          </div>
+
+          <div class="col d-flex justify-content-end align-items-center">
+            <a href="#">Tietoa projektista</a>
+           
+            <a href="aloitus.html"><img src="img/images-icons-buttons_PNG/logo_00_home.png" height="28px"></a>
+          </div>
         </div>
-        <div class="col-lg-4 col-md-2"></div>
-        <div class="col-lg-4 col-md-5">
-          <a href="#">Tietoa projektista</a>
-          <a href="#">Yhteystiedot</a>
-          <a href="aloitus.html">Home</a>
-        </div>
-      </div>
-    </footer>
+      </footer>
   </div>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
 </body>
