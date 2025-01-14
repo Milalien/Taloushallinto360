@@ -134,6 +134,32 @@ footer a:hover{
   transition: all 600ms;
 }
 
+.img-container {
+  bottom: 20px;
+  left: 50px;
+  
+  position: absolute;
+}
+
+.numbers1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.numbers2 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  transform: rotate(320deg);
+}
+
+.numbers3 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
 
 
 @media only screen and (min-width: 1440px) {
