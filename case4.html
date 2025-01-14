@@ -10,6 +10,7 @@
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 </head>
 
@@ -35,17 +36,22 @@
                 <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
               </li>
               <li class="nav-item me-3 me-lg-1">
-                <a class="nav-link" href="case2.html">Eevan nakkikioski Tmi  </a>
+                <a class="nav-link active" href="case2.html">
+                
+                  Eevan nakkikioski Tmi  </a>
               </li>
 
               <li class="nav-item me-3 me-lg-1">
                 <a class="nav-link" href="case3.html">
-                  Kalustetalo Tyynelä Oy
+
+                  Kalustetehdas Tyynelä Oy
                 </a>
               </li>
 
               <li class="nav-item me-3 me-lg-1">
-                <a class="nav-link active" href="case4.html">
+                <a class="nav-link" href="case4.html">
+                <img src="img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png" height="30px">
+
                   Golfkauppa Ranta Oy
                 </a>
               </li>
@@ -85,15 +91,20 @@
               <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
             </li>
             <li data-mdb-ripple-init class="nav-item">
-              <a class="nav-link" href="case2.html"> Eevan nakkikioski Tmi</a>
+              <a class="nav-link active" href="case2.html">
+                 Eevan nakkikioski Tmi</a>
             </li>
 
             <li data-mdb-ripple-init class="nav-item">
-              <a class="nav-link" href="case3.html"> Kalustetehdas Tyynelä Oy </a>
+              <a class="nav-link" href="case3.html"> 
+                  
+                Kalustetehdas Tyynelä Oy </a>
             </li>
 
             <li data-mdb-ripple-init class="nav-item">
-              <a class="nav-link active" href="case4.html"> Golfkauppa Ranta Oy </a>
+              <a class="nav-link" href="case4.html">
+                <img src="img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png" height="30px">
+                 Golfkauppa Ranta Oy </a>
             </li>
             <li data-mdb-ripple-init class="nav-item">
               <a class="nav-link" href="opintojaksot.html"> Opintojaksot </a>
@@ -102,31 +113,56 @@
         </div>
       </header>
 
-    <div class="main">
-      <div class="card">
-        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" />
-        <div class="card-body">
-          <h5 class="card-title">Eevan nakkikioski Tmi</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </p>
+    <div class="main align-items-center">
+      <div class="card" style="background-color: #1a1a1a00">
+            <img
+              src="img/images-icons-buttons_PNG/background_01_saimaa-account-oy_LAST.png"
+              class="card-img"
+            />
+            <div class="card-img-overlay">
+              <h1 class="card-title">Golfkauppa Ranta Oy</h1>
 
-          <a class="btn" data-mdb-collapse-init data-mdb-ripple-init href="#caseinfo" role="button"
-            aria-expanded="false" aria-controls="caseinfo">
-            <i class="fas fa-angle-down"></i>
-          </a>
-          <div class="collapse" id="caseinfo">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life
-            accusamus terry richardson ad squid. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente
-            ea proident.
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla ut justo porta porta. Sed feugiat malesuada pretium. Suspendisse.
+              </p>
+              <div class="card-actions d-flex justify-content-end align-items-end">
+              <button
+                      data-mdb-collapse-init
+                      class="btn-floating"
+                      type="button"
+                      data-mdb-target="#aineisto"
+                      aria-expanded="false"
+                      aria-controls="aineisto"
+                    ><img src="img/images-icons-buttons_PNG/button_plus.png" height="30px">
+                    </button>
+                    
+              </div>
+              
+            </div>
+
           </div>
-        </div>
-      </div>
+          <div class="accordion" id="caseaineisto">
+                <div class="accordion-item">
+                  <div id="aineisto" class="accordion-collapse collapse" data-mdb-parent="#caseaineisto">
+                    <div class="accordion-body">
+                      <div class="row">
+                      <div class="col-4">
+                        <h2>Yrityksen kuvaus</h2>
+                      </div>
+                      <div class="col-8">
+                        lol
+                      </div>
+    
+                      </div>
+                    </div>
+                  </div>
+                </div>
+           </div>
+
       <div class="accordion" id="tehtavat">
         <div class="accordion-item head">
           <h4 class="accordion-header">
+
             <div class="row w-100">
               <div class="col-2">No</div>
               <div class="col-5">Tehtävän nimi</div>
@@ -139,16 +175,19 @@
             <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t1"
               aria-expanded="false" aria-controls="t1">
               <div class="row w-100">
-                <div class="col-2 tasknr">4 / 1</div>
-                <div class="col-5">Kannattavuuslaskenta</div>
+                <div class="col-2 tasknr">
+                  <img src="img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png" height="40px">
+                  
+                  <p class="text-overlay2">1</p>
+                </div>
+                <div class="col-5">Kirjaus-tehtävä</div>
                 <div class="col-5">xxx</div>
               </div>
             </button>
           </h2>
           <div id="t1" class="accordion-collapse collapse" aria-labelledby="t1heading" data-mdb-parent="#tehtavat">
             <div class="accordion-body">
-              Tehtävä:<br />
-              <a href="#">kannattavuuslaskenta.docx</a>
+              
             </div>
           </div>
         </div>
@@ -157,19 +196,18 @@
             <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t2"
               aria-expanded="false" aria-controls="t2">
               <div class="row w-100">
-                <div class="col-2 tasknr">4 / 2</div>
-                <div class="col-5">Palkanlaskenta</div>
+                <div class="col-2 tasknr">
+                  <img src="img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png" height="40px">
+
+                  <p class="text-overlay2">2</p>
+                </div>
+                <div class="col-5">xxx</div>
                 <div class="col-5">xxx</div>
               </div>
             </button>
           </h2>
           <div id="t2" class="accordion-collapse collapse" aria-labelledby="t2heading" data-mdb-parent="#tehtavat">
-            <div class="accordion-body">
-              Tehtävä<br />
-              <a href="#">palkanlaskenta.docx</a><br />
-              Vastaus:<br />
-              <a href="#">palkanlaskenta vastaukset.xlsx</a>
-            </div>
+            <div class="accordion-body">tehtävän kuvaus</div>
           </div>
         </div>
         <div class="accordion-item">
@@ -177,41 +215,17 @@
             <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t3"
               aria-expanded="false" aria-controls="t3">
               <div class="row w-100">
-                <div class="col-2 tasknr">4 / 3</div>
-                <div class="col-5">Tilinpäätös kertaus</div>
+                <div class="col-2 tasknr">
+                  <img src="img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png" height="40px">
+                  <p class="text-overlay2">3</p>
+                </div>
+                <div class="col-5">xxx</div>
                 <div class="col-5">xxx</div>
               </div>
             </button>
           </h2>
           <div id="t3" class="accordion-collapse collapse" aria-labelledby="t3heading" data-mdb-parent="#tehtavat">
-            <div class="accordion-body">
-              Tehtävä:<br />
-              <a href="#">tilinpäätöksen kertaustehtävä.docx</a><br />
-              Materiaalit:<br />
-              <a href="#">tilitapahtumat.xlsx</a><br />
-              <a href="#">tase.xlsx</a>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="t3heading">
-            <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t4"
-              aria-expanded="false" aria-controls="t4">
-              <div class="row w-100">
-                <div class="col-2 tasknr">4 / 4</div>
-                <div class="col-5">Netvisor</div>
-                <div class="col-5">xxx</div>
-              </div>
-            </button>
-          </h2>
-          <div id="t4" class="accordion-collapse collapse" aria-labelledby="t4heading" data-mdb-parent="#tehtavat">
-            <div class="accordion-body">
-              Viennit:<br />
-              <a href="#">Pääkirja tammikuu.pdf</a><br />
-              <a href="#">Päiväkirja tammikuu.pdf</a><br />
-              <a href="#">Tase tammikuu.pdf</a><br />
-              <a href="#">Tuloslaskelma tammikuu.pdf</a>
-            </div>
+            <div class="accordion-body">tehtävän kuvaus</div>
           </div>
         </div>
       </div>

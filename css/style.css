@@ -19,6 +19,7 @@ body {
   }
 }
 nav.navbar {
+  align-items: center;
   padding-top:24px;
   padding-bottom: 24px;
   background-color:#1A1A1A;
@@ -27,7 +28,7 @@ nav.navbar {
   height: 312px;
 }
 .card-actions{
-  height: 160px;
+  height: 150px;
 }
 .accordion{
   width: 100%;
@@ -48,10 +49,7 @@ nav.navbar {
   .head {
     padding: 10px;
 
-    .col-2 {
-      margin-left: 1%;
-      width: 15%;
-    }
+    
 
     .col-5 {
       padding-right: 0;
@@ -61,8 +59,27 @@ nav.navbar {
 }
 
 .tasknr {
-  font-size: 20px;
-  font-weight: bolder;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.tasknr img {
+  position: relative;
+  z-index: 1;
+}
+.text-overlay1 {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    z-index: 2;
+}
+.text-overlay2 {
+    position: absolute;
+    top: 25%;
+    left: 25px;
+    z-index: 2;
 }
 
 .page {
@@ -70,21 +87,6 @@ nav.navbar {
   min-height: 100vh;
   padding: 70px 0;
 }
-
-/*#nappi:hover {
-  color: rgb(0, 0, 0) !important;
-  background-color: rgba(255, 255, 255, 0.5);
-  transition: all 600ms;
-}
-
-#nappi {
-  border-radius: 40px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}*/
-
 
 
 footer {
@@ -115,9 +117,8 @@ footer a:hover{
   font-size: 14px;
   font-weight: 400;
   text-transform: none;
- 
-
   width: fit-content;
+  display: inline;
 }
 
 .navbar-nav .nav-link.active,
