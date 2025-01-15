@@ -8,7 +8,6 @@ $(document).ready(function(){
    $('.numbers1').mouseleave(function(event){
  $(event.currentTarget).animate({top : 0});
      });
-
      $('.numbers1').mouseleave(function(event){
  $(event.currentTarget).animate({left : 0});
      });
@@ -16,7 +15,7 @@ $(document).ready(function(){
 
  $(document).ready(function(){
     $(".numbers2").mouseenter(function(event){
-     $(event.currentTarget).animate({left:'20px'});
+     $(event.currentTarget).animate({right:'20px'});
    });
    $(".numbers2").mouseenter(function(event){
      $(event.currentTarget).animate({top:'20px'});
@@ -26,15 +25,21 @@ $(document).ready(function(){
      });
 
      $('.numbers2').mouseleave(function(event){
- $(event.currentTarget).animate({left : 0});
+ $(event.currentTarget).animate({right : 0});
      });
  });
 
  $(document).ready(function(){
    $(".numbers3").mouseenter(function(event){
-     $(event.currentTarget).animate({top:'20px'});
+     $(event.currentTarget).animate({bottom:'20px'});
    });
    $('.numbers3').mouseleave(function(event){
- $(event.currentTarget).animate({top : 0});
+ $(event.currentTarget).animate({top :'20px'});
      });
+     $(".numbers3").mouseenter(function(event){
+      $(event.currentTarget).animate({bottom: 0});
+    });
+    $('.numbers3').mouseleave(function(event){
+  $(event.currentTarget).animate({top : 0});
+      });
  });
