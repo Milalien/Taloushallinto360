@@ -33,6 +33,10 @@ nav.navbar {
 .accordion{
   width: 100%;
   margin-top: -30px;
+  
+}
+.accordion.home{
+  margin-bottom: 150px;
 }
 .accordion-body{
   padding-top: 50px;
@@ -90,15 +94,16 @@ nav.navbar {
 
 
 footer {
+  
   font-size: 12px;
 
-  background-color: rgba(124, 124, 124, 0.1);
+  background-color: #1A1A1A;
   padding: 24px;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: fit-content;
-    color: rgb(202, 202, 202);
+  color: rgb(202, 202, 202);
 
 }
 
@@ -135,9 +140,15 @@ footer a:hover{
 }
 
 .img-container {
-  bottom: 20px;
-  left: 50px;
-  
+  bottom: 100px;
+  left: 100px;
+ 
+  position: absolute;
+}
+.img-container2 {
+  bottom: 140px;
+  left: 100px;
+ 
   position: absolute;
 }
 
