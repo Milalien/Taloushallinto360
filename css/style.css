@@ -26,6 +26,8 @@ nav.navbar {
 }
 div.card{
   z-index: 3;
+  background-color: #1A1A1A;
+  border-radius: 20px;
 }
 .card .card-img{
   height: 312px;
@@ -45,24 +47,35 @@ div.card{
 .accordion-body{
   padding-top: 50px;
 }
-.btn-floating{
-  background: none;
+.btn-floating,
+.btn-floating.collapsed{
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-color: #00000000;
   border: none;
+}
+.btn-floating.collapsed{
+  background-image: url("../img/images-icons-buttons_PNG/button_plus.png"); 
+}
+.btn-floating{
+  background-image: url("../img/images-icons-buttons_PNG/button_minus.png"); 
+
 }
 
 #tehtavat {
   margin: 50px 0;
   text-align: start;
-
   .head {
     padding: 10px;
-
-    
-
     .col-5 {
       padding-right: 0;
       padding-left: 15px;
     }
+  }
+  .row{
+    align-items: center;
+    color: #1A1A1A;
   }
 }
 
@@ -85,20 +98,20 @@ div.card{
 }
 .text-overlay2 {
     position: absolute;
-    top: 25%;
-    left: 25px;
+    top: 10px;
+    left: 27px;
     z-index: 2;
 }
 .text-overlay3 {
     position: absolute;
-    top: 25%;
-    left: 25px;
+    top: 10px;
+    left: 26.5px;
     z-index: 2;
 }
 .text-overlay4 {
     position: absolute;
-    top: 25%;
-    left: 25px;
+    top: 9.5px;
+    left: 26.5px;
     z-index: 2;
 }
 
