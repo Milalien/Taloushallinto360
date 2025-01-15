@@ -24,12 +24,13 @@ nav.navbar {
   padding-bottom: 24px;
   background-color:#1A1A1A;
 }
+div.card{
+  z-index: 3;
+}
 .card .card-img{
   height: 312px;
 }
-.card-actions{
-  height: 150px;
-}
+
 .accordion{
   width: 100%;
   margin-top: -30px;
@@ -37,7 +38,10 @@ nav.navbar {
 }
 .accordion.home{
   margin-bottom: 150px;
+  position:relative;
+  z-index: 2;
 }
+
 .accordion-body{
   padding-top: 50px;
 }
@@ -80,6 +84,18 @@ nav.navbar {
     z-index: 2;
 }
 .text-overlay2 {
+    position: absolute;
+    top: 25%;
+    left: 25px;
+    z-index: 2;
+}
+.text-overlay3 {
+    position: absolute;
+    top: 25%;
+    left: 25px;
+    z-index: 2;
+}
+.text-overlay4 {
     position: absolute;
     top: 25%;
     left: 25px;
@@ -141,16 +157,13 @@ footer a:hover{
 
 .img-container {
   bottom: 100px;
-  left: 100px;
- 
+  left: 10px;
+  z-index: 1;
+  padding: 0 20px;
   position: absolute;
+  flex-wrap: wrap;
 }
-.img-container2 {
-  bottom: 140px;
-  left: 100px;
- 
-  position: absolute;
-}
+
 
 .numbers1 {
   height: 50px;
