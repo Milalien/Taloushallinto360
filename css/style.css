@@ -1,3 +1,11 @@
+:root {
+  --case1: #54A4DA;
+  --case4: #7EC247;
+  --case3: #A67C52;
+  --case2: #F79226;
+
+}
+
 html,
 body {
   font-family: helvetica !important;
@@ -31,12 +39,12 @@ div.card{
 }
 .card .card-img{
   height: 312px;
+  border-radius: 15px;
 }
 
 .accordion{
   width: 100%;
   margin-top: -30px;
-  
 }
 .accordion.home{
   margin-bottom: 150px;
@@ -62,11 +70,24 @@ div.card{
   background-image: url("../img/images-icons-buttons_PNG/button_minus.png"); 
 
 }
-
+.accordion-item:last-of-type > .accordion-collapse,.accordion-item:last-of-type {
+  border-bottom-right-radius: 15px !important;
+  border-bottom-left-radius: 15px !important;
+}
+#opintojaksot{
+  margin: 30px 0;
+  .head{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px;
+  } .head h6{ padding-top:10px;}
+}
 #tehtavat {
   margin: 50px 0;
   text-align: start;
   .head {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     padding: 10px;
     .col-5 {
       padding-right: 0;
@@ -77,6 +98,28 @@ div.card{
     align-items: center;
     color: #1A1A1A;
   }
+}
+.case1#tehtavat .accordion-button:not(.collapsed){
+  border-color: var(--case1);
+}
+.case2#tehtavat .accordion-button:not(.collapsed){
+  border-color: var(--case2);
+}
+.case3#tehtavat .accordion-button:not(.collapsed){
+  border-color: var(--case3);
+}
+.case4#tehtavat .accordion-button:not(.collapsed){
+  border-color: var(--case4);
+}
+#opintojaksot .accordion-button:not(.collapsed){
+ border-image: linear-gradient(to right, #54A4DA,#54A4DA, #7EC247,#A67C52,#F79226) 1;
+}
+.accordion-button:not(.collapsed){
+  color: #1A1A1A;
+  font-weight: 700;
+  border-top:2px solid;
+  border-bottom:2px solid;
+  transition: border 0ms;
 }
 
 .tasknr {
