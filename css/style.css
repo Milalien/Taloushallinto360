@@ -266,7 +266,11 @@ div.card {
   }
 }
 
+
 #tehtavat {
+
+
+
   margin: 50px 0;
 
   .col-5 {
@@ -299,7 +303,7 @@ div.card {
 
 }
 
-/* REUNOJEN VÄRIT ERI SIVUJEN "TAULUKOIHIN" */
+/* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
 
 .case1#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case1);
@@ -308,6 +312,7 @@ div.card {
 .case2#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case2);
 }
+
 
 .case3#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case3);
@@ -319,6 +324,38 @@ div.card {
 
 #opintojaksot .accordion-button:not(.collapsed) {
   border-image: linear-gradient(to right, #54A4DA, #54A4DA, #7EC247, #A67C52, #F79226) 1;
+}
+
+#tehtavat ul.tehtavalista li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+
+}
+
+#tehtavat ul.tehtavalista li::before {
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 8px;
+  background-size: contain;
+}
+
+.case1#tehtavat ul.tehtavalista li::before {
+  background-image: url("../img/images-icons-buttons_PNG/logo_01_saimaa-account-oy.png");
+}
+
+.case2#tehtavat ul.tehtavalista li::before {
+  background-image: url("../img/images-icons-buttons_PNG/logo_04_eevan-nakkikioski-tmi_corners5.png");
+}
+
+.case3#tehtavat ul.tehtavalista li::before {
+  background-image: url("../img/images-icons-buttons_PNG/logo_03_kalustetehdas-tyynela-oy.png");
+}
+
+.case4#tehtavat ul.tehtavalista li::before {
+  background-image: url("../img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png");
 }
 
 .case1#tehtavat a {
