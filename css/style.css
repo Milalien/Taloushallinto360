@@ -149,6 +149,7 @@ div.card {
   z-index: 3;
   background-color: #1A1A1A;
   border-radius: 22px;
+  
 }
 
 .card.tietoa {
@@ -163,6 +164,7 @@ div.card {
 .card .card-img {
   height: 312px;
   border-radius: 15px;
+  
 }
 
 .accordion {
@@ -185,6 +187,8 @@ div.card {
   max-width: 645px;
 }
 
+/* AVAUS NAPPIEN MUOTOILU */
+
 .btn-floating,
 .btn-floating.collapsed {
   width: 30px;
@@ -197,11 +201,14 @@ div.card {
 .btn-floating.collapsed,
 .accordion-button::after {
   background-image: url("../img/images-icons-buttons_PNG/button_plus.png");
+  padding: 5px;
 }
 
 .btn-floating,
 .accordion-button:not(.collapsed)::after {
   background-image: url("../img/images-icons-buttons_PNG/button_minus.png");
+  padding: 5px;
+
 }
 
 .btn-floating {
@@ -213,6 +220,16 @@ div.card {
   transform: rotate(-180deg);
 }
 
+.accordion-button:not(.collapsed) {
+  color: #1A1A1A;
+  font-weight: 700;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  transition: border 0ms;
+}
+
+/* AVAUTUVIEN ALA-REUNAN MUOTO */
+
 
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed,
 .accordion-item:last-of-type>.accordion-collapse,
@@ -221,11 +238,14 @@ div.card {
   border-bottom-left-radius: 15px !important;
 }
 
+/* OPINTOJAKSO LISTAUS MUOTOILUJA */
+
+
 #opintojaksot {
   margin: 30px 0;
 
   .accordion-body .row {
-    padding: 5px 0 5px 50px;
+    padding: 5px 100px 5px 50px;
     min-height: 50px;
     align-items: center;
   }
@@ -236,7 +256,8 @@ div.card {
 
   .row.indent {
     padding-left: 120px;
-  }
+    img{ margin: 2px;}
+  } 
 
   .head {
     border-top-left-radius: 15px;
@@ -266,11 +287,9 @@ div.card {
   }
 }
 
+/* TEHTÄVÄLISTAUS MUOTOILUJA */
 
 #tehtavat {
-
-
-
   margin: 50px 0;
 
   .col-5 {
@@ -282,7 +301,6 @@ div.card {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     padding: 15px 0 5px 15px;
-
 
     h3 {
       font-size: 32px;
@@ -301,6 +319,13 @@ div.card {
   color: #6A6A6A;
   font-size: 16px;
 
+}
+.tasknr {
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 /* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
@@ -362,8 +387,6 @@ div.card {
   color: var(--case1);
 }
 
-.case1#tehtavat a:hover {}
-
 .case2#tehtavat a {
   color: var(--case2);
 }
@@ -376,22 +399,6 @@ div.card {
   color: var(--case4);
 }
 
-.accordion-button:not(.collapsed) {
-  color: #1A1A1A;
-  font-weight: 700;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  transition: border 0ms;
-}
-
-.tasknr {
-  font-size: 24px;
-  font-weight: 700;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
 /* ANIMOITUJEN NUMEROIDEN JA IKONEIDEN MUOTOILUT */
 
 .img-container {
@@ -401,6 +408,9 @@ div.card {
   padding: 0 20px;
   position: absolute;
   flex-wrap: wrap;
+}
+.img-container >*{
+  opacity: 0.9;
 }
 
 .numbers1 {
@@ -477,11 +487,35 @@ div.card {
     font-size: 30px;
   }
 
-
+#opintojaksot .accordion-body .row{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  #opintojaksot .accordion-body .row.indent{
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .main {
     margin: 60px 20px;
+  }
+ 
+}
+@media only screen and (max-width: 450px) {
+  .main {
+    margin: 60px 5px;
+  }
+  h1{
+    font-size: 40px;
+  }
+  h2{
+    font-size: 28px;
+  }
+  #tehtavat .col-5{
+    line-height: 16px;
+  }
+  .accordion .head, .accordion-button{
+    padding: 10px;
   }
 }
