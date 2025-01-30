@@ -1,202 +1,209 @@
 {
-    "tehtava1": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava2": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava3": {
-        "otsikko": "Tilitoimisto kirjaukset",
-        "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
-    },
-    "tehtava4": {
-        "otsikko": "Power Automate automaatio tehtävä",
-        "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
-    },
-    "tehtava5": {
-        "otsikko": "Studio Web automaatio tehtävä",
-        "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
-    },
-    "tehtava6": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava7": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava8": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava9": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava10": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava11": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava12": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava13": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava14": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava15": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava16": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava17": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava18": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava19": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava20": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava21": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava22": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava23": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava24": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava25": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava26": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava27": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava28": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava29": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava30": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava31": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava32": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava33": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava34": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava35": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava36": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava37": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava38": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava39": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava40": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava41": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava42": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava43": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava44": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava45": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava46": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava47": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava48": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava49": {
-        "otsikko": "",
-        "linkki": ""
-    },
-    "tehtava50": {
-        "otsikko": "",
-        "linkki": ""
-    }
+  "tehtava1": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava2": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava3": {
+    "otsikko": "Tilitoimisto kirjaukset",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
+  },
+  "tehtava4": {
+    "otsikko": "Power Automate automaatio tehtävä",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
+  },
+  "tehtava5": {
+    "otsikko": "Studio Web automaatio tehtävä",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
+  },
+  "tehtava6": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava7": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava8": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava9": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava10": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava11": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava12": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava13": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava14": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava15": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava16": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava17": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava18": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava19": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava20": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava21": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava22": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava23": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava24": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava25": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava26": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "tehtava27": {
+    "otsikko": "",
+    "linkki": ""
+  },
+  "Yrityskuvays huonekaluliike": {
+    "otsikko": "Yrityksen kuvaus",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462937/mod_resource/content/2/Casekuvaus_huonekalutehdas.docx"
+  },
+  "tehtava29": {
+    "otsikko": "Opi tuloslaskelma, tase ja kassavirta -tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Liiketoimintaosaaminen ja yrityssimulaatiot. Opettaja: Sirpa Varajärvi ja Jukka Sirkiä",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx"
+  },
+  "tehtava30": {
+    "otsikko": "Kustannuslaskennan tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Kustannaslaskenta ja hinnoittelu. Opettaja: Sirpa Varajärvi ja Saara Heikkonen",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462938/mod_resource/content/6/Huonekalutehdas%20kustannuslaskennan%20teht%C3%A4v%C3%A4.xlsx"
+  },
+  "tehtava31": {
+    "otsikko": "Investointien tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia. Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla. Opintojakso: Investoinnit ja rahoitussuunnittelu. Opettaja: Tuomas Leino",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx"
+  },
+  "tehtava32": {
+    "otsikko": "Yritysjärjestelyiden tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Osakeyhtiön erityskysymykset ja yritysjärjestelyt, Opettaja: Teija Launiainen",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx"
+  },
+  "tehtava33": {
+    "otsikko": "Konsernitilinpäätöksen tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit Opettaja: Teija Launiainen",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx"
+  },
+  "tehtava34": {
+    "otsikko": "Sisäisen valvonnan tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Sisäinen tarkastus ja valvonta Opettaja: Teija Launiainen",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx"
+  },
+  "tehtava35": {
+    "otsikko": "Sijoitustoiminnan tehtävä",
+    "kuvaus": "Tehtävän lyhyt kuvaus: Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.Opintojakso: Sijoitustoiminta Opettaja: Riitta Mähönen",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2462964/mod_resource/content/4/Huonekaluliike%20Tyynel%C3%A4%20sijoitukset%2C%20teht%C3%A4v%C3%A4n%20hahmotelmaa.docx"
+  },
+  "tehtava36": {
+    "otsikko": "Omistajaperheen talonrakennus tehtävä",
+    "linkki": ""
+  },
+  "tehtava37": {
+    "otsikko": "Tositekohtaiset kirjanpidon viennit tehtävä",
+    "linkki": ""
+  },
+  "tehtava38": {
+    "otsikko": "Datan analysointi ja visualisointi tehtävä",
+    "linkki": ""
+  },
+  "tehtava39": {
+    "otsikko": "Budjetointi Visma Netvisorilla",
+    "linkki": ""
+  },
+  "Golfkauppa kuvaus": {
+    "otsikko": "Golfkauppa Ranta case kuvaus.docx",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2463129/mod_resource/content/2/Golfkauppa%20Ranta%20case%20kuvaus.docx"
+  },
+  "tehtava41": {
+    "otsikko": "Kirjanpidon tehtävä",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2463136/mod_resource/content/3/Golfkauppa%20Ranta%20tilitapahtumat.xlsx"
+  },
+  "tehtava42": {
+    "otsikko": "ALV-prosessi Visma Netvisorissa",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
+  },
+  "tehtava43": {
+    "otsikko": "Palkanlaskennan tehtävä",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2463149/mod_resource/content/3/Golfkauppa%20palkanlaskenta.docx"
+  },
+  "tehtava44": {
+    "otsikko": "Tilaus- ja toimitusprosessin tehtävä",
+    "linkki": ""
+  },
+  "tehtava45": {
+    "otsikko": "Rekisteritietojen tuonti CSV-tiedostoilla Visma Netvisoriin",
+    "linkki": ""
+  },
+  "tehtava46": {
+    "otsikko": "Ostolaskujen automaattinen käsittely FabricAI:ssa tehtävä",
+    "linkki": ""
+  },
+  "tehtava47": {
+    "otsikko": "Varojen jakaminen tehtävä",
+    "linkki": ""
+  },
+  "tehtava48": {
+    "otsikko": "Osingonjako tehtävä",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2464999/mod_resource/content/4/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
+  },
+  "tehtava49": {
+    "otsikko": " Golfkauppa Ranta oy Tilintarkastus.docx",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx"
+  },
+  "tehtava50": {
+    "otsikko": "Aputilinpäätös Golfpuoti oy 2023",
+    "linkki": "https://moodle.lut.fi/pluginfile.php/2463152/mod_resource/content/1/Aputilinp%C3%A4%C3%A4t%C3%B6s%20Golfpuoti%20oy%202023.pdf"
+  }
 }
