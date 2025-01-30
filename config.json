@@ -9,14 +9,15 @@
     },
     "tehtava3": {
         "otsikko": "Tilitoimisto kirjaukset",
+        "nimi": "Tilitoimisto kirjaukset.xlxs",
         "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
     },
     "tehtava4": {
-        "otsikko": "Power Automate automaatio tehtävä",
+        "nimi": "Power Automate automaatio tehtävä",
         "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
     },
     "tehtava5": {
-        "otsikko": "Studio Web automaatio tehtävä",
+        "nimi": "Studio Web automaatio tehtävä",
         "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
     },
     "tehtava6": {
@@ -24,64 +25,74 @@
         "linkki": ""
     },
     "tehtava7": {
-        "otsikko": "",
-        "linkki": ""
+        "nimi": "Päiväkirja",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2463181/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4iv%C3%A4kirja.pdf"
     },
     "tehtava8": {
-        "otsikko": "",
-        "linkki": ""
+        "nimi": "Pääkirja",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2463186/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4%C3%A4kirja.pdf"
     },
     "tehtava9": {
-        "otsikko": "",
-        "linkki": ""
+        "nimi": "Tuloslaskelma",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2463173/mod_resource/content/1/Tilitoimisto%20Oy%20Tuloslaskelma.pdf"
     },
     "tehtava10": {
-        "otsikko": "",
-        "linkki": ""
+        "nimi": "Tase",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2463175/mod_resource/content/1/Tilitoimisto%20Oy%20Tase.pdf"
     },
     "tehtava11": {
-        "otsikko": "",
-        "linkki": ""
+        "otsikko": "Kirjanpito Excelissä",
+        "kuvaus": "",
+        "nimi": "Nakkikioski tilitapahtumat.xlxs",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2462697/mod_resource/content/4/Nakkikioski%20tilitapahtumat.xlsx"
     },
     "tehtava12": {
-        "otsikko": "",
-        "linkki": ""
+        "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
+        "kuvaus": "Tehtävän lyhyt kuvaus: nn... Netvisorissa.. alvien kanssa ..nn Opintojakso: Kirjanpito ja tuloslaskenta Opettaja: Teija Launiainen ja Tatu Saarinen",
+        "nimi": "Nakkikioski tilitapahtumat.xlxs",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx"
     },
     "tehtava13": {
-        "otsikko": "",
-        "linkki": ""
+        "otsikko": "Palkanlaskennan tehtävä",
+        "nimi": "Nakkikioskin palkanlaskenta.docx",
+        "kuvaus": "Tehtävän lyhyt kuvaus: Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset) Opintojakso: Työoikeus ja palkanlaskentaOpettaja: Saara Heikkonen",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2462727/mod_resource/content/3/Nakkikioskin%20palkanlaskenta.docx"
     },
     "tehtava14": {
-        "otsikko": "",
+        "otsikko": "Tilinpäätöksen laadinta",
         "linkki": ""
     },
     "tehtava15": {
-        "otsikko": "",
+        "otsikko": "Verotus tehtävä",
         "linkki": ""
     },
     "tehtava16": {
-        "otsikko": "",
+        "otsikko": "Verotettava tehtävä",
         "linkki": ""
     },
     "tehtava17": {
-        "otsikko": "",
-        "linkki": ""
+        "otsikko": "Kannattavuuslaskennan tehtävä",
+        "kuvaus": "",
+        "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx"
     },
     "tehtava18": {
-        "otsikko": "",
-        "linkki": ""
+        "otsikko": "Tilinpäätösanalyysien tehtävä",
+        "kuvaus": "Tehtävän lyhyt kuvaus: Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja. Opintojakso: Tilinpäätösanalyysit Opettaja: Saara Heikkonen",
+        "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx"
     },
     "tehtava19": {
-        "otsikko": "",
+        "otsikko": "Visuaalinen tilinpäätösraportti",
         "linkki": ""
     },
     "tehtava20": {
-        "otsikko": "",
-        "linkki": ""
+        "nimi": "nakkikioskin tase.xlxs",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2462735/mod_resource/content/1/Nakkikioski%20tase.xlsx"
     },
     "tehtava21": {
-        "otsikko": "",
-        "linkki": ""
+        "nimi": "Päiväkirja tammikuu",
+        "linkki": "https://moodle.lut.fi/pluginfile.php/2462736/mod_resource/content/1/P%C3%A4iv%C3%A4kirja%20tammikuu.pdf"
     },
     "tehtava22": {
         "otsikko": "",
