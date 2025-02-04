@@ -101,37 +101,37 @@
       "linkki": ""
     },
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
+      "otsikko": "Verotus tehtävä",
+      "kuvaus": "Kuinka paljon Eeva maksaa veroja kioskin verotettavasta tulosta? Miten tämä vaikuttaa Eevan maksamiin veroihin? Pohdi, mikä on edullisin vaihtoehto Eevalle?",
+      "opintojakso": "Henkilöverotus",
       "nimi": "",
       "linkki": ""
     },
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
+      "otsikko": "Verotettava tulo",
+      "kuvaus": "Laske Eevan nakkikioski Tmi:n verotettava tulo ja nettovarallisuus.",
+      "opintojakso": "Yritysverotus",
       "nimi": "",
       "linkki": ""
     },
     {
       "otsikko": "Kannattavuuslaskennan tehtävä",
-      "kuvaus": "",
-      "opintojakso": "Kannattavuuslaskenta",
+      "kuvaus": "Suunnitellaan toimenpiteitä kannattavuuden parantamiseksi ja laaditaan tulosbudjetti seuraavalle tilikaudelle.",
+      "opintojakso": "Kannattavuuslaskenta ja talouden suunnittelu",
       "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx"
     },
     {
       "otsikko": "Tilinpäätösanalyysien tehtävä",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja. Opintojakso: Tilinpäätösanalyysit Opettaja: Saara Heikkonen",
+      "kuvaus": "Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja.",
       "opintojakso": "Tilinpäätösanalyysit",
       "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx"
     },
     {
       "otsikko": "Visuaalinen tilinpäätösraportti",
-      "kuvaus": "",
-      "opintojakso": "",
+      "kuvaus": "Laaditaan Visma Netvisorin datan pohjalta visuaalinen tilinpäätösraportti",
+      "opintojakso": "BI, analytiikka ja raportointi",
       "nimi": "",
       "linkki": ""
     },
