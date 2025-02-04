@@ -2,42 +2,71 @@
   "case1tehtavat": [
     {
       "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
+      "nimi": "",
       "linkki": ""
     },
     {
       "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
+      "nimi": "",
       "linkki": ""
     },
     {
       "otsikko": "Tilitoimisto kirjaukset",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Tilitoimisto kirjaukset.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Power Automate automaatio tehtävä",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Studio Web automaatio tehtävä",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
     },
     {
       "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
+      "nimi": "",
       "linkki": ""
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Päiväkirja",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463181/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4iv%C3%A4kirja.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Pääkirja",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463186/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4%C3%A4kirja.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Tuloslaskelma",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463173/mod_resource/content/1/Tilitoimisto%20Oy%20Tuloslaskelma.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Tase",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463175/mod_resource/content/1/Tilitoimisto%20Oy%20Tase.pdf"
     }
@@ -52,65 +81,99 @@
     },
     {
       "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
-      "kuvaus": "Tehtävän lyhyt kuvaus: nn... Netvisorissa.. alvien kanssa ..nn Opintojakso: Kirjanpito ja tuloslaskenta Opettaja: Teija Launiainen ja Tatu Saarinen",
+      "opintojakso": "Kirjanpito ja tuloslaskenta",
+      "kuvaus": "nn... Netvisorissa.. alvien kanssa ",
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx"
     },
     {
       "otsikko": "Palkanlaskennan tehtävä",
+      "opintojakso": "Työoikeus ja palkanlaskenta",
       "nimi": "Nakkikioskin palkanlaskenta.docx",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset) Opintojakso: Työoikeus ja palkanlaskentaOpettaja: Saara Heikkonen",
+      "kuvaus": "Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset)",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462727/mod_resource/content/3/Nakkikioskin%20palkanlaskenta.docx"
     },
     {
       "otsikko": "Tilinpäätöksen laadinta",
+      "opintojakso": "Tilinpäätöksen laadinta",
+      "kuvaus": "Tarkistetaan jaksotukset, tehdään puuttuvia jaksotuksia, ajetaan tilipäätös Netvisorista",
+      "nimi": "",
       "linkki": ""
     },
     {
-      "otsikko": "Verotus tehtävä",
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
+      "nimi": "",
       "linkki": ""
     },
     {
-      "otsikko": "Verotettava tehtävä",
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
+      "nimi": "",
       "linkki": ""
     },
     {
       "otsikko": "Kannattavuuslaskennan tehtävä",
       "kuvaus": "",
+      "opintojakso": "Kannattavuuslaskenta",
       "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx"
     },
     {
       "otsikko": "Tilinpäätösanalyysien tehtävä",
       "kuvaus": "Tehtävän lyhyt kuvaus: Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja. Opintojakso: Tilinpäätösanalyysit Opettaja: Saara Heikkonen",
+      "opintojakso": "Tilinpäätösanalyysit",
       "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx"
     },
     {
       "otsikko": "Visuaalinen tilinpäätösraportti",
+      "kuvaus": "",
+      "opintojakso": "",
+      "nimi": "",
       "linkki": ""
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "nakkikioskin tase.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462735/mod_resource/content/1/Nakkikioski%20tase.xlsx"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Päiväkirja tammikuu.pdf",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462736/mod_resource/content/1/P%C3%A4iv%C3%A4kirja%20tammikuu.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Pääkirja tammikuu.pdf",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462751/mod_resource/content/1/P%C3%A4%C3%A4kirja%20tammikuu.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Tuloslaskelma tammikuu.pdf",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462761/mod_resource/content/1/Tuloslaskelma%20tammikuu.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Tase tammikuu.pdf",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462764/mod_resource/content/1/Tase%20tammikuu.pdf"
     },
     {
+      "otsikko": "",
+      "kuvaus": "",
+      "opintojakso": "",
       "nimi": "Tammikuu alv.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462780/mod_resource/content/1/Tammikuu%20alv.docx"
     }
