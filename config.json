@@ -1,210 +1,215 @@
 {
-  "tehtava1": {
-    "otsikko": "",
-    "linkki": ""
-  },
-  "tehtava2": {
-    "otsikko": "",
-    "linkki": ""
-  },
-  "tehtava3": {
-    "otsikko": "Tilitoimisto kirjaukset",
-    "nimi": "Tilitoimisto kirjaukset.xlxs",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
-  },
-  "tehtava4": {
-    "nimi": "Power Automate automaatio tehtävä",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
-  },
-  "tehtava5": {
-    "nimi": "Studio Web automaatio tehtävä",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
-  },
-  "tehtava6": {
-    "otsikko": "",
-    "linkki": ""
-  },
-  "tehtava7": {
-    "nimi": "Päiväkirja",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463181/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4iv%C3%A4kirja.pdf"
-  },
-  "tehtava8": {
-    "nimi": "Pääkirja",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463186/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4%C3%A4kirja.pdf"
-  },
-  "tehtava9": {
-    "nimi": "Tuloslaskelma",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463173/mod_resource/content/1/Tilitoimisto%20Oy%20Tuloslaskelma.pdf"
-  },
-  "tehtava10": {
-    "nimi": "Tase",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463175/mod_resource/content/1/Tilitoimisto%20Oy%20Tase.pdf"
-  },
-  "tehtava11": {
-    "otsikko": "Kirjanpito Excelissä",
-    "kuvaus": "",
-    "nimi": "Nakkikioski tilitapahtumat.xlxs",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462697/mod_resource/content/4/Nakkikioski%20tilitapahtumat.xlsx"
-  },
-  "tehtava12": {
-    "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: nn... Netvisorissa.. alvien kanssa ..nn Opintojakso: Kirjanpito ja tuloslaskenta Opettaja: Teija Launiainen ja Tatu Saarinen",
-    "nimi": "Nakkikioski tilitapahtumat.xlxs",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx"
-  },
-  "tehtava13": {
-    "otsikko": "Palkanlaskennan tehtävä",
-    "nimi": "Nakkikioskin palkanlaskenta.docx",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset) Opintojakso: Työoikeus ja palkanlaskentaOpettaja: Saara Heikkonen",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462727/mod_resource/content/3/Nakkikioskin%20palkanlaskenta.docx"
-  },
-  "tehtava14": {
-    "otsikko": "Tilinpäätöksen laadinta",
-    "linkki": ""
-  },
-  "tehtava15": {
-    "otsikko": "Verotus tehtävä",
-    "linkki": ""
-  },
-  "tehtava16": {
-    "otsikko": "Verotettava tehtävä",
-    "linkki": ""
-  },
-  "tehtava17": {
-    "otsikko": "Kannattavuuslaskennan tehtävä",
-    "kuvaus": "",
-    "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx"
-  },
-  "tehtava18": {
-    "otsikko": "Tilinpäätösanalyysien tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja. Opintojakso: Tilinpäätösanalyysit Opettaja: Saara Heikkonen",
-    "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx"
-  },
-  "tehtava19": {
-    "otsikko": "Visuaalinen tilinpäätösraportti",
-    "linkki": ""
-  },
-  "tehtava20": {
-    "nimi": "nakkikioskin tase.xlxs",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462735/mod_resource/content/1/Nakkikioski%20tase.xlsx"
-  },
-  "tehtava21": {
-    "nimi": "Päiväkirja tammikuu.pdf",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462736/mod_resource/content/1/P%C3%A4iv%C3%A4kirja%20tammikuu.pdf"
-  },
-  "tehtava22": {
-    "nimi": "Pääkirja tammikuu.pdf",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462751/mod_resource/content/1/P%C3%A4%C3%A4kirja%20tammikuu.pdf"
-  },
-  "tehtava23": {
-    "nimi": "Tuloslaskelma tammikuu.pdf",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462761/mod_resource/content/1/Tuloslaskelma%20tammikuu.pdf"
-  },
-  "tehtava24": {
-    "nimi": "Tase tammikuu.pdf",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462764/mod_resource/content/1/Tase%20tammikuu.pdf"
-  },
-  "tehtava25": {
-    "nimi": "Tammikuu alv.docx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462780/mod_resource/content/1/Tammikuu%20alv.docx"
-  },
-  "tehtava26": {
-    "otsikko": "Opi tuloslaskelma, tase ja kassavirta -tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Liiketoimintaosaaminen ja yrityssimulaatiot. Opettaja: Sirpa Varajärvi ja Jukka Sirkiä",
-    "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx"
-  },
-  "tehtava30": {
-    "otsikko": "Kustannuslaskennan tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Kustannaslaskenta ja hinnoittelu. Opettaja: Sirpa Varajärvi ja Saara Heikkonen",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462938/mod_resource/content/6/Huonekalutehdas%20kustannuslaskennan%20teht%C3%A4v%C3%A4.xlsx"
-  },
-  "tehtava31": {
-    "otsikko": "Investointien tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia. Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla. Opintojakso: Investoinnit ja rahoitussuunnittelu. Opettaja: Tuomas Leino",
-    "nimi": "Case huonekalutehdas laiteinvestointi_15.1.2025.xlsx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx"
-  },
-  "tehtava32": {
-    "otsikko": "Yritysjärjestelyiden tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Osakeyhtiön erityskysymykset ja yritysjärjestelyt, Opettaja: Teija Launiainen",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx"
-  },
-  "tehtava33": {
-    "otsikko": "Konsernitilinpäätöksen tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit Opettaja: Teija Launiainen",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx"
-  },
-  "tehtava34": {
-    "otsikko": "Sisäisen valvonnan tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Sisäinen tarkastus ja valvonta Opettaja: Teija Launiainen",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx"
-  },
-  "tehtava35": {
-    "otsikko": "Sijoitustoiminnan tehtävä",
-    "kuvaus": "Tehtävän lyhyt kuvaus: Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.Opintojakso: Sijoitustoiminta Opettaja: Riitta Mähönen",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2462964/mod_resource/content/4/Huonekaluliike%20Tyynel%C3%A4%20sijoitukset%2C%20teht%C3%A4v%C3%A4n%20hahmotelmaa.docx"
-  },
-  "tehtava36": {
-    "otsikko": "Omistajaperheen talonrakennus tehtävä",
-    "linkki": ""
-  },
-  "tehtava37": {
-    "otsikko": "Tositekohtaiset kirjanpidon viennit tehtävä",
-    "linkki": ""
-  },
-  "tehtava38": {
-    "otsikko": "Datan analysointi ja visualisointi tehtävä",
-    "linkki": ""
-  },
-  "tehtava39": {
-    "otsikko": "Budjetointi Visma Netvisorilla",
-    "linkki": ""
-  },
-  "Golfkauppa kuvaus": {
-    "otsikko": "Golfkauppa Ranta case kuvaus.docx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463129/mod_resource/content/2/Golfkauppa%20Ranta%20case%20kuvaus.docx"
-  },
-  "tehtava41": {
-    "otsikko": "Kirjanpidon tehtävä",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463136/mod_resource/content/3/Golfkauppa%20Ranta%20tilitapahtumat.xlsx"
-  },
-  "tehtava42": {
-    "otsikko": "ALV-prosessi Visma Netvisorissa",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
-  },
-  "tehtava43": {
-    "otsikko": "Palkanlaskennan tehtävä",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463149/mod_resource/content/3/Golfkauppa%20palkanlaskenta.docx"
-  },
-  "tehtava44": {
-    "otsikko": "Tilaus- ja toimitusprosessin tehtävä",
-    "linkki": ""
-  },
-  "tehtava45": {
-    "otsikko": "Rekisteritietojen tuonti CSV-tiedostoilla Visma Netvisoriin",
-    "linkki": ""
-  },
-  "tehtava46": {
-    "otsikko": "Ostolaskujen automaattinen käsittely FabricAI:ssa tehtävä",
-    "linkki": ""
-  },
-  "tehtava47": {
-    "otsikko": "Varojen jakaminen tehtävä",
-    "linkki": ""
-  },
-  "tehtava48": {
-    "otsikko": "Osingonjako tehtävä",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2464999/mod_resource/content/4/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
-  },
-  "tehtava49": {
-    "otsikko": " Golfkauppa Ranta oy Tilintarkastus.docx",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx"
-  },
-  "tehtava50": {
-    "otsikko": "Aputilinpäätös Golfpuoti oy 2023",
-    "linkki": "https://moodle.lut.fi/pluginfile.php/2463152/mod_resource/content/1/Aputilinp%C3%A4%C3%A4t%C3%B6s%20Golfpuoti%20oy%202023.pdf"
-  }
+  "case1tehtavat": [
+    {
+      "otsikko": "",
+      "linkki": ""
+    },
+    {
+      "otsikko": "",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Tilitoimisto kirjaukset",
+      "nimi": "Tilitoimisto kirjaukset.xlxs",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
+    },
+    {
+      "nimi": "Power Automate automaatio tehtävä",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
+    },
+    {
+      "nimi": "Studio Web automaatio tehtävä",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
+    },
+    {
+      "otsikko": "",
+      "linkki": ""
+    },
+    {
+      "nimi": "Päiväkirja",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463181/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4iv%C3%A4kirja.pdf"
+    },
+    {
+      "nimi": "Pääkirja",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463186/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4%C3%A4kirja.pdf"
+    },
+    {
+      "nimi": "Tuloslaskelma",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463173/mod_resource/content/1/Tilitoimisto%20Oy%20Tuloslaskelma.pdf"
+    },
+    {
+      "nimi": "Tase",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463175/mod_resource/content/1/Tilitoimisto%20Oy%20Tase.pdf"
+    }
+  ],
+  "case2tehtavat": [
+    {
+      "otsikko": "Kirjanpito Excelissä",
+      "opintojakso": "Taloushallinto",
+      "kuvaus": "",
+      "nimi": "Nakkikioski tilitapahtumat.xlxs",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462697/mod_resource/content/4/Nakkikioski%20tilitapahtumat.xlsx"
+    },
+    {
+      "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: nn... Netvisorissa.. alvien kanssa ..nn Opintojakso: Kirjanpito ja tuloslaskenta Opettaja: Teija Launiainen ja Tatu Saarinen",
+      "nimi": "Nakkikioski tilitapahtumat.xlxs",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx"
+    },
+    {
+      "otsikko": "Palkanlaskennan tehtävä",
+      "nimi": "Nakkikioskin palkanlaskenta.docx",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset) Opintojakso: Työoikeus ja palkanlaskentaOpettaja: Saara Heikkonen",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462727/mod_resource/content/3/Nakkikioskin%20palkanlaskenta.docx"
+    },
+    {
+      "otsikko": "Tilinpäätöksen laadinta",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Verotus tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Verotettava tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Kannattavuuslaskennan tehtävä",
+      "kuvaus": "",
+      "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx"
+    },
+    {
+      "otsikko": "Tilinpäätösanalyysien tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja. Opintojakso: Tilinpäätösanalyysit Opettaja: Saara Heikkonen",
+      "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx"
+    },
+    {
+      "otsikko": "Visuaalinen tilinpäätösraportti",
+      "linkki": ""
+    },
+    {
+      "nimi": "nakkikioskin tase.xlxs",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462735/mod_resource/content/1/Nakkikioski%20tase.xlsx"
+    },
+    {
+      "nimi": "Päiväkirja tammikuu.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462736/mod_resource/content/1/P%C3%A4iv%C3%A4kirja%20tammikuu.pdf"
+    },
+    {
+      "nimi": "Pääkirja tammikuu.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462751/mod_resource/content/1/P%C3%A4%C3%A4kirja%20tammikuu.pdf"
+    },
+    {
+      "nimi": "Tuloslaskelma tammikuu.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462761/mod_resource/content/1/Tuloslaskelma%20tammikuu.pdf"
+    },
+    {
+      "nimi": "Tase tammikuu.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462764/mod_resource/content/1/Tase%20tammikuu.pdf"
+    },
+    {
+      "nimi": "Tammikuu alv.docx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462780/mod_resource/content/1/Tammikuu%20alv.docx"
+    }
+  ],
+  "case3tehtavat": [
+    {
+      "otsikko": "Opi tuloslaskelma, tase ja kassavirta -tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Liiketoimintaosaaminen ja yrityssimulaatiot. Opettaja: Sirpa Varajärvi ja Jukka Sirkiä",
+      "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx"
+    },
+    {
+      "otsikko": "Kustannuslaskennan tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Kustannaslaskenta ja hinnoittelu. Opettaja: Sirpa Varajärvi ja Saara Heikkonen",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462938/mod_resource/content/6/Huonekalutehdas%20kustannuslaskennan%20teht%C3%A4v%C3%A4.xlsx"
+    },
+    {
+      "otsikko": "Investointien tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia. Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla. Opintojakso: Investoinnit ja rahoitussuunnittelu. Opettaja: Tuomas Leino",
+      "nimi": "Case huonekalutehdas laiteinvestointi_15.1.2025.xlsx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx"
+    },
+    {
+      "otsikko": "Yritysjärjestelyiden tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Osakeyhtiön erityskysymykset ja yritysjärjestelyt, Opettaja: Teija Launiainen",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx"
+    },
+    {
+      "otsikko": "Konsernitilinpäätöksen tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit Opettaja: Teija Launiainen",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx"
+    },
+    {
+      "otsikko": "Sisäisen valvonnan tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Sisäinen tarkastus ja valvonta Opettaja: Teija Launiainen",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx"
+    },
+    {
+      "otsikko": "Sijoitustoiminnan tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.Opintojakso: Sijoitustoiminta Opettaja: Riitta Mähönen",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462964/mod_resource/content/4/Huonekaluliike%20Tyynel%C3%A4%20sijoitukset%2C%20teht%C3%A4v%C3%A4n%20hahmotelmaa.docx"
+    },
+    {
+      "otsikko": "Omistajaperheen talonrakennus tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Tositekohtaiset kirjanpidon viennit tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Datan analysointi ja visualisointi tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Budjetointi Visma Netvisorilla",
+      "linkki": ""
+    }
+  ],
+  "case4tehtavat": [
+    {
+      "otsikko": "Kirjanpidon tehtävä",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463136/mod_resource/content/3/Golfkauppa%20Ranta%20tilitapahtumat.xlsx"
+    },
+    {
+      "otsikko": "ALV-prosessi Visma Netvisorissa",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
+    },
+    {
+      "otsikko": "Palkanlaskennan tehtävä",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463149/mod_resource/content/3/Golfkauppa%20palkanlaskenta.docx"
+    },
+    {
+      "otsikko": "Tilaus- ja toimitusprosessin tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Rekisteritietojen tuonti CSV-tiedostoilla Visma Netvisoriin",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Ostolaskujen automaattinen käsittely FabricAI:ssa tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Varojen jakaminen tehtävä",
+      "linkki": ""
+    },
+    {
+      "otsikko": "Osingonjako tehtävä",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2464999/mod_resource/content/4/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
+    },
+    {
+      "otsikko": " Golfkauppa Ranta oy Tilintarkastus.docx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx"
+    },
+    {
+      "otsikko": "Aputilinpäätös Golfpuoti oy 2023",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463152/mod_resource/content/1/Aputilinp%C3%A4%C3%A4t%C3%B6s%20Golfpuoti%20oy%202023.pdf"
+    }
+  ]
 }

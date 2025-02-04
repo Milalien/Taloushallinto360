@@ -157,23 +157,19 @@
                     src="img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_02_eevan-nakkikioski-tmi-01.png"
                     height="40px">
                 </div>
-                <div class="col-5">Kirjaus-tehtävä</div>
-                <div class="col-5">xxx</div>
+                <div class="col-5"><p id="c2t1o"></p></div>
+                <div class="col-5"><p id="c2t1oj"></p></div>
               </div>
             </button>
           </h2>
           <div id="t1" class="accordion-collapse collapse" aria-labelledby="t1heading">
             <div class="accordion-body">
               <h6>TEHTÄVÄN KUVAUS</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla ut justo porta porta. Sed
-                feugiat malesuada pretium. Suspendisse.</p>
+              <p id="c2t1k"></p>
               <h6>TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
-                <li>Download WORD: Asiakirjan nimi
+                <li ><a id="c2t1l" href=""></a>
                 </li>
-                <li>Download EXCEL: Asiakirjan nimi
-                </li>
-                <li>Download PDF: Asiakirjan nimi</li>
               </ul>
             </div>
           </div>
@@ -235,6 +231,28 @@
     </footer>
   </div>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <script type="text/javascript">
+    function fetchJSONData() {
+    fetch('./config.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then((data) => {
+            const case2t = data.case2tehtavat;
+            document.getElementById("c2t1o").innerHTML = case2t[0].otsikko;
+            document.getElementById("c2t1oj").innerHTML = case2t[0].opintojakso;
+            document.getElementById("c2t1k").innerHTML = case2t[0].kuvaus;
+            document.getElementById("c2t1l").innerHTML = case2t[0].nimi;
+            document.getElementById("c2t1l").href = case2t[0].linkki;
+
+        })
+        .catch(error => console.error('Failed to fetch data:', error));
+}
+fetchJSONData();
+  </script>
 </body>
 
 </html>
