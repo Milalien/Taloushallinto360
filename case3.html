@@ -135,49 +135,7 @@
       </div>
 
       <div class="accordion case3" id="tehtavat">
-        <div class="accordion-item head">
-          <div class="accordion-header">
-            <div class="col">
-              <div class="row w-100">
-                <h2>Tehtävät</h2>
-              </div>
-
-              <div class="row w-100">
-                <div class="col-1"></div>
-                <div class="col-5">TEHTÄVÄN NIMI</div>
-                <div class="col-5">OPINTOJAKSO</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="t1heading">
-            <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t1"
-              aria-expanded="false" aria-controls="t1">
-              <div class="row w-100">
-                <div class="col-1 tasknr">
-                  <img
-                    src="img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_03_kalustetehdas-tyynela-oy-01.png"
-                    height="40px">
-                </div>
-                <div class="col-5">Kirjaus-tehtävä</div>
-                <div class="col-5">xxx</div>
-              </div>
-            </button>
-          </h2>
-          <div id="t1" class="accordion-collapse collapse" aria-labelledby="t1heading">
-            <div class="accordion-body">
-              <h6>TEHTÄVÄN KUVAUS</h6>
-              <div></div>
-              <h6>TEHTÄVÄN ASIAKIRJAT</h6>
-              <ul class="tehtavalista">
-                <li>Lataa tiedosto: <a id="c3t1l" href=""></a>
-                </li>
-              </ul>
-
-            </div>
-          </div>
-        </div>
+        
       
       </div>
     </div>
@@ -208,19 +166,59 @@
         })
         .then((data) => {
             const case3t = data.case3tehtavat;
+            let tasks = `<div class="accordion-item head">
+          <div class="accordion-header">
+            <div class="col">
+              <div class="row w-100">
+                <h2>Tehtävät</h2>
+              </div>
 
+              <div class="row w-100">
+                <div class="col-1"></div>
+                <div class="col-5">TEHTÄVÄN NIMI</div>
+                <div class="col-5">OPINTOJAKSO</div>
+              </div>
+            </div>
+          </div>
+        </div>`;
             for(let i = 0; i < case3t.length; i++) {
                 
               if(case3t[i].otsikko == ""){
                 break;
               }
-                document.getElementById("c3t"+(i+1)+"o").innerHTML = case3t[i].otsikko;
-                document.getElementById("c3t"+(i+1)+"oj").innerHTML = case3t[i].opintojakso;
-                document.getElementById("c3t"+(i+1)+"k").innerHTML = case3t[i].kuvaus;
-                document.getElementById("c3t"+(i+1)+"l").innerHTML = case3t[i].nimi;
-                document.getElementById("c3t"+(i+1)+"l").href = case3t[i].linkki;
+
+                 tasks += `<div class="accordion-item">
+          <h2 class="accordion-header" id="t`+i+`heading">
+            <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t`+i+`"
+              aria-expanded="false" aria-controls="t`+i+`">
+              <div class="row w-100">
+                <div class="col-1 tasknr">
+                  <img
+                    src="img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_03_kalustetehdas-tyynela-oy-0`+(i+1)+`.png"
+                    height="40px">
+                </div>
+                <div class="col-5">`+case3t[i].otsikko+`</div>
+                <div class="col-5">`+case3t[i].opintojakso+`</div>
+              </div>
+            </button>
+          </h2>
+          <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
+            <div class="accordion-body">
+              <h6>TEHTÄVÄN KUVAUS</h6>
+              <div>`+ case3t[i].kuvaus +`</div>
+              <h6>TEHTÄVÄN ASIAKIRJAT</h6>
+              <ul class="tehtavalista">
+                <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`">`+case3t[i].nimi+`</a>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>`;
+
+              
             }
-          
+          document.getElementById("tehtavat").innerHTML = tasks;
 
         })
         .catch(error => console.error('Failed to fetch data:', error));
