@@ -94,7 +94,7 @@
       <div class="card" style="background-color: #1a1a1a00">
         <img src="img/images-icons-buttons_PNG/background_00_taloushallinnon-taituri_LAST.png" class="card-img" />
         <div class="card-img-overlay">
-          <h1 class="card-title">Taloushallinnon taituri</h1>
+          <h1 id="etusivuOtsikko" class="card-title"></h1>
 
           <p class="card-text">
             Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden
@@ -119,30 +119,8 @@
                   <h2>Case aineisto</h2>
                 </div>
                 <div class="col-8">
-                  <p>
-                    Taloushallinnon taiturit -case-aineisto kokoaa opiskelijat, opintojaksot ja niiden opettajat saman
-                    työelämälähtöisen aineiston äärelle. Tämä ainutlaatuinen kokonaisuus yhdistää talouden osaprosessit
-                    ja
-                    monipuoliset asiantuntijatehtävät, tarjoten syvällistä näkökulmaa alan substanssiosaamiseen.
-                    Case-aineiston avulla LABin taloushallinnon opintojaksot kytkeytyvät tiiviisti toisiinsa, muodostaen
-                    yhtenäisen ja selkeän oppimiskokonaisuuden. Tämä lähestymistapa korostaa eri aihealueiden välisiä
-                    yhteyksiä ja auttaa opiskelijoita hahmottamaan taloushallinnon kokonaisuuden monipuolisuutta.
-                    Tavoitteena on kehittää opiskelijoiden osaamista monipuolisesti. Taloushallinnon substanssiosaamisen
-                    lisäksi opiskelijat syventävät liiketoimintaymmärrystään, teknologian hallintaa ja
-                    asiakaspalvelutaitojaan. Lopputuloksena opiskelijat valmistuvat entistä valmiimpina kohtaamaan
-                    työelämän tarpeet, ja yritykset saavat osaavia ja päteviä ammattilaisia vahvistamaan toimintaansa.
-                    Case-aineistoa käytetään kaikilla LABin taloushallinnon opintojaksoilla, ja harjoitusten palautukset
-                    tehdään kullekin omalle opintojaksolle. Taloushallinnon taituri tarjoaa opiskelumateriaalin, mutta
-                    tehtävät arvioidaan osana opintojaksojen opetusta.
-                    Case-aineisto koostuu neljästä yrityksestä, jotka tarjoavat kattavan ja käytännönläheisen näkökulman
-                    taloushallinnon eri osa-alueisiin. Pääosassa on tilitoimisto Saimaa Account Oy, joka toimii
-                    aineiston
-                    keskiössä ja koordinoi yhteistyötä asiakkaidensa kanssa. Asiakasyritykset edustavat monipuolisia
-                    liiketoiminta-aloja: Golfkauppa Ranta Oy toimii palvelu- ja vähittäiskaupan sektorilla,
-                    Kalustetehdas
-                    Tyynelä Oy valmistaa huonekaluja teollisessa mittakaavassa, ja Eevan nakkikioski Tmi on pienyritys,
-                    joka tuo esille paikallisen yrittäjyyden haasteet ja mahdollisuudet. Näiden yritysten avulla
-                    opiskelijat pääsevät harjoittelemaan käytännön taloushallinnon tehtäviä monenlaisissa ympäristöissä.
+                  <p id="etusivuteksti">
+                   
                   </p>
                 </div>
 
@@ -222,7 +200,26 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/animation.js"></script>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript">
+    function fetchJSONData() {
+    fetch('./config.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then((data) => {
+            const etusivu = data.etusivu;
+            document.getElementById('etusivuOtsikko').innerHTML = etusivu.otsikko;
+
+
+            document.getElementById('etusivuteksti').innerHTML = etusivu.teksti;
+        })
+        .catch(error => console.error('Failed to fetch data:', error));
+      }
+      fetchJSONData();
+    </script>
 </body>
 
 </html>
