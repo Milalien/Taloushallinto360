@@ -181,55 +181,80 @@
   "case3tehtavat": [
     {
       "otsikko": "Opi tuloslaskelma, tase ja kassavirta -tehtävä",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Liiketoimintaosaaminen ja yrityssimulaatiot. Opettaja: Sirpa Varajärvi ja Jukka Sirkiä",
+      "opintojakso": "Liiketoimintaosaaminen ja yrityssimulaatiot",
+      "kuvaus": "",
       "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx"
     },
     {
       "otsikko": "Kustannuslaskennan tehtävä",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Kustannaslaskenta ja hinnoittelu. Opettaja: Sirpa Varajärvi ja Saara Heikkonen",
+      "opintojakso": "Kustannuslaskenta ja hinnoittelu",
+      "kuvaus": "",
+      "nimi": "Huonekalutehdas kustannuslaskennan tehtävä.xlsx",
+      "h5p": "https://moodle.lut.fi/mod/h5pactivity/view.php?id=1624712",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462938/mod_resource/content/6/Huonekalutehdas%20kustannuslaskennan%20teht%C3%A4v%C3%A4.xlsx"
     },
     {
       "otsikko": "Investointien tehtävä",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia. Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla. Opintojakso: Investoinnit ja rahoitussuunnittelu. Opettaja: Tuomas Leino",
+      "kuvaus": "Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia. Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla.",
+      "opintojakso": "Investoinnit ja rahoitussuunnittelu",
       "nimi": "Case huonekalutehdas laiteinvestointi_15.1.2025.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx"
     },
     {
       "otsikko": "Yritysjärjestelyiden tehtävä",
+      "opintojakso": "Osakeyhtiön erityskysymykset ja yritysjärjestelyt",
       "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Osakeyhtiön erityskysymykset ja yritysjärjestelyt, Opettaja: Teija Launiainen",
+      "nimi": "Kalustetalo Tyynelä oy OYERKY.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx"
     },
     {
       "otsikko": "Konsernitilinpäätöksen tehtävä",
+      "opintojakso": " Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit",
       "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit Opettaja: Teija Launiainen",
+      "nimi": "Kalustetalo Tyynelä oy Konserni.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx"
     },
     {
       "otsikko": "Sisäisen valvonnan tehtävä",
+      "opintojakso": "Sisäinen tarkastus ja valvonta",
       "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Sisäinen tarkastus ja valvonta Opettaja: Teija Launiainen",
+      "nimi": "Kalustetalo Tyynelä oy sisäine valvonta.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx"
     },
     {
       "otsikko": "Sijoitustoiminnan tehtävä",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.Opintojakso: Sijoitustoiminta Opettaja: Riitta Mähönen",
+      "opintojakso": "Sijoitustoiminta",
+      "kuvaus": "Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.",
+      "nimi": "Huonekaluliike Tyynelä sijoitukset.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462964/mod_resource/content/4/Huonekaluliike%20Tyynel%C3%A4%20sijoitukset%2C%20teht%C3%A4v%C3%A4n%20hahmotelmaa.docx"
     },
     {
-      "otsikko": "Omistajaperheen talonrakennus tehtävä",
+      "otsikko": "Omistajaperheen talonrakennus",
+      "opintojakso": "Yrityksen rahoitus",
+      "kuvaus": "",
+      "nimi": "",
       "linkki": ""
     },
     {
-      "otsikko": "Tositekohtaiset kirjanpidon viennit tehtävä",
+      "otsikko": "Tositekohtaiset kirjanpidon viennit",
+      "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
+      "kuvaus": "",
+      "nimi": "",
       "linkki": ""
     },
     {
-      "otsikko": "Datan analysointi ja visualisointi tehtävä",
+      "otsikko": "Datan analysointi ja visualisointi",
+      "opintojakso": "BI, analytiikka ja raportointi",
+      "kuvaus": "",
+      "nimi": "",
       "linkki": ""
     },
     {
       "otsikko": "Budjetointi Visma Netvisorilla",
+      "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
+      "kuvaus": "",
+      "nimi": "",
       "linkki": ""
     }
   ],
