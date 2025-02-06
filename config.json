@@ -1,46 +1,46 @@
 {
   "case1tehtavat": [
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "",
-      "linkki": ""
+      "otsikko": "Yrityksen perustaminen tehtävä",
+      "kuvaus": "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?",
+      "opintojakso": "Taloushallinto",
+      "nimi": "Placeholder",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2378072/mod_resource/content/4/Casekuvaus_tilitoimisto.docx"
     },
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "",
-      "linkki": ""
+      "otsikko": "Mitä tilitoimisto tekee tehtävä",
+      "kuvaus": "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?",
+      "opintojakso": "Taloushallinto",
+      "nimi": "Placeholder",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2465008/mod_resource/content/5/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
     },
     {
       "otsikko": "Tilitoimisto kirjaukset",
-      "kuvaus": "",
-      "opintojakso": "",
+      "kuvaus": "Power Automate -tehtävä laskujen automattiseen käsittelyyn. Automaatio käynnistyy, kun lasku tallennetaan tiettyyn OneDrive-kansioon. Laskusta luetaan tuotteet ja kappalemäärät, ja tiedot kootaan Excel-tiedostoon.",
+      "opintojakso": "Kirjanpito ja tuloslaskenta",
       "nimi": "Tilitoimisto kirjaukset.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx"
     },
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
+      "otsikko": "Power Automate automaatio tehtävä",
+      "kuvaus": "Power Automate -tehtävä laskujen automattiseen käsittelyyn. Automaatio käynnistyy, kun lasku tallennetaan tiettyyn OneDrive-kansioon. Laskusta luetaan tuotteet ja kappalemäärät, ja tiedot kootaan Excel-tiedostoon.",
+      "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
       "nimi": "Power Automate automaatio tehtävä",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf"
     },
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
+      "otsikko": "Studio Web automaatio tehtävä",
+      "kuvaus": "Tehtävän lyhyt kuvaus: Tehtävässä tutustutaan UiPath:in pilvipohjaiseen automaatiotyökaluun nimeltä Studio Web. Sen avulla voi luoda automaatioita eri käyttöjärjestelmissä ilman UiPath Studion asennusta.",
+      "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
       "nimi": "Studio Web automaatio tehtävä",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf"
     },
     {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "",
-      "linkki": ""
+      "otsikko": "Prosessien kuvaus ja kehitysehdotukset tehtävä",
+      "kuvaus": "Placeholder",
+      "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
+      "nimi": "Placeholder",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2465025/mod_resource/content/1/Tyhj%C3%A4%20ty%C3%B6kirja.docx"
     },
     {
       "otsikko": "",
