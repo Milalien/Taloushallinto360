@@ -168,15 +168,11 @@
           <div id="t1" class="accordion-collapse collapse" aria-labelledby="t1heading">
             <div class="accordion-body">
               <h6>TEHTÄVÄN KUVAUS</h6>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla ut justo porta porta. Sed
-                feugiat malesuada pretium. Suspendisse.</p>
+              <div></div>
               <h6>TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
-                <li>Download WORD: Asiakirjan nimi
+                <li>Lataa tiedosto: <a id="c3t1l" href=""></a>
                 </li>
-                <li>Download EXCEL: Asiakirjan nimi
-                </li>
-                <li>Download PDF: Asiakirjan nimi</li>
               </ul>
 
             </div>
@@ -238,6 +234,36 @@
     </footer>
   </div>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+   <script type="text/javascript">
+    function fetchJSONData() {
+    fetch('./config.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then((data) => {
+            const case3t = data.case3tehtavat;
+
+            for(let i = 0; i < case3t.length; i++) {
+                
+              if(case3t[i].otsikko == ""){
+                break;
+              }
+                document.getElementById("c3t"+(i+1)+"o").innerHTML = case3t[i].otsikko;
+                document.getElementById("c3t"+(i+1)+"oj").innerHTML = case3t[i].opintojakso;
+                document.getElementById("c3t"+(i+1)+"k").innerHTML = case3t[i].kuvaus;
+                document.getElementById("c3t"+(i+1)+"l").innerHTML = case3t[i].nimi;
+                document.getElementById("c3t"+(i+1)+"l").href = case3t[i].linkki;
+            }
+          
+
+        })
+        .catch(error => console.error('Failed to fetch data:', error));
+}
+fetchJSONData();
+  </script>
 </body>
 
 </html>
