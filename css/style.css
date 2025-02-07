@@ -252,6 +252,9 @@ div.card {
     min-height: 50px;
     align-items: center;
   }
+  .accordion-body .row img {
+    margin: 0 3px;
+  }
 
   .accordion-body .row * {
     margin: 0;

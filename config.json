@@ -104,7 +104,7 @@
     },
     {
       "otsikko": "Tilinpäätöksen laadinta",
-      "opintojakso": "Tilinpäätöksen laadinta",
+      "opintojakso": "Tilinpäätös ja sen suunnittelu",
       "kuvaus": "Tarkistetaan jaksotukset, tehdään puuttuvia jaksotuksia, ajetaan tilipäätös Netvisorista",
       "nimi": "",
       "linkki": "",
@@ -229,8 +229,8 @@
     },
     {
       "otsikko": "Konsernitilinpäätöksen tehtävä",
-      "opintojakso": " Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit Opettaja: Teija Launiainen",
+      "opintojakso": "Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit",
+      "kuvaus": "",
       "nimi": "Kalustetalo Tyynelä oy Konserni.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_03_kalustetehdas-tyynela-oy-05.png"
@@ -238,7 +238,7 @@
     {
       "otsikko": "Sisäisen valvonnan tehtävä",
       "opintojakso": "Sisäinen tarkastus ja valvonta",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Sisäinen tarkastus ja valvonta Opettaja: Teija Launiainen",
+      "kuvaus": "",
       "nimi": "Kalustetalo Tyynelä oy sisäine valvonta.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_03_kalustetehdas-tyynela-oy-06.png"
