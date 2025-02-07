@@ -103,11 +103,10 @@
       <div class="card">
         <img src="img/images-icons-buttons_PNG/background_02_golfkauppa-ranta-oy_LAST.png" class="card-img" />
         <div class="card-img-overlay">
-          <h1 class="card-title">Golfkauppa Ranta Oy</h1>
+          <h1 id="c4o" class="card-title"></h1>
 
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla ut justo porta porta. Sed
-            feugiat malesuada pretium. Suspendisse.
+          <p id="c4lk" class="card-text">
+            
           </p>
           <div class="card-actions d-flex justify-content-end align-items-end">
             <button data-mdb-collapse-init class="btn-floating collapsed" type="button" data-mdb-target="#aineisto"
@@ -127,8 +126,8 @@
                 <div class="col-sm-4">
                   <h2>Yrityksen kuvaus</h2>
                 </div>
-                <div class="col-sm-8">
-                  lol
+                <div id="c4k" class="col-sm-8">
+                
                 </div>
 
               </div>
@@ -168,6 +167,7 @@
             return response.json();
         })
         .then((data) => {
+            const case4 = data.yrityskuvaukset[3];
             const case4t = data.case4tehtavat;
             let tasks = `<div class="accordion-item head">
           <div class="accordion-header">
@@ -206,9 +206,9 @@
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
             <div class="accordion-body">
-              <h6>TEHTÄVÄN KUVAUS</h6>
+              <h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case4t[i].kuvaus +`</div>
-              <h6>TEHTÄVÄN ASIAKIRJAT</h6>
+              <h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
                 <li>Lataa tiedosto: <a href="`+case4t[i].linkki+`">`+case4t[i].nimi+`</a>
                 </li>
@@ -221,6 +221,9 @@
               
             }
           document.getElementById("tehtavat").innerHTML = tasks;
+          document.getElementById("c4o").innerHTML = case4.nimi;
+          document.getElementById("c4lk").innerHTML = case4.lyhytkuvaus;
+          document.getElementById("c4k").innerHTML = case4.kuvaus.join(" ");
 
         })
         .catch(error => console.error('Failed to fetch data:', error));

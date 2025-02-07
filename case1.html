@@ -98,11 +98,10 @@
       <div class="card">
         <img src="img/images-icons-buttons_PNG/background_01_saimaa-account-oy_LAST.png" class="card-img" />
         <div class="card-img-overlay">
-          <h1 class="card-title">Saimaan Account Oy</h1>
+          <h1 id="c1o" class="card-title"></h1>
 
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla ut justo porta porta. Sed
-            feugiat malesuada pretium. Suspendisse.
+          <p id="c1lk" class="card-text">
+            
           </p>
           <div class="card-actions d-flex justify-content-end align-items-end">
             <button data-mdb-collapse-init class="btn-floating collapsed" type="button" data-mdb-target="#aineisto"
@@ -123,28 +122,8 @@
                   <h2>Yrityksen kuvaus</h2>
                 </div>
                 <div class="col-sm-8">
-                  <p>
-                    Tilitoimisto Oy on uusi Lappeenrannassa sijaitseva taloushallintopalveluita tarjoava yritys. Sen
-                    perusti LABissa tradenomiksi opiskellut Anna Hakanen. Opintojen jälkeen Annalle kertyi muutama vuosi
-                    työkokemusta Etelä-Karjalan tilitoimistoista. Hän totesi viihtyvänsä alalla ja hallitsevansa työn
-                    hyvin. Asiakkaiden kanssa työskentely tuntui luontevalta.
-                    Pitkään hautunut ajatus oman yrityksen perustamisesta tuntui hieman pelottavalta, mutta todettuaan
-                    osaamisensa kirjanpidosta ja palkanlaskennasta riittäväksi, Anna päätti toteuttaa unelmansa.
-                    Aloittamista helpotti se, että kontaktiensa kautta hänellä oli jo tiedossa kolme asiakasta. Nämä
-                    ovat
-                    Kalustetehdas Tyynelä Oy, Golfkauppa Ranta Oy ja Eevan Nakkikioski tmi.
-                    Toiminnan aloittaminen ei vaatinut suuria investointeja. Yrityksen perustaminen sujui PRH:ssa varsin
-                    helposti. Suurin miettiminen oli pankkitilin avaamisessa, osakepääoman maksamisessa ja yrityksen
-                    nimen
-                    valinnassa. Ohjelmistoksi Anna päätti valita Netvisorin, sillä siitä hänellä oli eniten kokemusta.
-                    Luontevaksi tilikaudeksi tuli kalenterivuosi. Anna tekee työtä kotona, joten vuokrakuluja ei synny.
-                    Tulevien asiakkaiden osalta Anna ei aio alussa olla liian valikoiva, koska toiminta on saatava
-                    kunnolla käyntiin. Pitkällä tähtäyksellä hän aikoo kuitenkin keskittyä sähköiseen kirjanpitoon ja
-                    hieman suurempiin asiakkaisiin. Hyvä asiakaspalvelu on Annalle tärkeää. Sen avulla hän aikoo erottua
-                    kilpailijoistaan.
-                    Aluksi Anna pyörittää tilitoimistoaan yksin, mutta ajan kuluessa tavoitteena on kasvattaa toimintaa.
-                    Jos asiakkaita ei tule pian lisää, hän aikoo hankkia lisätienestejä osa-aikaisena kirjanpitäjänä
-                    alueen tilitoimistoissa, kunnes toiminta on kannattavaa.
+                  <p id="c1k">
+                    
                   </p>
                 </div>
 
@@ -155,21 +134,7 @@
       </div>
 
       <div class="accordion case1" id="tehtavat">
-        <div class="accordion-item head">
-          <div class="accordion-header">
-            <div class="col">
-              <div class="row w-100">
-                <h2>Tehtävät</h2>
-              </div>
-
-              <div class="row w-100">
-                <div class="col-1"></div>
-                <div class="col-5">TEHTÄVÄN NIMI</div>
-                <div class="col-5">OPINTOJAKSO</div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
          
 
       </div>
@@ -200,6 +165,7 @@
             return response.json();
         })
         .then((data) => {
+            const case1 = data.yrityskuvaukset[0];
             const case1t = data.case1tehtavat;
             let tasks = `<div class="accordion-item head">
           <div class="accordion-header">
@@ -239,9 +205,9 @@
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
             <div class="accordion-body">
-              <h6>TEHTÄVÄN KUVAUS</h6>
+              <h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case1t[i].kuvaus +`</div>
-              <h6>TEHTÄVÄN ASIAKIRJAT</h6>
+              <h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
                 <li>Lataa tiedosto: <a href="`+case1t[i].linkki+`">`+case1t[i].nimi+`</a>
                 </li>
@@ -254,6 +220,10 @@
               
             }
           document.getElementById("tehtavat").innerHTML = tasks;
+          document.getElementById("c1o").innerHTML = case1.nimi;
+          document.getElementById("c1lk").innerHTML = case1.lyhytkuvaus;
+          document.getElementById("c1k").innerHTML = case1.kuvaus.join(" ");
+          
 
         })
         .catch(error => console.error('Failed to fetch data:', error));

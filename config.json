@@ -296,7 +296,7 @@
     {
       "otsikko": "ALV-prosessi Visma Netvisorissa",
       "opintojakso": "Käytännön arvonlisäverotus",
-      "kuvaus": "Tutustutaan Netvisorin ALV -laskentaan vaikuttaviin asetuksiin ja ALV -prosessiin tehtävän materiaalin perusteella ja tehdään käytännön ALV -kurssilla käsiteltäviä asioita koskevat esimerkkitapahtumat Netvisorissa.\nTehtävää varten perustetaan laskentakohde. Laskentakohteen raporttien perusteella voidaan tarkistaa harjoitusten onnistuminen pääpiirteissään.",
+      "kuvaus": "Tutustutaan Netvisorin ALV -laskentaan vaikuttaviin asetuksiin ja ALV -prosessiin tehtävän materiaalin perusteella ja tehdään käytännön ALV -kurssilla käsiteltäviä asioita koskevat esimerkkitapahtumat Netvisorissa.<br>Tehtävää varten perustetaan laskentakohde. Laskentakohteen raporttien perusteella voidaan tarkistaa harjoitusten onnistuminen pääpiirteissään.",
       "nimi": "Tyhjä työkirja.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_04_golfkauppa-ranta-oy-02.png"
@@ -369,10 +369,23 @@
     {
       "nimi": "Saimaa Account Oy",
       "lyhytkuvaus": "Uusi Lappeenrannassa sijaitseva taloushallintopalveluita koko Suomeen tarjoava tilitoimisto. Hyvällä ammattitaidolla ja asiakaspalvelulla sähköistä kirjanpitoa Visma Netvisorissa.",
-      "kuvaus": ""
+      "kuvaus": [
+        "Tilitoimisto Oy on uusi Lappeenrannassa sijaitseva taloushallintopalveluita tarjoava yritys.",
+        "Sen perusti LABissa tradenomiksi opiskellut Anna Hakanen.<br>Opintojen jälkeen Annalle kertyi muutama vuosi työkokemusta Etelä-Karjalan tilitoimistoista.",
+        "Hän totesi viihtyvänsä alalla ja hallitsevansa työn hyvin. Asiakkaiden kanssa työskentely tuntui luontevalta.<br><br>",
+        "Pitkään hautunut ajatus oman yrityksen perustamisesta tuntui hieman pelottavalta, mutta todettuaan osaamisensa kirjanpidosta ja palkanlaskennasta riittäväksi,",
+        "Anna päätti toteuttaa unelmansa. Aloittamista helpotti se, että kontaktiensa kautta hänellä oli jo tiedossa kolme asiakasta. Nämä ovat",
+        "Kalustetehdas Tyynelä Oy, Golfkauppa Ranta Oy ja Eevan Nakkikioski tmi.<br><br>Toiminnan aloittaminen ei vaatinut suuria investointeja.",
+        "Yrityksen perustaminen sujui PRH:ssa varsin helposti. Suurin miettiminen oli pankkitilin avaamisessa, osakepääoman maksamisessa ja yrityksen nimen valinnassa.",
+        "Ohjelmistoksi Anna päätti valita Netvisorin, sillä siitä hänellä oli eniten kokemusta. Luontevaksi tilikaudeksi tuli kalenterivuosi.",
+        "Anna tekee työtä kotona, joten vuokrakuluja ei synny.<br><br>Tulevien asiakkaiden osalta Anna ei aio alussa olla liian valikoiva, koska toiminta on saatava kunnolla käyntiin.",
+        "Pitkällä tähtäyksellä hän aikoo kuitenkin keskittyä sähköiseen kirjanpitoon ja hieman suurempiin asiakkaisiin. Hyvä asiakaspalvelu on Annalle tärkeää.",
+        "Sen avulla hän aikoo erottua kilpailijoistaan.<br><br>Aluksi Anna pyörittää tilitoimistoaan yksin, mutta ajan kuluessa tavoitteena on kasvattaa toimintaa.",
+        "Jos asiakkaita ei tule pian lisää, hän aikoo hankkia lisätienestejä osa-aikaisena kirjanpitäjänä alueen tilitoimistoissa, kunnes toiminta on kannattavaa."
+      ]
     },
     {
-      "nimi": "Nakkikioski Tmi",
+      "nimi": "Eevan Nakkikioski Tmi",
       "lyhytkuvaus": "",
       "kuvaus": ""
     },
@@ -388,20 +401,20 @@
     }
   ],
   "etusivu": {
+    "lyhytkuvaus": "Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden liiketoimintoihin ja prosesseihin!",
     "teksti": [
-      "Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden liiketoimintoihin ja prosesseihin!\n",
-      "Taloushallinnon taiturit -case-aineisto kokoaa opiskelijat, opintojaksot ja niiden opettajat saman työelämälähtöisen aineiston äärelle.\n",
-      "Tämä ainutlaatuinen kokonaisuus yhdistää talouden osaprosessit ja monipuoliset asiantuntijatehtävät, tarjoten syvällistä näkökulmaa alan substanssiosaamiseen.\n",
-      "Case-aineiston avulla LABin taloushallinnon opintojaksot kytkeytyvät tiiviisti toisiinsa, muodostaen yhtenäisen ja selkeän oppimiskokonaisuuden.\n",
-      "Tämä lähestymistapa korostaa eri aihealueiden välisiä yhteyksiä ja auttaa opiskelijoita hahmottamaan taloushallinnon kokonaisuuden monipuolisuutta.\n\n",
-      "Tavoitteena on kehittää opiskelijoiden osaamista monipuolisesti. Taloushallinnon substanssiosaamisen lisäksi opiskelijat syventävät liiketoimintaymmärrystään, teknologian hallintaa ja asiakaspalvelutaitojaan.\n",
-      "Lopputuloksena opiskelijat valmistuvat entistä valmiimpina kohtaamaan työelämän tarpeet, ja yritykset saavat osaavia ja päteviä ammattilaisia vahvistamaan toimintaansa.\n\n",
-      "Case-aineistoa käytetään kaikilla LABin taloushallinnon opintojaksoilla, ja harjoitusten palautukset tehdään kullekin omalle opintojaksolle.\n",
-      "Taloushallinnon taituri tarjoaa opiskelumateriaalin, mutta tehtävät arvioidaan osana opintojaksojen opetusta.\n\n",
-      "Case-aineisto koostuu neljästä yrityksestä, jotka tarjoavat kattavan ja käytännönläheisen näkökulman taloushallinnon eri osa-alueisiin.\n",
-      "Pääosassa on tilitoimisto Saimaa Account Oy, joka toimii aineiston keskiössä ja koordinoi yhteistyötä asiakkaidensa kanssa.\n",
-      "Asiakasyritykset edustavat monipuolisia liiketoiminta-aloja:\nGolfkauppa Ranta Oy toimii palvelu- ja vähittäiskaupan sektorilla,\nKalustetehdas Tyynelä Oy valmistaa huonekaluja teollisessa mittakaavassa,\n",
-      "ja Eevan nakkikioski Tmi on pienyritys, joka tuo esille paikallisen yrittäjyyden haasteet ja mahdollisuudet.\n",
+      "Taloushallinnon taiturit -case-aineisto kokoaa opiskelijat, opintojaksot ja niiden opettajat saman työelämälähtöisen aineiston äärelle.",
+      "Tämä ainutlaatuinen kokonaisuus yhdistää talouden osaprosessit ja monipuoliset asiantuntijatehtävät, tarjoten syvällistä näkökulmaa alan substanssiosaamiseen.<br><br>",
+      "Case-aineiston avulla LABin taloushallinnon opintojaksot kytkeytyvät tiiviisti toisiinsa, muodostaen yhtenäisen ja selkeän oppimiskokonaisuuden.",
+      "Tämä lähestymistapa korostaa eri aihealueiden välisiä yhteyksiä ja auttaa opiskelijoita hahmottamaan taloushallinnon kokonaisuuden monipuolisuutta.<br><br>",
+      "Tavoitteena on kehittää opiskelijoiden osaamista monipuolisesti. Taloushallinnon substanssiosaamisen lisäksi opiskelijat syventävät liiketoimintaymmärrystään, teknologian hallintaa ja asiakaspalvelutaitojaan.",
+      "Lopputuloksena opiskelijat valmistuvat entistä valmiimpina kohtaamaan työelämän tarpeet, ja yritykset saavat osaavia ja päteviä ammattilaisia vahvistamaan toimintaansa.<br><br>",
+      "Case-aineistoa käytetään kaikilla LABin taloushallinnon opintojaksoilla, ja harjoitusten palautukset tehdään kullekin omalle opintojaksolle.",
+      "Taloushallinnon taituri tarjoaa opiskelumateriaalin, mutta tehtävät arvioidaan osana opintojaksojen opetusta.<br><br>",
+      "Case-aineisto koostuu neljästä yrityksestä, jotka tarjoavat kattavan ja käytännönläheisen näkökulman taloushallinnon eri osa-alueisiin.",
+      "Pääosassa on tilitoimisto Saimaa Account Oy, joka toimii aineiston keskiössä ja koordinoi yhteistyötä asiakkaidensa kanssa.",
+      "Asiakasyritykset edustavat monipuolisia liiketoiminta-aloja:<br>Golfkauppa Ranta Oy toimii palvelu- ja vähittäiskaupan sektorilla, Kalustetehdas Tyynelä Oy valmistaa huonekaluja teollisessa mittakaavassa,",
+      "ja Eevan nakkikioski Tmi on pienyritys, joka tuo esille paikallisen yrittäjyyden haasteet ja mahdollisuudet.",
       "Näiden yritysten avulla opiskelijat pääsevät harjoittelemaan käytännön taloushallinnon tehtäviä monenlaisissa ympäristöissä."
     ]
   }

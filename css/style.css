@@ -58,14 +58,11 @@ p {
 
 }
 
-/* MAIN OSION ELI SISÄLTÖOSUUDEN YLEISMUOTOILUA */
-
 .main {
-  margin-top: 60px;
-  margin-bottom: 30px;
-
-
-}
+    margin: 60px auto;
+    max-width: 1160px;
+  
+  }
 
 /* FOOTERIN MUOTOILU */
 
@@ -147,7 +144,7 @@ nav.navbar {
 
 div.card {
   z-index: 3;
-  background-color: #1A1A1A;
+  background-color: #ffffff;
   border-radius: 22px;
   
 }
@@ -242,7 +239,10 @@ div.card {
 }
 
 /* OPINTOJAKSO LISTAUS MUOTOILUJA */
-
+#polut  .accordion-header * {
+    color: #1A1A1A;
+    font-weight: 700;
+}
 
 #opintojaksot {
   margin: 50px 0;
@@ -295,8 +295,8 @@ div.card {
 #tehtavat {
   margin: 50px 0;
 
-  .col-5 {
-    padding-left: 50px;
+  .col-5{
+    line-height: 24px;
 
   }
 
@@ -318,10 +318,13 @@ div.card {
   }
 }
 
-#tehtavat .head .row>.col-5 {
-  color: #6A6A6A;
+#tehtavat .head .row>.col-5, h6.tehtavaotsikot {
+  color: #6A6A6A !important;
   font-size: 16px;
-
+}
+h6.tehtavaotsikot {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .tasknr {
   font-size: 24px;
@@ -329,6 +332,7 @@ div.card {
   position: relative;
   align-items: center;
   justify-content: center;
+  padding: 5px;
 }
 
 /* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
@@ -439,10 +443,7 @@ div.card {
 /* MUKAUTUVUUSASETUKSET ELI MUOTOILU ERI KOKOISILLE NÄYTÖILLE */
 
 @media only screen and (min-width: 1440px) {
-  .main {
-    margin: 60px 140px;
-  }
-
+  
   footer div {
     margin: auto 160px;
   }
@@ -458,15 +459,13 @@ div.card {
 
 @media only screen and (max-width: 1439px) {
   .main {
-    margin: 60px 120px;
+    margin: 60px 100px;
   }
 
 }
 
 @media only screen and (max-width: 992px) {
-  .main {
-    margin: 60px 100px;
-  }
+ 
 
   #caseaineisto .accordion-body {
     padding-left: 20px;
@@ -479,7 +478,7 @@ div.card {
 
 @media only screen and (max-width: 768px) {
   .main {
-    margin: 60px 60px;
+    margin: 60px 50px;
   }
 
   h1 {
@@ -503,18 +502,19 @@ div.card {
   .main {
     margin: 60px 20px;
   }
- 
-}
-@media only screen and (max-width: 450px) {
-  .main {
-    margin: 60px 5px;
-  }
   h1{
     font-size: 40px;
   }
   h2{
     font-size: 28px;
   }
+ 
+}
+@media only screen and (max-width: 450px) {
+  .main {
+    margin: 60px 5px;
+  }
+  
   #tehtavat .col-5{
     line-height: 16px;
   }

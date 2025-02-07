@@ -212,7 +212,7 @@
         .then((data) => {
             const etusivu = data.etusivu;
     
-            document.getElementById('etusivuteksti').innerHTML = etusivu.teksti;
+            document.getElementById('etusivuteksti').innerHTML = etusivu.teksti.join(" ");
         })
         .catch(error => console.error('Failed to fetch data:', error));
       }
