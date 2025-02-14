@@ -47,34 +47,6 @@
       "nimi": "Placeholder",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2465025/mod_resource/content/1/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_01-saimaa-account-oy-06.png"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Päiväkirja",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463181/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4iv%C3%A4kirja.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Pääkirja",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463186/mod_resource/content/1/Tilitoimisto%20Oy%20P%C3%A4%C3%A4kirja.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Tuloslaskelma",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463173/mod_resource/content/1/Tilitoimisto%20Oy%20Tuloslaskelma.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Tase",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463175/mod_resource/content/1/Tilitoimisto%20Oy%20Tase.pdf"
     }
   ],
   "case2tehtavat": [
@@ -149,48 +121,6 @@
       "nimi": "",
       "linkki": "",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_02_eevan-nakkikioski-tmi-09.png"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "nakkikioskin tase.xlxs",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462735/mod_resource/content/1/Nakkikioski%20tase.xlsx"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Päiväkirja tammikuu.pdf",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462736/mod_resource/content/1/P%C3%A4iv%C3%A4kirja%20tammikuu.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Pääkirja tammikuu.pdf",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462751/mod_resource/content/1/P%C3%A4%C3%A4kirja%20tammikuu.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Tuloslaskelma tammikuu.pdf",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462761/mod_resource/content/1/Tuloslaskelma%20tammikuu.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Tase tammikuu.pdf",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462764/mod_resource/content/1/Tase%20tammikuu.pdf"
-    },
-    {
-      "otsikko": "",
-      "kuvaus": "",
-      "opintojakso": "",
-      "nimi": "Tammikuu alv.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462780/mod_resource/content/1/Tammikuu%20alv.docx"
     }
   ],
   "case3tehtavat": [
@@ -205,10 +135,10 @@
     {
       "otsikko": "Kustannuslaskennan tehtävä",
       "opintojakso": "Kustannuslaskenta ja hinnoittelu",
-      "kuvaus": "",
-      "nimi": "Huonekalutehdas kustannuslaskennan tehtävä.xlsx",
+      "kuvaus": "Lasketaan ruokapöydän omakustannusarvo ja myyntihinta hyödyntäen toimintolaskentaa.",
+      "nimi": "h5p tehtävänanto johtopäätöksiin.docx",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2506613/mod_resource/content/1/H5P%20teht%C3%A4v%C3%A4nanto%20johtop%C3%A4%C3%A4t%C3%B6ksiin.docx",
       "h5p": "https://moodle.lut.fi/mod/h5pactivity/view.php?id=1624712",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462938/mod_resource/content/6/Huonekalutehdas%20kustannuslaskennan%20teht%C3%A4v%C3%A4.xlsx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_03_kalustetehdas-tyynela-oy-02.png"
     },
     {
@@ -356,13 +286,6 @@
       "nimi": "Golfkauppa Ranta oy Tilintarkastus.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_04_golfkauppa-ranta-oy-09.png"
-    },
-    {
-      "otsikko": "",
-      "opintojakso": "",
-      "kuvaus": "",
-      "nimi": "",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463152/mod_resource/content/1/Aputilinp%C3%A4%C3%A4t%C3%B6s%20Golfpuoti%20oy%202023.pdf"
     }
   ],
   "yrityskuvaukset": [
