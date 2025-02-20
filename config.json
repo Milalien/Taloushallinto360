@@ -4,16 +4,16 @@
       "otsikko": "Yrityksen perustaminen tehtävä",
       "kuvaus": "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?",
       "opintojakso": "Taloushallinto",
-      "nimi": "Placeholder",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2378072/mod_resource/content/4/Casekuvaus_tilitoimisto.docx",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_01-saimaa-account-oy-01.png"
     },
     {
       "otsikko": "Mitä tilitoimisto tekee tehtävä",
       "kuvaus": "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?",
       "opintojakso": "Taloushallinto",
-      "nimi": "Placeholder",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2465008/mod_resource/content/5/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_01-saimaa-account-oy-02.png"
     },
     {
@@ -61,7 +61,7 @@
     {
       "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
       "opintojakso": "Kirjanpito ja tuloslaskenta",
-      "kuvaus": "nn... Netvisorissa.. alvien kanssa ",
+      "kuvaus": "Netvisorissa.. alvien kanssa ",
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx",
       "ikoni": "img/images-icons-buttons_PNG/logo-and-numbers_regular-and-bold_02_eevan-nakkikioski-tmi-02.png"
@@ -309,13 +309,49 @@
     },
     {
       "nimi": "Eevan Nakkikioski Tmi",
-      "lyhytkuvaus": "",
-      "kuvaus": ""
+      "lyhytkuvaus": "Eevan nakkikioski on pieni ravintola-alan yritys.<br>Yrittäjä Eeva harjoittaa yritystoimintaa toiminimiyrittäjänä ja hänellä on apunaan yksi palkattu osa-aikainen työntekijä.<br>Yritys toimii vuokratiloissa, mutta aterioiden valmistamiseen tarvittavat koneet ja laitteet on ostettu omaksi.",
+      "kuvaus": [
+        "Eeva oli aina rakastanut hyvää ruokaa ja ihmisten iloisia ilmeitä, kun he nauttivat herkuista.",
+        "Hän oli työskennellyt vuosia erilaisissa ravintoloissa ja kahviloissa, mutta haaveili omasta liiketoiminnasta.",
+        "Eräänä päivänä hän käveli kaupungin vilkkaalla torilla ja huomasi vanhan, hieman nuhjuisen nakkikioskin nurkassa.<br>",
+        "Eeva tiesi heti, että tässä oli tilaisuus. Hän päätti vuokrata kioskin ja tehdä siitä oman unelmansa.",
+        "Vuokranantaja kunnosti kioskin, maalasi sen raikkailla väreillä ja Eeva loi sille uuden nimen: “Eevan nakkikioski”.<br>",
+        "Eeva ei halunnut tarjota pelkästään perinteisiä nakkeja, vaan hänellä oli visio laajemmasta valikoimasta.",
+        "Hän alkoi valmistaa itse erilaisia makkaroita ja lisukkeita. Asiakkaat saivat valita erilaisia makuyhdistelmiä, ja Eevan nakkikioski tuli nopeasti suosituksi paikaksi.<br>",
+        "Yrittäjyys ei ollut aina helppoa. Eeva teki pitkiä päiviä, mutta hän nautti jokaisesta hetkestä. Hän oppi tuntemaan vakioasiakkaansa ja heidän mieltymyksensä.",
+        "Eeva hymyili aina, kun näki lasten iloiset kasvot, kun he saivat hodarin tai grillimakkarat.<br>",
+        "Vuodet kuluivat, ja Eevan nakkikioski kasvoi. Hän palkkasi lisää henkilökuntaa ja laajensi valikoimaa.",
+        "Eeva ei unohtanut juurtaan - hän tarjosi edelleen perinteisiä nakkeja, mutta myös gourmet-makkaroita ja vegaanivaihtoehtoja.",
+        "Eeva ei ollut vain nakkikioskin omistaja, vaan hänestä tuli osa kaupungin yhteisöä. Hän järjesti tapahtumia, kuten nakkikarnevaaleja ja makkarakilpailuja.",
+        "Eeva tiesi, että ruoka yhdistää ihmisiä, ja hän halusi tarjota paikan, jossa kaikki tuntevat olonsa tervetulleiksi.<br>",
+        "Nyt Eeva seisoo hymyillen nakkikioskinsa tiskin takana. Hän katsoo ympärilleen ja näkee onnellisia asiakkaita.",
+        "Unelma omasta nakkikioskista oli toteutunut, ja Eeva tietää, että hän teki oikean päätöksen."
+      ]
     },
     {
       "nimi": "Kalustetalo Tyynelä Oy",
-      "lyhytkuvaus": "",
-      "kuvaus": ""
+      "lyhytkuvaus": "Kalustetehdas Tyynelä on Parikkalassa, Etelä-Karjalassa, sijaitseva huonekalutehdas.<br>Yhtiö on perustettu vuonna 1983, ja se on osakeyhtiömuotoinen perheyritys. Liikevaihto on noin 3,5 miljoonaa euroa, ja yrityksessä on yhteensä 26 työntekijää.",
+      "kuvaus": [
+        "<h3>Kalustetehdas Tyynelä Oy</h3>Kalustetehdas Tyynelä on Parikkalassa, Etelä-Karjalassa, sijaitseva huonekalutehdas.",
+        "Yhtiö on perustettu vuonna 1983 ja se on osakeyhtiömuotoinen perheyritys. Liikevaihto on noin 3,5 miljoonaa euroa.",
+        "Kaluste Tyynelä siirtyi tilitoimisto Saimaa Accounting asiakkaaksi kaksi kuukautta sitten, kun edellinen tilitoimisto lopetti toimintansa.",
+        "<br><br><h5>Henkilöstö ja arvot</h5>Yritys työllistää yhteensä 26 henkilöä. Henkilöstö jakaantuu tuotannon ja toimiston työntekijöihin.",
+        "Tuotannossa työskentelee 20 työntekijää ja toimistossa kuusi. Toimitusjohtaja on Petra Ranta, joka vastaa yrityksen päivittäisestä toiminnasta ja strategisesta suunnittelusta.",
+        "Hallituksen puheenjohtajana toimii Petran isä ja yrityksen perustaja, Olavi Ranta. Hän tarjoaa kokemustaan ja näkemyksiään yrityksen strategisissa päätöksissä.",
+        "Yrityksen toiminnassa tärkeitä arvoja ovat vastuullisuus ja kestävyys. Huonekalujen pääasiallisena raaka-aineena toimii kotimaisista metsistä saatava koivu.",
+        "Tuotteet suunnitellaan ja valmistetaan alusta loppuun yhtiön tiloissa. Suunnittelun lähtökohtana on ajaton design ja käytännöllisyys. Tavoitteena on, että kalusteet kestävät vuosien käyttöä.",
+        "<br><br><h5>Tuotteet ja tuotanto</h5>Yritys valmistaa huonekaluja kolmessa omassa sarjassaan: Liuha, Koitsa ja Lemmikko. Näihin sarjoihin kuuluvat lipastot, vitriinit, yöpöydät, sängyt,",
+        "ruokapöydät ja ruokapöydän tuolit, jotka edustavat kovia huonekaluja. Tuotannossa korostuu kotimaisten raaka-aineiden käyttö ja vastuullinen toiminta, mikä tarkoittaa,",
+        "että yritys suosii paikallisia toimittajia ja ympäristöystävällisiä materiaaleja. Tuotteet valmistetaan aina tilausta vastaan, ja kaikki kalusteet myydään valmiiksi kasattuina.",
+        "Valmistusprosessi sisältää puun työstämistä, kokoonpanoa ja viimeistelyä. Vastuullisuus huomioidaan esimerkiksi energiatehokkuudessa ja jätteiden ja hukan minimoinnissa.",
+        "<br><br><h5>Myynti ja markkinointi</h5>Yritys markkinoi tuotteitaan pääasiassa kotimaan markkinoille. Tuotteet myydään kuluttajille jälleenmyyjien kautta.",
+        "Jälleenmyyntikanavina toimivat lähes kaikki Suomen merkittävimmät huonekaluketjut.",
+        "<br><br><h5>Taloushallinto</h5>Kirjanpidon yritys on kokonaan ulkoistanut tilitoimistolle.",
+        "Laskutuksen se hoitaa kuitenkin itse. Tätä tehtävää hoitaa Petran poika Oskari, joka on juuri valmistunut laskentatoimen tradenomiksi. Oskari on saanut vastuulleen myös",
+        "yrityksen sisäisen raportoinnin kehittämisen. Tällä hetkellä sisäistä raportointia tehdään lähinnä kuukausittaisen budjettiseurantaraportin muodossa. Lisäksi tarkkaillaan",
+        "ja päivitetään tarvittaessa kassavirtaennusteita. Kustannuslaskentaa tehdään karkealla tasolla tuotekohtaisesti. Välittömät raaka-aine- ja työkustannukset lasketaan tuotteittain.",
+        "Yleiskustannuksille on laskettu koko yrityksen tiedoista yk-lisäprosentti, jonka perusteella yleiskustannukset tuotteille kohdistetaan."
+      ]
     },
     {
       "nimi": "Golfkauppa Ranta Oy",

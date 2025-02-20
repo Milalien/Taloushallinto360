@@ -206,7 +206,10 @@
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
             <div class="accordion-body">`;
 
-              if (case1t[i].kuvaus != "") {
+              if (case1t[i].kuvaus != "" && Array.isArray(case1t[i].kuvaus)) {
+              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
+              <div>`+ case1t[i].kuvaus.join(" ") +`</div>`;
+            } else if (case1t[i].kuvaus != "") {
               tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case1t[i].kuvaus +`</div>`;
             }

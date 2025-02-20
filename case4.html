@@ -205,10 +205,14 @@
             </button>
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
-            <div class="accordion-body">
-              <h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case4t[i].kuvaus +`</div>
-              <h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
+            <div class="accordion-body">`;
+
+              if (case4t[i].kuvaus != "") {
+              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
+              <div>`+ case4t[i].kuvaus +`</div>`;
+            }
+              
+              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
                 <li>Lataa tiedosto: <a href="`+case4t[i].linkki+`" target="_blank">`+case4t[i].nimi+`</a>
                 </li>

@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="css/style.css" />
   <!-- Font Awesome -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  
+
 </head>
 
 <body>
@@ -102,7 +104,7 @@
         <div class="card-img-overlay">
           <h1 id="c3o" class="card-title"></h1>
 
-          <p id="c3k" class="card-text">
+          <p id="c3lk" class="card-text">
             
           </p>
           <div class="card-actions d-flex justify-content-end align-items-end">
@@ -125,6 +127,7 @@
                 </div>
                 <div id="c3k" class="col-sm-8">
                   
+    
                 </div>
 
               </div>
@@ -203,10 +206,14 @@
             </button>
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
-            <div class="accordion-body">
-              <h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case3t[i].kuvaus +`</div>
-              <h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
+            <div class="accordion-body">`;
+
+              if (case3t[i].kuvaus != "") {
+              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
+              <div>`+ case3t[i].kuvaus +`</div>`;
+            }
+              
+              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
                 <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>
                 </li>
@@ -222,12 +229,13 @@
           document.getElementById("c3o").innerHTML = case3.nimi;
           document.getElementById("c3lk").innerHTML = case3.lyhytkuvaus;
           document.getElementById("c3k").innerHTML = case3.kuvaus.join(" ");
-
+          
         })
         .catch(error => console.error('Failed to fetch data:', error));
       }
       fetchJSONData();
     </script>
+    
 </body>
 
 </html>
