@@ -207,14 +207,14 @@
             <div class="accordion-body">`;
 
               if (case1t[i].kuvaus != "" && Array.isArray(case1t[i].kuvaus)) {
-              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
+              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case1t[i].kuvaus.join(" ") +`</div>`;
             } else if (case1t[i].kuvaus != "") {
-              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN KUVAUS</h6>
+              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case1t[i].kuvaus +`</div>`;
             }
               
-              tasks+=`<h6 class="tehtavaotsikot">TEHTÄVÄN ASIAKIRJAT</h6>
+              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
                 <li>Lataa tiedosto: <a href="`+case1t[i].linkki+`" target="_blank">`+case1t[i].nimi+`</a>
                 </li>

@@ -31,7 +31,7 @@ h4,
 h5,
 h6,
 p,
-.accordion-body {
+.accordion-body, .accordion-button {
   color: #1A1A1A !important;
 }
 
@@ -40,7 +40,6 @@ h1 {
   font-weight: 400;
   line-height: 48px;
   letter-spacing: -0.96px;
-
 }
 
 h2 {
@@ -51,18 +50,19 @@ h2 {
 
 }
 
-p {
+p, .accordion-button, .accordion-body {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.36px;
-
 }
 
 .main {
     margin: 60px auto;
     max-width: 1160px;
-  
-  }
+}
+.row {
+  align-items: center;
+}
 
 /* FOOTERIN MUOTOILU */
 
@@ -189,7 +189,9 @@ div.card {
 }
 
 /* AVAUS NAPPIEN MUOTOILU */
-
+.accordion-button{
+    padding: 20px;
+}
 .btn-floating,
 .btn-floating.collapsed {
   width: 30px;
@@ -214,7 +216,7 @@ div.card {
 
 .btn-floating {
   transition: transform 0.2s ease-in-out;
-  ;
+  
 }
 
 .btn-floating:not(.collapsed) {
@@ -239,101 +241,48 @@ div.card {
   border-bottom-left-radius: 15px !important;
 }
 
-/* OPINTOJAKSO LISTAUS MUOTOILUJA */
+/* OPINTOJAKSO LISTAUS JA TEHTÄVÄLISTA MUOTOILUJA */
 
-#polut {
- .accordion-body * , .accordion-button{
-    font-size: 18px;
-    color: #1A1A1A !important;
-  }
-.head {
+#polut .head, #opintojaksot .head {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
-  padding: 20px;
+  padding: 20px 0 40px 20px;
   color: #1A1A1A;
 }
 
+#opintojaksot .accordion-body .row {
+  padding: 5px 100px 5px 50px;
+  min-height: 50px;
+  align-items: center;
 }
+#opintojaksot .accordion-body .row img {
+  margin: 0 3px;
+}
+#opintojaksot .accordion-body .row * {
+  margin: 0;
+}
+#opintojaksot .row.indent {
+  text-indent: 60px;
+} #opintojaksot .row.indent img{ 
+  margin: 2px;
+}
+
 .alaotsikko {
-color: #6A6A6A !important;
-  font-size: 16px;
-}
-#opintojaksot {
-  margin: 50px 0;
-
-  .accordion-body .row {
-    padding: 5px 100px 5px 50px;
-    min-height: 50px;
-    align-items: center;
-  }
-  .accordion-body .row img {
-    margin: 0 3px;
-  }
-
-  .accordion-body .row * {
-    margin: 0;
-  }
-
-  .row.indent {
-    padding-left: 120px;
-    img{ margin: 2px;}
-  } 
-
-  .head {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    padding: 20px;
-    color: #1A1A1A;
-  }
-
-  .head h6 {
-    font-size: 18px;
-    padding-top: 20px;
-    font-weight: 400;
-  }
-  
-  .accordion-body * , .accordion-button{
-    font-size: 18px;
-    color: #1A1A1A !important;
-  }
-}
-
-/* TEHTÄVÄLISTAUS MUOTOILUJA */
-
-#tehtavat {
-  margin: 50px 0;
-
-  .col-5{
-    line-height: 24px;
-
-  }
-
-  .head {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    padding: 15px 0 5px 15px;
-
-    h3 {
-      font-size: 32px;
-      font-weight: 400;
-
-    }
-  }
-
-  .row {
-    align-items: center;
-    color: #1A1A1A;
-  }
-}
-
-#tehtavat .head .row>.col-5, h6.tehtavaotsikot {
   color: #6A6A6A !important;
   font-size: 16px;
+  margin: 10px 0;
 }
-h6.tehtavaotsikot {
-  margin-bottom: 10px;
-  margin-top: 10px;
+
+#tehtavat, #opintojaksot {
+  margin: 50px 0;
 }
+#tehtavat .head {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 15px 0 5px 15px;
+
+}
+
 .tasknr {
   font-size: 24px;
   font-weight: 700;

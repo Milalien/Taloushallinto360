@@ -18,7 +18,7 @@
     },
     {
       "otsikko": "Tilitoimisto kirjaukset",
-      "kuvaus": "Power Automate -tehtävä laskujen automattiseen käsittelyyn. Automaatio käynnistyy, kun lasku tallennetaan tiettyyn OneDrive-kansioon. Laskusta luetaan tuotteet ja kappalemäärät, ja tiedot kootaan Excel-tiedostoon.",
+      "kuvaus": "Ensimmäinen alv-tehtävä",
       "opintojakso": "Kirjanpito ja tuloslaskenta",
       "nimi": "Tilitoimisto kirjaukset.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx",
@@ -29,7 +29,7 @@
       "kuvaus": "Power Automate -tehtävä laskujen automattiseen käsittelyyn. Automaatio käynnistyy, kun lasku tallennetaan tiettyyn OneDrive-kansioon. Laskusta luetaan tuotteet ja kappalemäärät, ja tiedot kootaan Excel-tiedostoon.",
       "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
       "nimi": "Power Automate automaatio tehtävä",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/3/TalouhallinnonTaituri_automaatioteht%C3%A4v%C3%A4.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/4/PowerAutomateautomaatioteht%C3%A4v%C3%A4.pdf",
       "ikoni": "img/logo-and-numbers-01/01-reg-04.png"
     },
     {
@@ -37,15 +37,15 @@
       "kuvaus": "Tehtävässä tutustutaan UiPath:in pilvipohjaiseen automaatiotyökaluun nimeltä Studio Web. Sen avulla voi luoda automaatioita eri käyttöjärjestelmissä ilman UiPath Studion asennusta.",
       "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
       "nimi": "Studio Web automaatio tehtävä",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/6/TaloushallinnonTaituri_UiPathStudioWeb_automaatioteht%C3%A4v%C3%A4.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/10/UiPathStudioWebautomaatioteht%C3%A4v%C3%A4.pdf",
       "ikoni": "img/logo-and-numbers-01/01-reg-05.png"
     },
     {
       "otsikko": "Prosessien kuvaus ja kehitysehdotukset",
       "kuvaus": "",
       "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
-      "nimi": "Placeholder",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2465025/mod_resource/content/1/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/logo-and-numbers-01/01-reg-06.png"
     }
   ],
@@ -53,7 +53,7 @@
     {
       "otsikko": "Kirjanpito Excelissä",
       "opintojakso": "Taloushallinto",
-      "kuvaus": "",
+      "kuvaus": "Tehtävässä tehdään 31 kirjanpitokirjausta Eevan nakkikioski Tmi:lle. Tehtävä sisältää poistojen ja varaston muutoksen kirjauksen, mutta kirjaukset tehdään ilman arvonlisäveroa. Kirjausten jälkeen laaditaan niiden perusteella tuloslaskelma ja tase.",
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462697/mod_resource/content/4/Nakkikioski%20tilitapahtumat.xlsx",
       "ikoni": "img/logo-and-numbers-02/02-reg-01.png"
@@ -61,7 +61,7 @@
     {
       "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
       "opintojakso": "Kirjanpito ja tuloslaskenta",
-      "kuvaus": "Netvisorissa.. alvien kanssa ",
+      "kuvaus": "Tehtävässä tehdään 31 kirjanpitokirjausta Eevan nakkikioski Tmi:lle. Kirjaukset tehdään arvonlisäverollisina Netvisor ohjelmaa käyttäen. Kirjausten jälkeen muodostetaan ALV-laskelma.",
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx",
       "ikoni": "img/logo-and-numbers-02/02-reg-02.png"
@@ -76,7 +76,7 @@
     },
     {
       "otsikko": "Tilinpäätöksen laadinta",
-      "opintojakso": "Tilinpäätös ja sen suunnittelu",
+      "opintojakso": "Tilinpäätöksen laadinta",
       "kuvaus": "Tarkistetaan jaksotukset, tehdään puuttuvia jaksotuksia, ajetaan tilipäätös Netvisorista",
       "nimi": "",
       "linkki": "",
@@ -93,7 +93,7 @@
     {
       "otsikko": "Verotettava tulo",
       "kuvaus": "Laske Eevan nakkikioski Tmi:n verotettava tulo ja nettovarallisuus.",
-      "opintojakso": "Yritysverotus",
+      "opintojakso": "Yritysverotus ja tilinpäätössuunnittelu",
       "nimi": "",
       "linkki": "",
       "ikoni": "img/logo-and-numbers-02/02-reg-06.png"
@@ -126,7 +126,7 @@
   "case3tehtavat": [
     {
       "otsikko": "Opi tuloslaskelma, tase ja kassavirta -tehtävä",
-      "opintojakso": "Liiketoimintaosaaminen ja yrityssimulaatiot",
+      "opintojakso": "Liiketoimintaosaaminen ja yrityssimulaatio",
       "kuvaus": "",
       "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx",
@@ -152,7 +152,7 @@
     {
       "otsikko": "Yritysjärjestelyiden tehtävä",
       "opintojakso": "Osakeyhtiön erityskysymykset ja yritysjärjestelyt",
-      "kuvaus": "Tehtävän lyhyt kuvaus: Opintojakso: Osakeyhtiön erityskysymykset ja yritysjärjestelyt, Opettaja: Teija Launiainen",
+      "kuvaus": "",
       "nimi": "Kalustetalo Tyynelä oy OYERKY.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx",
       "ikoni": "img/logo-and-numbers-03/03-reg-04.png"
@@ -218,7 +218,7 @@
     {
       "otsikko": "Kirjanpidon tehtävä",
       "opintojakso": "Käytännön arvonlisäverotus",
-      "kuvaus": "Placeholder",
+      "kuvaus": "",
       "nimi": "Golfkauppa Ranta tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463136/mod_resource/content/3/Golfkauppa%20Ranta%20tilitapahtumat.xlsx",
       "ikoni": "img/logo-and-numbers-04/04-reg-01.png"
@@ -227,7 +227,7 @@
       "otsikko": "ALV-prosessi Visma Netvisorissa",
       "opintojakso": "Käytännön arvonlisäverotus",
       "kuvaus": "Tutustutaan Netvisorin ALV -laskentaan vaikuttaviin asetuksiin ja ALV -prosessiin tehtävän materiaalin perusteella ja tehdään käytännön ALV -kurssilla käsiteltäviä asioita koskevat esimerkkitapahtumat Netvisorissa.<br>Tehtävää varten perustetaan laskentakohde. Laskentakohteen raporttien perusteella voidaan tarkistaa harjoitusten onnistuminen pääpiirteissään.",
-      "nimi": "Tyhjä työkirja.docx",
+      "nimi": "",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
       "ikoni": "img/logo-and-numbers-04/04-reg-02.png"
     },
@@ -241,48 +241,48 @@
     },
     {
       "otsikko": "Tilaus- ja toimitusprosessin tehtävä",
-      "opintojakso": "Taushallinnan prosessit ja järjestelmät",
-      "kuvaus": "Placeholder",
-      "nimi": "Tyhjä työkirja.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2464978/mod_resource/content/1/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
+      "kuvaus": "",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/logo-and-numbers-04/04-reg-04.png"
     },
     {
       "otsikko": "Rekisteritietojen tuonti CSV-tiedostoilla Visma Netvisoriin",
       "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
-      "kuvaus": "Placeholder",
-      "nimi": "Tyhjä työkirja.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2464979/mod_resource/content/1/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "kuvaus": "",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/logo-and-numbers-04/04-reg-05.png"
     },
     {
       "otsikko": "Ostolaskujen automaattinen käsittely FabricAI:ssa tehtävä",
       "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
-      "kuvaus": "Placeholder",
-      "nimi": "Tyhjä työkirja.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2464983/mod_resource/content/2/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "kuvaus": "",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/logo-and-numbers-04/04-reg-06.png"
     },
     {
       "otsikko": "Varojen jakaminen tehtävä",
-      "opintojakso": "Yritysverotus",
+      "opintojakso": "Yritysverotus ja tilinpäätössuunnittelu",
       "kuvaus": "Selvitä millä kaikilla tavoilla omistajat voivat nostaa varoja osakeyhtiöstä. Laske, miten näitä eri tapoja verotetaan.",
-      "nimi": "Tyhjä työkirja.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2464996/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/logo-and-numbers-04/04-reg-07.png"
     },
     {
       "otsikko": "Osingonjako tehtävä",
       "opintojakso": "Henkilöverotus",
       "kuvaus": "Yrittäjä nostaa osinkoa. Laske, miten osinkoa verotetaan.  ",
-      "nimi": "Tyhjä työkirja.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2464999/mod_resource/content/4/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "nimi": "",
+      "linkki": "",
       "ikoni": "img/logo-and-numbers-04/04-reg-08.png"
     },
     {
       "otsikko": "Tilintarkastuksen tehtävä",
-      "opintojakso": "Tilintarkastus",
-      "kuvaus": "Placeholder",
+      "opintojakso": "Tilintarkastus käytännössä",
+      "kuvaus": "",
       "nimi": "Golfkauppa Ranta oy Tilintarkastus.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx",
       "ikoni": "img/logo-and-numbers-04/04-reg-09.png"
@@ -376,5 +376,247 @@
       "ja Eevan nakkikioski Tmi on pienyritys, joka tuo esille paikallisen yrittäjyyden haasteet ja mahdollisuudet.",
       "Näiden yritysten avulla opiskelijat pääsevät harjoittelemaan käytännön taloushallinnon tehtäviä monenlaisissa ympäristöissä."
     ]
-  }
+  },
+  "opinnot": [
+    {
+      "osuus": "Yhteiset opinnot (yhteensä 15 op, pakollinen)",
+      "opintopaketit": []
+    },
+    {
+      "osuus": "Liiketaloudellinen ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+      "opintopaketit": [
+        {
+          "nimi": "",
+          "opintojaksot": [
+            {
+              "jakso": "Taloushallinto",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Kannattavuuslaskenta ja talouden suunnittelu",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "English for Accounting",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Hyvä tilinpäätöskäytäntö",
+          "opintojaksot": [
+            {
+              "jakso": "Kirjanpito ja tuloslaskenta",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Taloushallinnon prosessit ja järjestelmät",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Tilinpäätöksen laadinta",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Tilinpäätösanalyysit",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Johdon laskentatoimi 20 op",
+          "opintojaksot": [
+            {
+              "jakso": "Kustannuslaskenta ja hinnoittelu",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "BI, analytiikka ja raportointi",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Excelin ja toimistosovellusten jatko",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Liiketoimintaosaaminen ja yrityssimulaatio",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Finanssimarkkinat 25 op",
+          "opintojaksot": [
+            {
+              "jakso": "Yrityksen rahoitus",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Sijoitustoiminta",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Investoinnit ja rahoitussuunnittelu",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Finanssioikeus",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Asiantuntijana vakuutusalalla",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Verotus 15 op",
+          "opintojaksot": [
+            {
+              "jakso": "Henkilöverotus",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Käytännön arvonlisäverotus",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Yritysverotus ja tilinpäätössuunnittelu",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Tarkastustoiminta 15 op",
+          "opintojaksot": [
+            {
+              "jakso": "Tilintarkastus käytännössä",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Sisäinen tarkastus ja valvonta",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Yritysvastuu ja kestävyysraportointi",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Ulkoisen laskentatoimen syventävät 15 op",
+          "opintojaksot": [
+            {
+              "jakso": "Erillistilinpäätös",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Osakeyhtiön erityiskysymykset ja yritysjärjestelyt",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "Palkanlaskenta ja työoikeus 10 op",
+          "opintojaksot": [
+            {
+              "jakso": "Työoikeus ja palkanlaskenta",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Palkanlaskennan erityiskysymykset ja sovellukset",
+              "opintopisteet": "5 op"
+            }
+          ]
+        },
+        {
+          "nimi": "BI-asiantuntijaksi 15 op",
+          "opintojaksot": [
+            {
+              "jakso": "Tiedon hallinta ja data-alustat",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Data-analytiikka",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
+              "opintopisteet": "5 op"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osuus": "Harjoittelu (yhteensä 30 op, pakollinen)",
+      "opintopaketit": [
+        {
+          "nimi": "",
+          "opintojaksot": [
+            {
+              "jakso": "Harjoittelu 1",
+              "opintopisteet": "10 op"
+            },
+            {
+              "jakso": "Harjoittelu 2",
+              "opintopisteet": "10 op"
+            },
+            {
+              "jakso": "Harjoittelu 3",
+              "opintopisteet": "10 op"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "osuus": "Opinnäytetyö (yhteensä 15 op, pakollinen)",
+      "opintopaketit": [
+        {
+          "nimi": "",
+          "opintojaksot": [
+            {
+              "jakso": "Opinnäytetyön suunnittelu",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Opinnäytetyön toteutus",
+              "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Opinnäytetyön raportointi",
+              "opintopisteet": "5 op"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "OPSlinkit": [
+    {
+      "nimi": "Tradenomi (AMK), liiketalous 25S, päivätoteutus, Lappeenranta: Älykäs taloushallinto",
+      "linkki": "https://opinto-opas.lab.fi/68177/fi/68114/68124/2047/1666"
+    },
+    {
+      "nimi": "Tradenomi (AMK) 25S, liiketalous, päivätoteutus, Lahti: LLTILII25S",
+      "linkki": "https://opinto-opas.lab.fi/68177/fi/68114/68124/2083"
+    },
+    {
+      "nimi": "Tradenomi (AMK), liiketalous ja logistiikka 25S, verkko-opinnot: LLTILIL25SV",
+      "linkki": "https://opinto-opas.lab.fi/68178/fi/68114/72760/2085"
+    },
+    {
+      "nimi": "Tradenomi (AMK), liiketalous 25S, verkko-opinnot: LLPRLII25SV",
+      "linkki": "https://opinto-opas.lab.fi/68178/fi/68114/68124/2084"
+    },
+    {
+      "nimi": "Liiketoimintayksikön täydentävän osaamisen tarjonta 2025-2026 (AMK): LLABTO25H",
+      "linkki": "https://opinto-opas.lab.fi/70192/fi/70060/70193/2088"
+    }
+  ]
 }
