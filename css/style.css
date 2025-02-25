@@ -94,9 +94,13 @@ footer a:hover {
 
 nav.navbar {
   align-items: center;
+
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: #1A1A1A;
+  max-width: 1160px;
+  margin: auto;
+  box-shadow: none;
 }
 
 .navbar-nav .nav-link,
@@ -153,8 +157,8 @@ div.card {
   padding: 20px;
 }
 
-.card.tietoa .card-text {
-  max-width: 645px;
+.card .card-text {
+  max-width: 600px;
   padding-top: 10px;
 }
 
@@ -179,9 +183,6 @@ div.card {
   padding-top: 70px;
   padding-left: 80px;
 }
-#polut .polkuhead {
-  padding: 70px 40px 30px 40px;
-}
 
 #caseaineisto .accordion-body .col-8 {
   max-width: 645px;
@@ -200,13 +201,13 @@ div.card {
 
 .btn-floating.collapsed,
 .accordion-button::after {
-  background-image: url("../img/images-icons-buttons_PNG/button_plus.png");
+  background-image: url("../img/button_plus.png");
   padding: 5px;
 }
 
 .btn-floating,
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../img/images-icons-buttons_PNG/button_minus.png");
+  background-image: url("../img/button_minus.png");
   padding: 5px;
 
 }
@@ -239,11 +240,24 @@ div.card {
 }
 
 /* OPINTOJAKSO LISTAUS MUOTOILUJA */
-#polut  .accordion-header * {
-    color: #1A1A1A;
-    font-weight: 700;
+
+#polut {
+ .accordion-body * , .accordion-button{
+    font-size: 18px;
+    color: #1A1A1A !important;
+  }
+.head {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 20px;
+  color: #1A1A1A;
 }
 
+}
+.alaotsikko {
+color: #6A6A6A !important;
+  font-size: 16px;
+}
 #opintojaksot {
   margin: 50px 0;
 
@@ -277,17 +291,8 @@ div.card {
     padding-top: 20px;
     font-weight: 400;
   }
-
-  .head a {
-    color: #1A1A1A;
-  }
-
-  .head h2 {
-    font-size: 32px;
-  }
-
-  .accordion-header *,
-  .accordion-body * {
+  
+  .accordion-body * , .accordion-button{
     font-size: 18px;
     color: #1A1A1A !important;
   }
@@ -357,8 +362,13 @@ h6.tehtavaotsikot {
   border-color: var(--case4);
 }
 
-#opintojaksot .accordion-button:not(.collapsed), #polkuja .accordion-button:not(.collapsed) {
+#opintojaksot .accordion-button:not(.collapsed), #polut .accordion-button:not(.collapsed) {
   border-image: linear-gradient(to right, #54A4DA, #54A4DA, #7EC247, #A67C52, #F79226) 1;
+}
+#opintojaksot a, #polut a, #opintojaksot .accordion-body a{
+  color: transparent !important;
+  background: linear-gradient(to right, #54A4DA, #54A4DA, #7EC247, #A67C52, #F79226);
+  background-clip: text;
 }
 
 #tehtavat ul.tehtavalista li {
@@ -378,19 +388,19 @@ h6.tehtavaotsikot {
 }
 
 .case1#tehtavat ul.tehtavalista li::before {
-  background-image: url("../img/images-icons-buttons_PNG/logo_01_saimaa-account-oy.png");
+  background-image: url("../img/logo_01_saimaa-account-oy.png");
 }
 
 .case2#tehtavat ul.tehtavalista li::before {
-  background-image: url("../img/images-icons-buttons_PNG/logo_04_eevan-nakkikioski-tmi_corners5.png");
+  background-image: url("../img/logo_04_eevan-nakkikioski-tmi_corners5.png");
 }
 
 .case3#tehtavat ul.tehtavalista li::before {
-  background-image: url("../img/images-icons-buttons_PNG/logo_03_kalustetehdas-tyynela-oy.png");
+  background-image: url("../img/logo_03_kalustetehdas-tyynela-oy.png");
 }
 
 .case4#tehtavat ul.tehtavalista li::before {
-  background-image: url("../img/images-icons-buttons_PNG/logo_02_golfkauppa-ranta-oy.png");
+  background-image: url("../img/logo_02_golfkauppa-ranta-oy.png");
 }
 
 .case1#tehtavat a {
@@ -413,33 +423,33 @@ h6.tehtavaotsikot {
 
 .img-container {
   bottom: 100px;
-  left: 10px;
   z-index: 1;
-  padding: 0 20px;
+  max-width: 1160px;
+  
   position: absolute;
   flex-wrap: wrap;
 }
+
 .img-container >*{
   opacity: 0.9;
 }
 
 .numbers1 {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: relative;
   transform: rotate(45deg);
 }
-
 .numbers2 {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: relative;
   transform: rotate(320deg);
 }
 
 .numbers3 {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   position: relative;
 }
 
@@ -455,20 +465,15 @@ h6.tehtavaotsikot {
     padding: 0;
   }
 
-  .navbar {
-    padding: 0 160px;
-  }
-}
-
-@media only screen and (max-width: 1439px) {
-  .main {
-    margin: 60px 100px;
-  }
-
-}
-
-@media only screen and (max-width: 992px) {
  
+}
+@media only screen and (max-width: 1439px) {
+  .main{
+    padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 992px) {
+
 
   #caseaineisto .accordion-body {
     padding-left: 20px;
@@ -480,9 +485,8 @@ h6.tehtavaotsikot {
 }
 
 @media only screen and (max-width: 768px) {
-  .main {
-    margin: 60px 50px;
-  }
+ 
+
 
   h1 {
     font-size: 44px;
@@ -502,9 +506,7 @@ h6.tehtavaotsikot {
 }
 
 @media only screen and (max-width: 576px) {
-  .main {
-    margin: 60px 20px;
-  }
+
   h1{
     font-size: 40px;
   }
@@ -514,9 +516,7 @@ h6.tehtavaotsikot {
  
 }
 @media only screen and (max-width: 450px) {
-  .main {
-    margin: 60px 5px;
-  }
+
   
   #tehtavat .col-5{
     line-height: 16px;
