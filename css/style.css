@@ -241,12 +241,21 @@ div.card {
   display: flex;
   justify-content: center;
 }
+#tehtavat .accordion-body .col-md-10 {
+  max-width: 750px;
+}
 .tasknr {
   position: absolute;
   top: 4px;
   bottom:4px;
   padding-left: 20px;
   align-self: center;
+}
+#tehtavat .accordion-button.collapsed .tasknr {
+  
+}
+#tehtavat .accordion-button:not(.collapsed) .tasknr {
+  content-visibility:hidden;
 }
 /* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
 .case1#tehtavat .accordion-button:not(.collapsed) {

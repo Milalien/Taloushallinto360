@@ -194,9 +194,10 @@
               aria-expanded="false" aria-controls="t`+i+`">
               <div class="row w-100">
                 <div class="col-2">
-                  <img class="tasknr"
+                  <span height="40px" class="tasknr" style="background: url:('/${case1t[i].ikoni2}') no-repeat center; background-size: contain;">
+                  <img
                     src="`+case1t[i].ikoni+`"
-                    height="40px">
+                    height="40px"></span>
                 </div>
                 <div class="col-5">`+case1t[i].otsikko+`</div>
                 <div class="col-5">`+case1t[i].opintojakso+`</div>
@@ -217,7 +218,7 @@
               
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
-                <li>Lataa tiedosto: <a href="`+case1t[i].linkki+`" target="_blank">`+case1t[i].nimi+`</a>
+                <li>Lataa tiedosto:<a style="margin-left:4px;" href="`+case1t[i].linkki+`" target="_blank">`+case1t[i].nimi+`</a>
                 </li>
               </ul>
             </div>

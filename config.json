@@ -6,7 +6,8 @@
       "opintojakso": "Taloushallinto",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-01/01-reg-01.png"
+      "ikoni": "img/logo-and-numbers-01/01-reg-01.png",
+      "ikoni2": "img/logo-and-numbers-01/01-bold-01.png"
     },
     {
       "otsikko": "Mitä tilitoimisto tekee tehtävä",
@@ -14,7 +15,8 @@
       "opintojakso": "Taloushallinto",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-01/01-reg-02.png"
+      "ikoni": "img/logo-and-numbers-01/01-reg-02.png",
+      "ikoni2": "img/logo-and-numbers-01/01-bold-02.png"
     },
     {
       "otsikko": "Tilitoimisto kirjaukset",
@@ -22,7 +24,8 @@
       "opintojakso": "Kirjanpito ja tuloslaskenta",
       "nimi": "Tilitoimisto kirjaukset.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx",
-      "ikoni": "img/logo-and-numbers-01/01-reg-03.png"
+      "ikoni": "img/logo-and-numbers-01/01-reg-03.png",
+      "ikoni2": "img/logo-and-numbers-01/01-bold-03.png"
     },
     {
       "otsikko": "Power Automate automaatio tehtävä",
@@ -30,7 +33,8 @@
       "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
       "nimi": "Power Automate automaatio tehtävä",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/4/PowerAutomateautomaatioteht%C3%A4v%C3%A4.pdf",
-      "ikoni": "img/logo-and-numbers-01/01-reg-04.png"
+      "ikoni": "img/logo-and-numbers-01/01-reg-04.png",
+      "ikoni2": "img/logo-and-numbers-01/01-bold-04.png"
     },
     {
       "otsikko": "Studio Web automaatio tehtävä",
@@ -38,7 +42,8 @@
       "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
       "nimi": "Studio Web automaatio tehtävä",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/10/UiPathStudioWebautomaatioteht%C3%A4v%C3%A4.pdf",
-      "ikoni": "img/logo-and-numbers-01/01-reg-05.png"
+      "ikoni": "img/logo-and-numbers-01/01-reg-05.png",
+      "ikoni2": "img/logo-and-numbers-01/01-bold-05.png"
     },
     {
       "otsikko": "Prosessien kuvaus ja kehitysehdotukset",
@@ -46,7 +51,8 @@
       "opintojakso": "Taloushallinnon prosessit ja järjestelmät",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-01/01-reg-06.png"
+      "ikoni": "img/logo-and-numbers-01/01-reg-06.png",
+      "ikoni2": "img/logo-and-numbers-01/01-bold-06.png"
     }
   ],
   "case2tehtavat": [
