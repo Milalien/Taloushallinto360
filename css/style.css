@@ -3,11 +3,8 @@
   --case4: #7EC247;
   --case3: #A67C52;
   --case2: #F79226;
-
 }
-
 /* YLEISIÄ MUOTOILUJA KOKO SIVUSTON LAAJUISESTI */
-
 html,
 body {
   font-family: helvetica !important;
@@ -15,15 +12,12 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-
 }
-
 .page {
   position: relative;
   min-height: 100vh;
   padding: 70px 0;
 }
-
 h1,
 h2,
 h3,
@@ -34,28 +28,23 @@ p,
 .accordion-body, .accordion-button {
   color: #1A1A1A !important;
 }
-
 h1 {
   font-size: 48px;
   font-weight: 400;
   line-height: 48px;
   letter-spacing: -0.96px;
 }
-
 h2 {
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: -0.64px;
-
 }
-
 p, .accordion-button, .accordion-body {
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.36px;
 }
-
 .main {
     margin: 60px auto;
     max-width: 1160px;
@@ -63,9 +52,7 @@ p, .accordion-button, .accordion-body {
 .row {
   align-items: center;
 }
-
 /* FOOTERIN MUOTOILU */
-
 footer {
   font-size: 12px;
   background-color: #1A1A1A;
@@ -78,23 +65,17 @@ footer {
   height: fit-content;
   color: #F8F8F8;
 }
-
 footer a {
   color: #F8F8F8;
   padding: 0 10px;
   letter-spacing: 0.24px;
-
 }
-
 footer a:hover {
   color: white;
 }
-
 /* YLÄVALIKON MUOTOILU */
-
 nav.navbar {
   align-items: center;
-
   padding-top: 24px;
   padding-bottom: 24px;
   background-color: #1A1A1A;
@@ -102,7 +83,6 @@ nav.navbar {
   margin: auto;
   box-shadow: none;
 }
-
 .navbar-nav .nav-link,
 .btn-link {
   color: #F8F8F8;
@@ -114,80 +94,66 @@ nav.navbar {
   width: fit-content;
   display: inline;
 }
-
 .navbar-nav .nav-link.active,
 .btn-link.active {
   color: rgb(255, 255, 255);
-
 }
-
 .navbar-nav .nav-link:hover,
 .btn-link:hover {
   color: rgb(255, 255, 255);
   transition: all 600ms;
 }
-
 .navbar-toggler>.fas {
   font-size: 35px;
 }
-
 #mobilenav .nav-item {
   height: 45px;
   padding-left: 20px;
   align-items: center;
   display: flex;
 }
-
 #mobilenav {
   margin-top: 45px;
   box-shadow: 0 20px 20px -15px #000000;
-
 }
-
 /* YLEMPI KORTTI */
-
 div.card {
   z-index: 3;
   background-color: #ffffff;
   border-radius: 22px;
   
 }
-
 .card.tietoa {
   padding: 20px;
 }
-
 .card .card-text {
   max-width: 600px;
   padding-top: 10px;
 }
-
 .card .card-img {
   height: 312px;
   border-radius: 15px;
   
 }
-
 .accordion {
   width: 100%;
   margin-top: -30px;
 }
-
 .accordion.home {
   margin-bottom: 150px;
   position: relative;
   z-index: 2;
 }
-
 #caseaineisto .accordion-body {
   padding-top: 70px;
   padding-left: 80px;
 }
-
 #caseaineisto .accordion-body .col-8 {
   max-width: 645px;
 }
-
+#caseaineisto .accordion-body .row * {
+  align-self: baseline;
+}
 /* AVAUS NAPPIEN MUOTOILU */
 .accordion-button{
     padding: 20px;
@@ -199,30 +165,26 @@ div.card {
   background-size: cover;
   background-color: #00000000;
   border: none;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
 }
-
 .btn-floating.collapsed,
 .accordion-button::after {
   background-image: url("../img/button_plus.png");
   padding: 5px;
 }
-
 .btn-floating,
 .accordion-button:not(.collapsed)::after {
   background-image: url("../img/button_minus.png");
   padding: 5px;
-
 }
-
 .btn-floating {
   transition: transform 0.2s ease-in-out;
-  
 }
-
 .btn-floating:not(.collapsed) {
   transform: rotate(-180deg);
 }
-
 .accordion-button:not(.collapsed) {
   color: #1A1A1A;
   font-weight: 700;
@@ -230,26 +192,20 @@ div.card {
   border-bottom: 2px solid;
   transition: border 0ms;
 }
-
 /* AVAUTUVIEN ALA-REUNAN MUOTO */
-
-
 .accordion-item:last-of-type>.accordion-header .accordion-button.collapsed,
 .accordion-item:last-of-type>.accordion-collapse,
 .accordion-item:last-of-type {
   border-bottom-right-radius: 15px !important;
   border-bottom-left-radius: 15px !important;
 }
-
 /* OPINTOJAKSO LISTAUS JA TEHTÄVÄLISTA MUOTOILUJA */
-
 #polut .head, #opintojaksot .head {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   padding: 20px 0 40px 20px;
   color: #1A1A1A;
 }
-
 #opintojaksot .accordion-body .row {
   padding: 5px 100px 5px 50px;
   min-height: 50px;
@@ -266,13 +222,11 @@ div.card {
 } #opintojaksot .row.indent img{ 
   margin: 2px;
 }
-
 .alaotsikko {
   color: #6A6A6A !important;
   font-size: 16px;
   margin: 10px 0;
 }
-
 #tehtavat, #opintojaksot {
   margin: 50px 0;
 }
@@ -280,9 +234,7 @@ div.card {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   padding: 15px 0 5px 15px;
-
 }
-
 .tasknr {
   font-size: 24px;
   font-weight: 700;
@@ -291,26 +243,19 @@ div.card {
   justify-content: center;
   padding: 5px;
 }
-
 /* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
-
 .case1#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case1);
 }
-
 .case2#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case2);
 }
-
-
 .case3#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case3);
 }
-
 .case4#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case4);
 }
-
 #opintojaksot .accordion-button:not(.collapsed), #polut .accordion-button:not(.collapsed) {
   border-image: linear-gradient(to right, #54A4DA, #54A4DA, #7EC247, #A67C52, #F79226) 1;
 }
@@ -319,14 +264,11 @@ div.card {
   background: linear-gradient(to right, #54A4DA, #54A4DA, #7EC247, #A67C52, #F79226);
   background-clip: text;
 }
-
 #tehtavat ul.tehtavalista li {
   list-style: none;
   display: flex;
   align-items: center;
-
 }
-
 #tehtavat ul.tehtavalista li::before {
   content: '';
   display: inline-block;
@@ -335,41 +277,31 @@ div.card {
   margin-right: 8px;
   background-size: contain;
 }
-
 .case1#tehtavat ul.tehtavalista li::before {
   background-image: url("../img/logo_01_saimaa-account-oy.png");
 }
-
 .case2#tehtavat ul.tehtavalista li::before {
   background-image: url("../img/logo_04_eevan-nakkikioski-tmi_corners5.png");
 }
-
 .case3#tehtavat ul.tehtavalista li::before {
   background-image: url("../img/logo_03_kalustetehdas-tyynela-oy.png");
 }
-
 .case4#tehtavat ul.tehtavalista li::before {
   background-image: url("../img/logo_02_golfkauppa-ranta-oy.png");
 }
-
 .case1#tehtavat a {
   color: var(--case1);
 }
-
 .case2#tehtavat a {
   color: var(--case2);
 }
-
 .case3#tehtavat a {
   color: var(--case3);
 }
-
 .case4#tehtavat a {
   color: var(--case4);
 }
-
 /* ANIMOITUJEN NUMEROIDEN JA IKONEIDEN MUOTOILUT */
-
 .img-container {
   bottom: 100px;
   z-index: 1;
@@ -378,11 +310,9 @@ div.card {
   position: absolute;
   flex-wrap: wrap;
 }
-
 .img-container >*{
   opacity: 0.9;
 }
-
 .numbers1 {
   height: 70px;
   width: 70px;
@@ -395,26 +325,19 @@ div.card {
   position: relative;
   transform: rotate(320deg);
 }
-
 .numbers3 {
   height: 70px;
   width: 70px;
   position: relative;
 }
-
 /* MUKAUTUVUUSASETUKSET ELI MUOTOILU ERI KOKOISILLE NÄYTÖILLE */
-
 @media only screen and (min-width: 1440px) {
-  
   footer div {
     margin: auto 160px;
   }
-
   nav.navbar>* {
     padding: 0;
   }
-
- 
 }
 @media only screen and (max-width: 1439px) {
   .main{
@@ -422,29 +345,20 @@ div.card {
   }
 }
 @media only screen and (max-width: 992px) {
-
-
   #caseaineisto .accordion-body {
     padding-left: 20px;
-
     .row * {
       padding: 5px;
     }
   }
 }
-
 @media only screen and (max-width: 768px) {
- 
-
-
   h1 {
     font-size: 44px;
   }
-
   h2 {
     font-size: 30px;
   }
-
 #opintojaksot .accordion-body .row{
     padding-left: 5px;
     padding-right: 5px;
@@ -453,20 +367,15 @@ div.card {
     padding-left: 20px;
   }
 }
-
 @media only screen and (max-width: 576px) {
-
   h1{
     font-size: 40px;
   }
   h2{
     font-size: 28px;
   }
- 
 }
 @media only screen and (max-width: 450px) {
-
-  
   #tehtavat .col-5{
     line-height: 16px;
   }

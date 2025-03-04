@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>Taloushallinnon taituri</title>
+  <title>Taloushallinto360</title>
   <link rel="icon" type="image/x-icon"
     href="img/logo_00_white_taloushallinnon-taituri_corners5.png" />
   <!-- MDB -->
@@ -35,8 +35,7 @@
             </li>
             <li class="nav-item me-3 me-lg-1">
               <a class="nav-link" href="case2.html">
-
-                Eevan nakkikioski Tmi </a>
+                Eevan Nakkikioski Tmi </a>
             </li>
 
             <li class="nav-item me-3 me-lg-1">
@@ -79,7 +78,7 @@
           </li>
           <li data-mdb-ripple-init class="nav-item">
             <a class="nav-link" href="case2.html">
-              Eevan nakkikioski Tmi</a>
+              Eevan Nakkikioski Tmi</a>
           </li>
 
           <li data-mdb-ripple-init class="nav-item">
@@ -145,7 +144,7 @@
     <footer>
       <div class="row justify-content-between align-items-center">
         <div class="col">
-          © 2025 Taloushallinnon Taituri. Kaikki oikeudet pidätetään
+          © 2025 Lab-ammattikorkeakoulu Oy. Kaikki oikeudet pidätetään
         </div>
 
         <div class="col d-flex justify-content-end align-items-center">
@@ -208,10 +207,14 @@
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
             <div class="accordion-body">`;
 
-              if (case3t[i].kuvaus != "") {
+              if (case3t[i].kuvaus != "" && Array.isArray(case3t[i].kuvaus)) {
+              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
+              <div>`+ case3t[i].kuvaus.join(" ") +`</div>`;
+            } else if (case3t[i].kuvaus != "") {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case3t[i].kuvaus +`</div>`;
             }
+             
               
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul class="tehtavalista">
@@ -227,7 +230,7 @@
             }
           document.getElementById("tehtavat").innerHTML = tasks;
           document.getElementById("c3o").innerHTML = case3.nimi;
-          document.getElementById("c3lk").innerHTML = case3.lyhytkuvaus;
+          document.getElementById("c3lk").innerHTML = case3.lyhytkuvaus.join("<br>");
           document.getElementById("c3k").innerHTML = case3.kuvaus.join(" ");
           
         })

@@ -291,7 +291,10 @@
   "yrityskuvaukset": [
     {
       "nimi": "Saimaa Account Oy",
-      "lyhytkuvaus": "Uusi Lappeenrannassa sijaitseva taloushallintopalveluita koko Suomeen tarjoava tilitoimisto. Hyvällä ammattitaidolla ja asiakaspalvelulla sähköistä kirjanpitoa Visma Netvisorissa.",
+      "lyhytkuvaus": [
+        "Uusi Lappenrannassa sijaitseva taloushallintopalveluita koko Suomeen tarjoava tilitoimisto.",
+        "Hyvällä ammattitaidolla ja asiakaspalvelulla sähköistä kirjanpitoa Visma Netvisorissa."
+      ],
       "kuvaus": [
         "Tilitoimisto Oy on uusi Lappeenrannassa sijaitseva taloushallintopalveluita tarjoava yritys.",
         "Sen perusti LABissa tradenomiksi opiskellut Anna Hakanen.<br>Opintojen jälkeen Annalle kertyi muutama vuosi työkokemusta Etelä-Karjalan tilitoimistoista.",
@@ -309,7 +312,11 @@
     },
     {
       "nimi": "Eevan Nakkikioski Tmi",
-      "lyhytkuvaus": "Eevan nakkikioski on pieni ravintola-alan yritys.<br>Yrittäjä Eeva harjoittaa yritystoimintaa toiminimiyrittäjänä ja hänellä on apunaan yksi palkattu osa-aikainen työntekijä.<br>Yritys toimii vuokratiloissa, mutta aterioiden valmistamiseen tarvittavat koneet ja laitteet on ostettu omaksi.",
+      "lyhytkuvaus": [
+        "Eevan nakkikioski on pieni ravintola-alan yritys.",
+        "Yrittäjä Eeva harjoittaa yritystoimintaa toiminimiyrittäjänä ja hänellä on apunaan yksi palkattu osa-aikainen työntekijä.",
+        "Yritys toimii vuokratiloissa, mutta aterioiden valmistamiseen tarvittavat koneet ja laitteet on ostettu omaksi."
+      ],
       "kuvaus": [
         "Eeva oli aina rakastanut hyvää ruokaa ja ihmisten iloisia ilmeitä, kun he nauttivat herkuista.",
         "Hän oli työskennellyt vuosia erilaisissa ravintoloissa ja kahviloissa, mutta haaveili omasta liiketoiminnasta.",
@@ -330,7 +337,10 @@
     },
     {
       "nimi": "Kalustetalo Tyynelä Oy",
-      "lyhytkuvaus": "Kalustetehdas Tyynelä on Parikkalassa, Etelä-Karjalassa, sijaitseva huonekalutehdas.<br>Yhtiö on perustettu vuonna 1983, ja se on osakeyhtiömuotoinen perheyritys. Liikevaihto on noin 3,5 miljoonaa euroa, ja yrityksessä on yhteensä 26 työntekijää.",
+      "lyhytkuvaus": [
+        "Kalustetehdas Tyynelä on Parikkalassa, Etelä-Karjalassa, sijaitseva huonekalutehdas.",
+        "Yhtiö on perustettu vuonna 1983, ja se on osakeyhtiömuotoinen perheyritys. Liikevaihto on noin 3,5 miljoonaa euroa, ja yrityksessä on yhteensä 26 työntekijää."
+      ],
       "kuvaus": [
         "<h3>Kalustetehdas Tyynelä Oy</h3>Kalustetehdas Tyynelä on Parikkalassa, Etelä-Karjalassa, sijaitseva huonekalutehdas.",
         "Yhtiö on perustettu vuonna 1983 ja se on osakeyhtiömuotoinen perheyritys. Liikevaihto on noin 3,5 miljoonaa euroa.",
@@ -355,8 +365,25 @@
     },
     {
       "nimi": "Golfkauppa Ranta Oy",
-      "lyhytkuvaus": "",
-      "kuvaus": ""
+      "lyhytkuvaus": [
+        "Golfkauppa Ranta Oy harjoittaa golftarvikkeiden myyntiä kotimaahan ja ulkomaille sekä järjestää koulutustilaisuuksia. Yhtiö on osakeyhtiö, jossa on kolme osakasta. Golfkauppa omistaa paikkakunnalla sijaitsevan golfkentän osakkeita, joista se maksaa vastiketta.",
+        "Yhtiön pääomistaja Mika työskentelee kaupassa vakituisesti ja tämän lisäksi yhtiöllä on osa-aikainen tuntityöntekijä.",
+        "Yhtiön liikevaihto on päättyneellä tilikaudella ollut noin 700 000 euroa ja taseen loppusumma noin 130 000 euroa."
+      ],
+      "kuvaus": [
+        "Mika on intohimoinen golfin pelaaja, joka on pelannut lajia lapsuudestaan asti. Hän huomasi, että paikallisella alueella on puutetta laadukkaista golftarvikkeista ja päättää perustaa oman golftarvikekaupan paikallisen golfkentän yhteyteen.<br><br>",
+        "Mika aloittaa pienestä. Hän vuokrasi pienen liiketilan golfkentän vierestä ja hankki aluksi vain perustuotteita, kuten golfpalloja, hanskoja ja mailoja. Hän käytti säästöjään ja otti pienen lainan pankista.<br><br>",
+        "Alkuvaiheessa asiakkaita oli vähän, mutta Mika ei lannistunut. Hän alkoi matkustaa golftapahtumiin, joissa esiteli tuotteitaan. Pikkuhiljaa sana alkoi levitä, ja asiakaskunta alkoi kasvaa.<br><br>",
+        "Vuosien kuluessa Mikan kauppa kasvoi ja laajeni. Hän alkoi tuoda maahan erikoistuotteita ja tarjoaa myös räätälöityjä palveluita, kuten mailojen sovitusta ja korjausta. Mika palkkasi lisää henkilökuntaa ja avasi verkkokaupan, joka tavoittaa asiakkaita ympäri maata.",
+        "Laajennuksen yhteydessä Mika otti lisää osakkaita yhtiöönsä. Omistus on jaettu niin, että Mika omistaa 80 osaketta, hänen veljensä Manu 40 osaketta ja sisko Maija 50 osaketta.",
+        "Yhtiö on perustettu vuonna 2010 ja yhtiön osakepääoma yhden osakkeen merkintähinta on ollut 20 e/kpl. Lisäksi Mika on sijoittanut svop-rahastoon 5000 euroa, Manu 3000 euroa ja Maija 4000 euroa.<br>",
+        "Sijoitukset on tehty 2018 tulevia investointeja varten. Lisäksi yrityksellä on vierasta pääomaa paikallispankilta xx euroa.<br><br>",
+        "Kauppa ei ole vain liiketoimintaa, vaan myös paikallisen golfyhteisön keskus. Kauppa sponsoroi nuoria pelaajia ja järjestää koulutustapahtumia.",
+        "Yrittäjät eivät lepää laakereillaan. Heillä on suuria suunnitelmia tulevaisuudelle, kuten uusien myymälöiden avaaminen ja kansainvälistyminen. Yritys haluaa myös jatkaa golfin edistämistä ja innostaa uusia sukupolvia lajin pariin.<br><br>",
+        "Yhtiön tilikausi on 1.5.-30.4.20XX.<br><br>",
+        "Golfkauppa omistaa kaksi golf-osaketta paikkakunnan golf-radalta. Osakkeiden hankintahinta on ollut 500 e/kpl. Näiden osakkeiden yhteenlaskettu vuosivastike on 1000 euroa.",
+        "Golf-radan kanssa on tehty sopimus, joka oikeuttaa käyttämään golf-kenttää rajattomasti 10 euron kertamaksulla/hlö.  Kenttää käytetään mm. Green gard-opetuksiin."
+      ]
     }
   ],
   "etusivu": {
