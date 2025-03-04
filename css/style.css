@@ -56,14 +56,22 @@ p, .accordion-button, .accordion-body {
 footer {
   font-size: 12px;
   background-color: #1A1A1A;
-  padding: 24px;
-  line-height: auto;
+  padding: 24px 20px;
   letter-spacing: 0.24px;
+  position: relative;
+  margin: auto;
+  max-width: 1160px;
+  height: fit-content;
+  color: #F8F8F8;
+}
+footer .row{
+  align-items: center;
+  justify-content: space-between;
+}
+.footer{
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: fit-content;
-  color: #F8F8F8;
 }
 footer a {
   color: #F8F8F8;
@@ -76,8 +84,7 @@ footer a:hover {
 /* YLÄVALIKON MUOTOILU */
 nav.navbar {
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 20px;
   background-color: #1A1A1A;
   max-width: 1160px;
   margin: auto;
@@ -91,30 +98,41 @@ nav.navbar {
   font-size: 14px;
   font-weight: 400;
   text-transform: none;
-  width: fit-content;
-  display: inline;
+  align-self: center;
 }
 .navbar-nav .nav-link.active,
 .btn-link.active {
   color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.nav-item{
+  align-content: center;
 }
 .navbar-nav .nav-link:hover,
 .btn-link:hover {
   color: rgb(255, 255, 255);
-  transition: all 600ms;
+  font-weight: 600;
+  transition: all 0.4s;
 }
 .navbar-toggler>.fas {
   font-size: 35px;
 }
 #mobilenav .nav-item {
-  height: 45px;
-  padding-left: 20px;
-  align-items: center;
-  display: flex;
+  padding-right: 10px;
 }
 #mobilenav {
-  margin-top: 45px;
+  padding-bottom: 15px;
+  
   box-shadow: 0 20px 20px -15px #000000;
+}
+nav.navbar#mobilenav {
+  padding: 10px !important;
+}
+#mobilenav .navbar-brand {
+  padding-left: 10px;
+}
+.active img{
+  margin: 5px;
 }
 /* YLEMPI KORTTI */
 div.card {
@@ -157,8 +175,7 @@ div.card {
 .accordion-button{
     padding: 0 20px;
 }
-.btn-floating,
-.btn-floating.collapsed {
+.btn-floating {
   width: 30px;
   height: 30px;
   background-size: cover;
@@ -168,6 +185,7 @@ div.card {
   bottom: 25px;
   right: 25px;
 }
+
 .btn-floating.collapsed,
 .accordion-button::after {
   background-image: url("../img/button_plus.png");
@@ -248,15 +266,16 @@ div.card {
   position: absolute;
   top: 4px;
   bottom:4px;
-  padding-left: 20px;
+  margin-left: 20px;
   align-self: center;
 }
 #tehtavat .accordion-button.collapsed .tasknr {
-  
+  background: none !important;
 }
-#tehtavat .accordion-button:not(.collapsed) .tasknr {
-  content-visibility:hidden;
+#tehtavat .accordion-button:not(.collapsed) .tasknr img {
+  display: none;
 }
+
 /* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
 .case1#tehtavat .accordion-button:not(.collapsed) {
   border-color: var(--case1);
@@ -277,6 +296,26 @@ div.card {
   color: transparent !important;
   background: linear-gradient(to right, #54A4DA, #54A4DA, #7EC247, #A67C52, #F79226);
   background-clip: text;
+}
+#tehtavat a {
+  color: transparent !important;
+  background-clip: text;
+}
+.case1#tehtavat a {
+  background-color: var(--case1);
+}
+.case2#tehtavat a {
+ background-color: var(--case2);
+}
+.case3#tehtavat a {
+  background-color: var(--case3);
+}
+.case4#tehtavat a {
+  background-color: var(--case4);
+}
+#opintojaksot a:hover, #polut a:hover, #opintojaksot .accordion-body a:hover, #tehtavat a:hover {
+  color: #0000003a !important;
+  transition: all 0.4s;
 }
 #tehtavat ul.tehtavalista li {
   list-style: none;
@@ -303,26 +342,20 @@ div.card {
 .case4#tehtavat ul.tehtavalista li::before {
   background-image: url("../img/logo_02_golfkauppa-ranta-oy.png");
 }
-.case1#tehtavat a {
-  color: var(--case1);
-}
-.case2#tehtavat a {
-  color: var(--case2);
-}
-.case3#tehtavat a {
-  color: var(--case3);
-}
-.case4#tehtavat a {
-  color: var(--case4);
-}
+
 /* ANIMOITUJEN NUMEROIDEN JA IKONEIDEN MUOTOILUT */
 .img-container {
   bottom: 100px;
   z-index: 1;
   max-width: 1160px;
-  
   position: absolute;
   flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.img-container-out{
+  display: flex;
+  justify-content: center;
 }
 .img-container >*{
   opacity: 0.9;
@@ -346,9 +379,7 @@ div.card {
 }
 /* MUKAUTUVUUSASETUKSET ELI MUOTOILU ERI KOKOISILLE NÄYTÖILLE */
 @media only screen and (min-width: 1440px) {
-  footer div {
-    margin: auto 160px;
-  }
+  
   nav.navbar>* {
     padding: 0;
   }
@@ -358,12 +389,15 @@ div.card {
     padding: 0 20px;
   }
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   #caseaineisto .accordion-body {
     padding-left: 20px;
     .row * {
       padding: 5px;
     }
+  }
+  .main{
+    margin-top: 130px;
   }
 }
 @media only screen and (max-width: 768px) {

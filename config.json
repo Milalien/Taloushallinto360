@@ -2,7 +2,15 @@
   "case1tehtavat": [
     {
       "otsikko": "Yrityksen perustaminen tehtävä",
-      "kuvaus": "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?",
+      "kuvaus": [
+        "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?<br><br>",
+        "- Yrityksen perustaminen YTJ-palvelussa: nimenkirjoitusoikeuden määrittäminen, rekistereihin liittyminen, tilikauden määrittäminen ja yrityksen perustamissopimuksen laatiminen<br>",
+        "- Yrityksen pankkitilin avaaminen<br>",
+        "- Yrittäjä ottaa itselleen YEL-vakuutuksen<br>",
+        "- Tietokoneen hankkiminen<br>",
+        "- Kirjanpito-ohjelmiston hankkiminen kirjanpitoon ja palkanlaskentaan<br>",
+        "- Asiakkaiden hankkiminen"
+      ],
       "opintojakso": "Taloushallinto",
       "nimi": "",
       "linkki": "",
@@ -11,7 +19,12 @@
     },
     {
       "otsikko": "Mitä tilitoimisto tekee tehtävä",
-      "kuvaus": "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?",
+      "kuvaus": [
+        "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?<br><br>",
+        "- asiakkaiden kirjanpito ja lakisääteiset ilmoitukset<br>",
+        "- palkanlaskenta, jos asiakas maksaa palkkoja<br>",
+        "- asiakkaiden tukeminen taloushallintoon liittyvissä asioissa"
+      ],
       "opintojakso": "Taloushallinto",
       "nimi": "",
       "linkki": "",
@@ -62,7 +75,8 @@
       "kuvaus": "Tehtävässä tehdään 31 kirjanpitokirjausta Eevan nakkikioski Tmi:lle. Tehtävä sisältää poistojen ja varaston muutoksen kirjauksen, mutta kirjaukset tehdään ilman arvonlisäveroa. Kirjausten jälkeen laaditaan niiden perusteella tuloslaskelma ja tase.",
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462697/mod_resource/content/4/Nakkikioski%20tilitapahtumat.xlsx",
-      "ikoni": "img/logo-and-numbers-02/02-reg-01.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-01.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-01.png"
     },
     {
       "otsikko": "Kirjanpito Visma Netvisorissa tehtävä",
@@ -70,7 +84,8 @@
       "kuvaus": "Tehtävässä tehdään 31 kirjanpitokirjausta Eevan nakkikioski Tmi:lle. Kirjaukset tehdään arvonlisäverollisina Netvisor ohjelmaa käyttäen. Kirjausten jälkeen muodostetaan ALV-laskelma.",
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464903/mod_resource/content/1/Nakkikioski%20tilitapahtumat.xlsx",
-      "ikoni": "img/logo-and-numbers-02/02-reg-02.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-02.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-02.png"
     },
     {
       "otsikko": "Palkanlaskennan tehtävä",
@@ -78,7 +93,8 @@
       "nimi": "Nakkikioskin palkanlaskenta.docx",
       "kuvaus": "Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset)",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462727/mod_resource/content/3/Nakkikioskin%20palkanlaskenta.docx",
-      "ikoni": "img/logo-and-numbers-02/02-reg-03.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-03.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-03.png"
     },
     {
       "otsikko": "Tilinpäätöksen laadinta",
@@ -86,7 +102,8 @@
       "kuvaus": "Tarkistetaan jaksotukset, tehdään puuttuvia jaksotuksia, ajetaan tilipäätös Netvisorista",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-02/02-reg-04.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-04.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-04.png"
     },
     {
       "otsikko": "Verotus tehtävä",
@@ -94,7 +111,8 @@
       "opintojakso": "Henkilöverotus",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-02/02-reg-05.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-05.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-05.png"
     },
     {
       "otsikko": "Verotettava tulo",
@@ -102,7 +120,8 @@
       "opintojakso": "Yritysverotus ja tilinpäätössuunnittelu",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-02/02-reg-06.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-06.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-06.png"
     },
     {
       "otsikko": "Kannattavuuslaskennan tehtävä",
@@ -110,7 +129,8 @@
       "opintojakso": "Kannattavuuslaskenta ja talouden suunnittelu",
       "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx",
-      "ikoni": "img/logo-and-numbers-02/02-reg-07.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-07.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-07.png"
     },
     {
       "otsikko": "Tilinpäätösanalyysien tehtävä",
@@ -118,7 +138,8 @@
       "opintojakso": "Tilinpäätösanalyysit",
       "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx",
-      "ikoni": "img/logo-and-numbers-02/02-reg-08.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-08.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-08.png"
     },
     {
       "otsikko": "Visuaalinen tilinpäätösraportti",
@@ -126,7 +147,8 @@
       "opintojakso": "BI, analytiikka ja raportointi",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-02/02-reg-09.png"
+      "ikoni": "img/logo-and-numbers-02/02-reg-09.png",
+      "ikoni2": "img/logo-and-numbers-02/02-bold-09.png"
     }
   ],
   "case3tehtavat": [
@@ -136,7 +158,8 @@
       "kuvaus": "",
       "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx",
-      "ikoni": "img/logo-and-numbers-03/03-reg-01.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-01.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-01.png"
     },
     {
       "otsikko": "Kustannuslaskennan tehtävä",
@@ -145,7 +168,8 @@
       "nimi": "h5p tehtävänanto johtopäätöksiin.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2506613/mod_resource/content/1/H5P%20teht%C3%A4v%C3%A4nanto%20johtop%C3%A4%C3%A4t%C3%B6ksiin.docx",
       "h5p": "https://moodle.lut.fi/mod/h5pactivity/view.php?id=1624712",
-      "ikoni": "img/logo-and-numbers-03/03-reg-02.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-02.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-02.png"
     },
     {
       "otsikko": "Investointien tehtävä",
@@ -153,7 +177,8 @@
       "opintojakso": "Investoinnit ja rahoitussuunnittelu",
       "nimi": "Case huonekalutehdas laiteinvestointi_15.1.2025.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx",
-      "ikoni": "img/logo-and-numbers-03/03-reg-03.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-03.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-03.png"
     },
     {
       "otsikko": "Yritysjärjestelyiden tehtävä",
@@ -161,7 +186,8 @@
       "kuvaus": "",
       "nimi": "Kalustetalo Tyynelä oy OYERKY.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx",
-      "ikoni": "img/logo-and-numbers-03/03-reg-04.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-04.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-04.png"
     },
     {
       "otsikko": "Konsernitilinpäätöksen tehtävä",
@@ -169,7 +195,8 @@
       "kuvaus": "",
       "nimi": "Kalustetalo Tyynelä oy Konserni.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx",
-      "ikoni": "img/logo-and-numbers-03/03-reg-05.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-05.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-05.png"
     },
     {
       "otsikko": "Sisäisen valvonnan tehtävä",
@@ -177,7 +204,8 @@
       "kuvaus": "",
       "nimi": "Kalustetalo Tyynelä oy sisäine valvonta.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx",
-      "ikoni": "img/logo-and-numbers-03/03-reg-06.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-06.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-06.png"
     },
     {
       "otsikko": "Sijoitustoiminnan tehtävä",
@@ -185,7 +213,8 @@
       "kuvaus": "Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.",
       "nimi": "Huonekaluliike Tyynelä sijoitukset.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462964/mod_resource/content/4/Huonekaluliike%20Tyynel%C3%A4%20sijoitukset%2C%20teht%C3%A4v%C3%A4n%20hahmotelmaa.docx",
-      "ikoni": "img/logo-and-numbers-03/03-reg-07.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-07.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-07.png"
     },
     {
       "otsikko": "Omistajaperheen talonrakennus",
@@ -193,7 +222,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-03/03-reg-08.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-08.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-08.png"
     },
     {
       "otsikko": "Tositekohtaiset kirjanpidon viennit",
@@ -201,7 +231,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-03/03-reg-09.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-09.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-09.png"
     },
     {
       "otsikko": "Datan analysointi ja visualisointi",
@@ -209,7 +240,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-03/03-reg-10.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-10.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-10.png"
     },
     {
       "otsikko": "Budjetointi Visma Netvisorilla",
@@ -217,7 +249,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-03/03-reg-11.png"
+      "ikoni": "img/logo-and-numbers-03/03-reg-11.png",
+      "ikoni2": "img/logo-and-numbers-03/03-bold-11.png"
     }
   ],
   "case4tehtavat": [
@@ -227,7 +260,8 @@
       "kuvaus": "",
       "nimi": "Golfkauppa Ranta tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463136/mod_resource/content/3/Golfkauppa%20Ranta%20tilitapahtumat.xlsx",
-      "ikoni": "img/logo-and-numbers-04/04-reg-01.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-01.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-01.png"
     },
     {
       "otsikko": "ALV-prosessi Visma Netvisorissa",
@@ -235,7 +269,8 @@
       "kuvaus": "Tutustutaan Netvisorin ALV -laskentaan vaikuttaviin asetuksiin ja ALV -prosessiin tehtävän materiaalin perusteella ja tehdään käytännön ALV -kurssilla käsiteltäviä asioita koskevat esimerkkitapahtumat Netvisorissa.<br>Tehtävää varten perustetaan laskentakohde. Laskentakohteen raporttien perusteella voidaan tarkistaa harjoitusten onnistuminen pääpiirteissään.",
       "nimi": "",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
-      "ikoni": "img/logo-and-numbers-04/04-reg-02.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-02.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-02.png"
     },
     {
       "otsikko": "Palkanlaskennan tehtävä",
@@ -243,7 +278,8 @@
       "kuvaus": "Lasketaan yrittäjän ja osa-aikaisen tuntityöntekijän palkkoja (peruspalkat, ylityöt, iltalisät, luontoisedut ja pidätykset).",
       "nimi": "Golfkauppa palkanlaskenta.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463149/mod_resource/content/3/Golfkauppa%20palkanlaskenta.docx",
-      "ikoni": "img/logo-and-numbers-04/04-reg-03.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-03.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-03.png"
     },
     {
       "otsikko": "Tilaus- ja toimitusprosessin tehtävä",
@@ -251,7 +287,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-04/04-reg-04.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-04.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-04.png"
     },
     {
       "otsikko": "Rekisteritietojen tuonti CSV-tiedostoilla Visma Netvisoriin",
@@ -267,7 +304,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-04/04-reg-06.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-06.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-06.png"
     },
     {
       "otsikko": "Varojen jakaminen tehtävä",
@@ -275,7 +313,8 @@
       "kuvaus": "Selvitä millä kaikilla tavoilla omistajat voivat nostaa varoja osakeyhtiöstä. Laske, miten näitä eri tapoja verotetaan.",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-04/04-reg-07.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-07.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-07.png"
     },
     {
       "otsikko": "Osingonjako tehtävä",
@@ -283,7 +322,8 @@
       "kuvaus": "Yrittäjä nostaa osinkoa. Laske, miten osinkoa verotetaan.  ",
       "nimi": "",
       "linkki": "",
-      "ikoni": "img/logo-and-numbers-04/04-reg-08.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-08.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-08.png"
     },
     {
       "otsikko": "Tilintarkastuksen tehtävä",
@@ -291,7 +331,8 @@
       "kuvaus": "",
       "nimi": "Golfkauppa Ranta oy Tilintarkastus.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx",
-      "ikoni": "img/logo-and-numbers-04/04-reg-09.png"
+      "ikoni": "img/logo-and-numbers-04/04-reg-09.png",
+      "ikoni2": "img/logo-and-numbers-04/04-bold-09.png"
     }
   ],
   "yrityskuvaukset": [
