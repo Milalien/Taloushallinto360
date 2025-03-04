@@ -175,7 +175,7 @@
               </div>
 
               <div class="row w-100">
-                <div class="col-1"></div>
+                <div class="col-2"></div>
                 <div class="col-5">TEHTÄVÄN NIMI</div>
                 <div class="col-5">OPINTOJAKSO</div>
               </div>
@@ -193,8 +193,8 @@
             <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t`+i+`"
               aria-expanded="false" aria-controls="t`+i+`">
               <div class="row w-100">
-                <div class="col-1 tasknr">
-                  <img
+                <div class="col-2">
+                  <img class="tasknr"
                     src="`+case1t[i].ikoni+`"
                     height="40px">
                 </div>
@@ -204,8 +204,9 @@
             </button>
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
-            <div class="accordion-body">`;
-
+            <div class="accordion-body">
+              <div class="row"><div class="col-md-2"></div><div class="col-md-10">`;
+              
               if (case1t[i].kuvaus != "" && Array.isArray(case1t[i].kuvaus)) {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case1t[i].kuvaus.join(" ") +`</div>`;
@@ -219,7 +220,8 @@
                 <li>Lataa tiedosto: <a href="`+case1t[i].linkki+`" target="_blank">`+case1t[i].nimi+`</a>
                 </li>
               </ul>
-
+            </div>
+            </div>
             </div>
           </div>
         </div>`;

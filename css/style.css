@@ -121,7 +121,6 @@ div.card {
   z-index: 3;
   background-color: #ffffff;
   border-radius: 22px;
-  
 }
 .card.tietoa {
   padding: 20px;
@@ -156,7 +155,7 @@ div.card {
 }
 /* AVAUS NAPPIEN MUOTOILU */
 .accordion-button{
-    padding: 20px;
+    padding: 0 20px;
 }
 .btn-floating,
 .btn-floating.collapsed {
@@ -200,6 +199,9 @@ div.card {
   border-bottom-left-radius: 15px !important;
 }
 /* OPINTOJAKSO LISTAUS JA TEHTÄVÄLISTA MUOTOILUJA */
+#polut .accordion-button, #opintojaksot .accordion-button, #tehtavat .accordion-button {
+  padding: 12px 20px;
+}
 #polut .head, #opintojaksot .head {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -235,13 +237,16 @@ div.card {
   border-top-right-radius: 15px;
   padding: 15px 0 5px 15px;
 }
-.tasknr {
-  font-size: 24px;
-  font-weight: 700;
-  position: relative;
-  align-items: center;
+#tehtavat .head .col-5{
+  display: flex;
   justify-content: center;
-  padding: 5px;
+}
+.tasknr {
+  position: absolute;
+  top: 4px;
+  bottom:4px;
+  padding-left: 20px;
+  align-self: center;
 }
 /* REUNOJEN VÄRIT JA MUUT ASETUKSET ERI SIVUJEN "TAULUKOIHIN" */
 .case1#tehtavat .accordion-button:not(.collapsed) {
