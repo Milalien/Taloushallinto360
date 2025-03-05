@@ -441,7 +441,7 @@
                 for(let z = 0; z < opinnot[x].opintopaketit[y].opintojaksot.length; z++) {
                   opintojaksot += `<div class="row indent">
                 <div class="col-8">${opinnot[x].opintopaketit[y].opintojaksot[z].jakso} ${opinnot[x].opintopaketit[y].opintojaksot[z].opintopisteet}</div>
-                <div class="col-4 d-flex justify-content-end">`;
+                <div class="col-4 d-flex justify-content-end flex-wrap">`;
                   for(let i = 0; i < kaikkitehtavat.length; i++) {
                     if(kaikkitehtavat[i].opintojakso == opinnot[x].opintopaketit[y].opintojaksot[z].jakso) {
                       opintojaksot += `<img src="`+ kaikkitehtavat[i].ikoni +`" width="40px">`;

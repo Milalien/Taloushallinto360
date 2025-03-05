@@ -251,7 +251,7 @@ position: absolute;
   margin: 0;
 }
 #opintojaksot .row.indent {
-  text-indent: 60px;
+  padding-left: 50px !important;
 } #opintojaksot .row.indent img{ 
   margin: 2px;
 }
@@ -279,7 +279,7 @@ position: absolute;
   position: absolute;
   top: 4px;
   bottom:4px;
- 
+  display: block;
   align-self: center;
 }
 #tehtavat .accordion-button.collapsed .tasknr {
@@ -345,19 +345,19 @@ position: absolute;
   background-size: contain;
 }
 .case1 ul li::before {
-  background-image: url("../images/logo_01_saimaa-account-oy.png");
+  background: url("../images/logo_01_saimaa-account-oy.png") no-repeat center;
 }
 .case2 ul li::before {
-  background-image: url("../images/logo_04_eevan-nakkikioski-tmi_corners5.png");
+  background: url("../images/logo_04_eevan-nakkikioski-tmi_corners5.png") no-repeat center;
 }
 .case3 ul li::before {
-  background-image: url("../images/logo_03_kalustetehdas-tyynela-oy.png");
+  background: url("../images/logo_03_kalustetehdas-tyynela-oy.png") no-repeat center;
 }
 .case4 ul li::before {
-  background-image: url("../images/logo_02_golfkauppa-ranta-oy.png");
+  background: url("../images/logo_02_golfkauppa-ranta-oy.png") no-repeat center;
 }
 #polut ul li::before {
-  background-image: url("../images/icon_opintojaksot_square.png");
+  background: url("../images/icon_opintojaksot_square.png") no-repeat center;
 }
 
 /* ANIMOITUJEN NUMEROIDEN JA IKONEIDEN MUOTOILUT */
@@ -416,6 +416,10 @@ position: absolute;
   .page{
     padding-top:140px;
   }
+  #opintojaksot .accordion-body .row{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 @media only screen and (max-width: 768px) {
   h1 {
@@ -424,12 +428,11 @@ position: absolute;
   h2 {
     font-size: 30px;
   }
-#opintojaksot .accordion-body .row{
-    padding-left: 5px;
-    padding-right: 5px;
+  #polut .accordion-button, #opintojaksot .accordion-button, #tehtavat .accordion-button{
+    padding: 12px;
   }
-  #opintojaksot .accordion-body .row.indent{
-    padding-left: 20px;
+  .tasknr{
+    margin-right: 5px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -439,6 +442,23 @@ position: absolute;
   h2{
     font-size: 28px;
   }
+  .main{
+    padding: 0 10px;
+  }
+  .tasknr{
+    position: relative;
+    margin: 5px;
+    top:0;
+  }
+  .opintojakso{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+  }
+  #opintojaksot .row.indent{
+    padding-left: 30px !important;
+  }
+  
 }
 @media only screen and (max-width: 450px) {
   #tehtavat .col-5{
