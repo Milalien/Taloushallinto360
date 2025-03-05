@@ -7,7 +7,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <title>Taloushallinto360</title>
   <link rel="icon" type="image/x-icon"
-    href="img/logo_00_white_taloushallinnon-taituri_corners5.png" />
+    href="images/logo_00_white_taloushallinnon-taituri_corners5.png" />
   <!-- MDB -->
   <link rel="stylesheet" href="css/mdb.min.css" />
   <link rel="stylesheet" href="css/style.css" />
@@ -24,7 +24,7 @@
         <div class="container-fluid">
           
             <a class="navbar-brand " href="aloitus.html">
-              <img src="img/logo_00_color_taloushallinnon-taituri_corners5.png"
+              <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png"
                 height="48px" />
             </a>
        
@@ -38,7 +38,7 @@
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="case3.html">
-                <img src="img/logo_03_kalustetehdas-tyynela-oy.png" height="24px"> Kalustetehdas Tyynelä Oy</a>
+                <img src="images/logo_03_kalustetehdas-tyynela-oy.png" height="24px"> Kalustetehdas Tyynelä Oy</a>
             </li>
 
             <li class="nav-item">
@@ -58,7 +58,7 @@
         <div class="col-4">
           
           <a class="navbar-brand" href="aloitus.html">
-            <img src="img/logo_00_color_taloushallinnon-taituri_corners5.png" height="48px" />
+            <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png" height="48px" />
           </a>
         
         </div>
@@ -73,7 +73,7 @@
           </li>
 
           <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link active" href="case3.html"><img src="img/logo_03_kalustetehdas-tyynela-oy.png" height="24px"> Kalustetehdas Tyynelä Oy</a>
+            <a class="nav-link active" href="case3.html"><img src="images/logo_03_kalustetehdas-tyynela-oy.png" height="24px"> Kalustetehdas Tyynelä Oy</a>
           </li>
 
           <li data-mdb-ripple-init class="nav-item">
@@ -89,16 +89,16 @@
     </header>
 
     <div class="main align-items-center">
-      <div class="card">
-        <img src="img/background_03_kalustetehdas-tyynela-oy_LAST.png" class="card-img" />
-        <div class="card-img-overlay">
+      <div class="card case3">
+        
+        <div class="card-body">
           <h1 id="c3o" class="card-title"></h1>
 
           <p id="c3lk" class="card-text">
             
           </p>
           <div class="card-actions d-flex justify-content-end align-items-end">
-            <button data-mdb-collapse-init class="btn-floating collapsed" type="button" data-mdb-target="#aineisto"
+            <button data-mdb-collapse-init class="btn-floating collapsed btn1" type="button" data-mdb-target="#aineisto"
               aria-expanded="false" aria-controls="aineisto">
             </button>
 
@@ -107,7 +107,7 @@
         </div>
 
       </div>
-      <div class="accordion" id="caseaineisto">
+      <div class="accordion case3" id="caseaineisto">
         <div class="accordion-item">
           <div id="aineisto" class="accordion-collapse collapse" data-mdb-parent="#caseaineisto">
             <div class="accordion-body">
@@ -115,9 +115,20 @@
                 <div class="col-sm-4">
                   <h2>Yrityksen kuvaus</h2>
                 </div>
-                <div id="c3k" class="col-sm-8">
-                  
-    
+                <div  class="col-sm-8">
+                  <p id="c3k"></p>
+                  <ul>
+                  <li>
+                    Lataa Word: <a id="c3l" href="">Yrityskuvaus</a>
+                  </li>
+                </ul>
+              
+
+                  <div class="d-flex justify-content-end">
+                    <button data-mdb-collapse-init class="btn-floating btn2" type="button" data-mdb-target="#aineisto"
+                    aria-expanded="true" aria-controls="aineisto">
+                    </button>
+                  </div>
                 </div>
 
               </div>
@@ -169,7 +180,7 @@
               </div>
 
               <div class="row w-100">
-                <div class="col-2"></div>
+                <div class="col-1"></div>
                 <div class="col-5">TEHTÄVÄN NIMI</div>
                 <div class="col-5">OPINTOJAKSO</div>
               </div>
@@ -187,7 +198,7 @@
             <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t`+i+`"
               aria-expanded="false" aria-controls="t`+i+`">
               <div class="row w-100">
-                <div class="col-2">
+                <div class="col-1">
                   <span class="tasknr" style='background: url("${case3t[i].ikoni2}") no-repeat center; background-size: contain; width: 40px; height: 40px;'>
                   <img
                     src="`+case3t[i].ikoni+`"
@@ -199,7 +210,7 @@
             </button>
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
-            <div class="accordion-body"><div class="row"><div class="col-md-2"></div><div class="col-md-10">`;
+            <div class="accordion-body"><div class="row"><div class="col-md-1"></div><div class="col-md-10">`;
 
               if (case3t[i].kuvaus != "" && Array.isArray(case3t[i].kuvaus)) {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
@@ -211,8 +222,8 @@
              
               
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
-              <ul class="tehtavalista">
-                <li>Lataa tiedosto: <a style="margin-left:4px;" href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>
+              <ul>
+                <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>
                 </li>
               </ul>
             </div>
@@ -225,8 +236,9 @@
             }
           document.getElementById("tehtavat").innerHTML = tasks;
           document.getElementById("c3o").innerHTML = case3.nimi;
-          document.getElementById("c3lk").innerHTML = case3.lyhytkuvaus.join("<br>");
+          document.getElementById("c3lk").innerHTML = case3.lyhytkuvaus.join(" ");
           document.getElementById("c3k").innerHTML = case3.kuvaus.join(" ");
+          document.getElementById("cl").href = case3.linkki;
           
         })
         .catch(error => console.error('Failed to fetch data:', error));
