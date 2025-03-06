@@ -222,7 +222,12 @@
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case1t[i].kuvaus +`</div>`;
             }
-              
+              if(case1t[i].h5p != ""){
+                tasks+=`<br><ul>
+                  <li>H5P tehtävä: <a href="`+case1t[i].h5p+`" target="_blank">H5P-tehtävä</a>
+                </li>
+                  </ul>`;
+              }
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul>
                 <li>Lataa tiedosto: <a href="`+case1t[i].linkki+`" target="_blank">`+case1t[i].nimi+`</a>

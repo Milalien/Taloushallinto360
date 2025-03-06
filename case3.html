@@ -89,6 +89,7 @@
     </header>
 
     <div class="main align-items-center">
+      
       <div class="card case3">
         
         <div class="card-body">
@@ -97,6 +98,7 @@
           <p id="c3lk" class="card-text">
             
           </p>
+          
           <div class="card-actions d-flex justify-content-end align-items-end">
             <button data-mdb-collapse-init class="btn-floating collapsed btn1" type="button" data-mdb-target="#aineisto"
               aria-expanded="false" aria-controls="aineisto">
@@ -220,7 +222,12 @@
               <div>`+ case3t[i].kuvaus +`</div>`;
             }
              
-              
+              if(case3t[i].h5p != ""){
+                tasks+=`<br><ul>
+                  <li>H5P tehtävä: <a href="`+case3t[i].h5p+`" target="_blank">H5P-tehtävä</a>
+                </li>
+                  </ul>`;
+              }
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul>
                 <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>

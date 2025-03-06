@@ -215,7 +215,12 @@
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
               <div>`+ case2t[i].kuvaus +`</div>`;
             }
-              
+              if(case2t[i].h5p != ""){
+                tasks+=`<br><ul>
+                  <li>H5P tehtävä: <a href="`+case2t[i].h5p+`" target="_blank">H5P-tehtävä</a>
+                </li>
+                  </ul>`;
+              }
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul>
                 <li>Lataa tiedosto: <a href="`+case2t[i].linkki+`" target="_blank">`+case2t[i].nimi+`</a>
