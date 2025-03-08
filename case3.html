@@ -121,7 +121,7 @@
                   <p id="c3k"></p>
                   <ul>
                   <li>
-                    Lataa Word: <a id="c3l" href="">Yrityskuvaus</a>
+                    Lataa tiedosto: <a id="c3l" href="">Yrityskuvaus</a>
                   </li>
                 </ul>
               
@@ -216,23 +216,24 @@
 
               if (case3t[i].kuvaus != "" && Array.isArray(case3t[i].kuvaus)) {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case3t[i].kuvaus.join(" ") +`</div>`;
+              <div class="kuvaus">`+ case3t[i].kuvaus.join(" ") +`</div>`;
             } else if (case3t[i].kuvaus != "") {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case3t[i].kuvaus +`</div>`;
+              <div class="kuvaus">`+ case3t[i].kuvaus +`</div>`;
             }
              
-              if(case3t[i].h5p != ""){
-                tasks+=`<br><ul>
+             
+              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
+              <ul >
+                <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>
+                </li>`;
+                if(case3t[i].h5p != "" && typeof case3t[i].h5p !== "undefined"){
+                tasks+=`
                   <li>H5P tehtävä: <a href="`+case3t[i].h5p+`" target="_blank">H5P-tehtävä</a>
                 </li>
-                  </ul>`;
+                  `;
               }
-              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
-              <ul>
-                <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>
-                </li>
-              </ul>
+              tasks+=`</ul>
             </div>
             </div>
             </div>
@@ -241,6 +242,9 @@
 
               
             }
+             tasks += `<div class="accordion-item bottom">
+              
+              </div>`;
           document.getElementById("tehtavat").innerHTML = tasks;
           document.getElementById("c3o").innerHTML = case3.nimi;
           document.getElementById("c3lk").innerHTML = case3.lyhytkuvaus.join(" ");

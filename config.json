@@ -3,13 +3,15 @@
     {
       "otsikko": "Yrityksen perustaminen tehtävä",
       "kuvaus": [
-        "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?<br><br>",
-        "- Yrityksen perustaminen YTJ-palvelussa: nimenkirjoitusoikeuden määrittäminen, rekistereihin liittyminen, tilikauden määrittäminen ja yrityksen perustamissopimuksen laatiminen<br>",
-        "- Yrityksen pankkitilin avaaminen<br>",
-        "- Yrittäjä ottaa itselleen YEL-vakuutuksen<br>",
-        "- Tietokoneen hankkiminen<br>",
-        "- Kirjanpito-ohjelmiston hankkiminen kirjanpitoon ja palkanlaskentaan<br>",
-        "- Asiakkaiden hankkiminen"
+        "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?<br>",
+        "<ul>",
+        "<li>Yrityksen perustaminen YTJ-palvelussa: nimenkirjoitusoikeuden määrittäminen, rekistereihin liittyminen, tilikauden määrittäminen ja yrityksen perustamissopimuksen laatiminen</li>",
+        "<li>Yrityksen pankkitilin avaaminen</li>",
+        "<li>Yrittäjä ottaa itselleen YEL-vakuutuksen</li>",
+        "<li>Tietokoneen hankkiminen</li>",
+        "<li>Kirjanpito-ohjelmiston hankkiminen kirjanpitoon ja palkanlaskentaan</li>",
+        "<li>Asiakkaiden hankkiminen</li>",
+        "</ul>"
       ],
       "opintojakso": "Taloushallinto",
       "nimi": "",
@@ -20,10 +22,12 @@
     {
       "otsikko": "Mitä tilitoimisto tekee tehtävä",
       "kuvaus": [
-        "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?<br><br>",
-        "- asiakkaiden kirjanpito ja lakisääteiset ilmoitukset<br>",
-        "- palkanlaskenta, jos asiakas maksaa palkkoja<br>",
-        "- asiakkaiden tukeminen taloushallintoon liittyvissä asioissa"
+        "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?<br>",
+        "<ul>",
+        "<li>asiakkaiden kirjanpito ja lakisääteiset ilmoitukset</li>",
+        "<li>palkanlaskenta, jos asiakas maksaa palkkoja</li>",
+        "<li>asiakkaiden tukeminen taloushallintoon liittyvissä asioissa</li>",
+        "</ul>"
       ],
       "opintojakso": "Taloushallinto",
       "nimi": "",
@@ -44,7 +48,7 @@
       "otsikko": "Power Automate automaatio tehtävä",
       "kuvaus": "Power Automate -tehtävä laskujen automattiseen käsittelyyn. Automaatio käynnistyy, kun lasku tallennetaan tiettyyn OneDrive-kansioon. Laskusta luetaan tuotteet ja kappalemäärät, ja tiedot kootaan Excel-tiedostoon.",
       "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
-      "nimi": "Power Automate automaatio tehtävä",
+      "nimi": "Power Automate automaatio tehtävä.pdf",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464669/mod_resource/content/4/PowerAutomateautomaatioteht%C3%A4v%C3%A4.pdf",
       "ikoni": "images/logo-and-numbers-01/01-reg-04.png",
       "ikoni2": "images/logo-and-numbers-01/01-bold-04.png"
@@ -53,7 +57,7 @@
       "otsikko": "Studio Web automaatio tehtävä",
       "kuvaus": "Tehtävässä tutustutaan UiPath:in pilvipohjaiseen automaatiotyökaluun nimeltä Studio Web. Sen avulla voi luoda automaatioita eri käyttöjärjestelmissä ilman UiPath Studion asennusta.",
       "opintojakso": "Prosessilouhinta, ohjelmistorobotti ja tekoäly",
-      "nimi": "Studio Web automaatio tehtävä",
+      "nimi": "Studio Web automaatio tehtävä.pdf",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2480869/mod_resource/content/10/UiPathStudioWebautomaatioteht%C3%A4v%C3%A4.pdf",
       "ikoni": "images/logo-and-numbers-01/01-reg-05.png",
       "ikoni2": "images/logo-and-numbers-01/01-bold-05.png"
@@ -271,7 +275,7 @@
         "<br>Tehtävää varten perustetaan laskentakohde. Laskentakohteen raporttien perusteella voidaan tarkistaa harjoitusten onnistuminen pääpiirteissään."
       ],
       "nimi": "",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2482262/mod_resource/content/3/Tyhj%C3%A4%20ty%C3%B6kirja.docx",
+      "linkki": "",
       "ikoni": "images/logo-and-numbers-04/04-reg-02.png",
       "ikoni2": "images/logo-and-numbers-04/04-bold-02.png"
     },
@@ -476,7 +480,7 @@
       "opintopaketit": []
     },
     {
-      "osuus": "Liiketaloudellinen ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+      "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
       "opintopaketit": [
         {
           "nimi": "",
@@ -496,7 +500,7 @@
           ]
         },
         {
-          "nimi": "Hyvä tilinpäätöskäytäntö",
+          "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
           "opintojaksot": [
             {
               "jakso": "Kirjanpito ja tuloslaskenta",
@@ -538,7 +542,7 @@
           ]
         },
         {
-          "nimi": "Finanssimarkkinat 25 op",
+          "nimi": "Finanssimarkkinat 27 op",
           "opintojaksot": [
             {
               "jakso": "Yrityksen rahoitus",
@@ -559,6 +563,10 @@
             {
               "jakso": "Asiantuntijana vakuutusalalla",
               "opintopisteet": "5 op"
+            },
+            {
+              "jakso": "Perheoikeudelliset asiakirjat",
+              "opintopisteet": "2 op"
             }
           ]
         },

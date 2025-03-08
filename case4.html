@@ -120,7 +120,7 @@
                 <p id="c4k"></p>
                 <ul>
                   <li>
-                    Lataa Word: <a id="c4l" href="">Yrityskuvaus</a>
+                    Lataa tiedosto: <a id="c4l" href="">Yrityskuvaus</a>
                   </li>
                 </ul>
                 <div class="d-flex justify-content-end">
@@ -212,22 +212,23 @@
 
                if (case4t[i].kuvaus != "" && Array.isArray(case4t[i].kuvaus)) {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case4t[i].kuvaus.join(" ") +`</div>`;
+              <div class="kuvaus">`+ case4t[i].kuvaus.join(" ") +`</div>`;
             } else if (case4t[i].kuvaus != "") {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case4t[i].kuvaus +`</div>`;
+              <div class="kuvaus">`+ case4t[i].kuvaus +`</div>`;
             }
-              if(case4t[i].h5p != ""){
-                tasks+=`<br><ul>
+              
+              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
+              <ul >
+                <li>Lataa tiedosto: <a href="`+case4t[i].linkki+`" target="_blank">`+case4t[i].nimi+`</a>
+                </li>`;
+if(case4t[i].h5p != "" && typeof case4t[i].h5p !== "undefined"){
+                tasks+=`
                   <li>H5P tehtävä: <a href="`+case4t[i].h5p+`" target="_blank">H5P-tehtävä</a>
                 </li>
-                  </ul>`;
+                  `;
               }
-              tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
-              <ul>
-                <li>Lataa tiedosto: <a href="`+case4t[i].linkki+`" target="_blank">`+case4t[i].nimi+`</a>
-                </li>
-              </ul>
+              tasks+=`</ul>
             </div>
             </div>
             </div>
@@ -236,6 +237,9 @@
 
               
             }
+             tasks += `<div class="accordion-item bottom">
+              
+              </div>`;
           document.getElementById("tehtavat").innerHTML = tasks;
           document.getElementById("c4o").innerHTML = case4.nimi;
           document.getElementById("c4lk").innerHTML = case4.lyhytkuvaus.join(" ");

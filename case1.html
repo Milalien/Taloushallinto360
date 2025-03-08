@@ -119,7 +119,7 @@
                 <div class="col-sm-8">
                   <p id="c1k"></p>
                   <ul>
-                    <li>Lataa Word: <a id="c1l" href="">Yrityskuvaus</a></li>
+                    <li>Lataa tiedosto: <a id="c1l" href="">Yrityskuvaus</a></li>
                   </ul>
              
 
@@ -217,30 +217,34 @@
               
               if (case1t[i].kuvaus != "" && Array.isArray(case1t[i].kuvaus)) {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case1t[i].kuvaus.join(" ") +`</div>`;
+              <div class="kuvaus">`+ case1t[i].kuvaus.join(" ") +`</div>`;
             } else if (case1t[i].kuvaus != "") {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>
-              <div>`+ case1t[i].kuvaus +`</div>`;
+              <div class="kuvaus">`+ case1t[i].kuvaus +`</div>`;
             }
-              if(case1t[i].h5p != ""){
-                tasks+=`<br><ul>
-                  <li>H5P tehtävä: <a href="`+case1t[i].h5p+`" target="_blank">H5P-tehtävä</a>
-                </li>
-                  </ul>`;
-              }
+              
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
               <ul>
                 <li>Lataa tiedosto: <a href="`+case1t[i].linkki+`" target="_blank">`+case1t[i].nimi+`</a>
+                </li>`;
+if(case1t[i].h5p != "" && typeof case1t[i].h5p !== "undefined"){
+                tasks+=`
+                  <li>H5P tehtävä: <a href="`+case1t[i].h5p+`" target="_blank">H5P-tehtävä</a>
                 </li>
-              </ul>
+                  `;
+              }
+             tasks+=` </ul>
             </div>
             </div>
             </div>
           </div>
         </div>`;
-
-              
             }
+
+            tasks += `<div class="accordion-item bottom">
+              
+              </div>`;
+
           document.getElementById("tehtavat").innerHTML = tasks;
           document.getElementById("c1o").innerHTML = case1.nimi;
           document.getElementById("c1lk").innerHTML = case1.lyhytkuvaus.join(" ");
