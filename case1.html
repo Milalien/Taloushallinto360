@@ -116,7 +116,7 @@
                 <div class="col-sm-4">
                   <h2>Yrityksen kuvaus</h2>
                 </div>
-                <div class="col-sm-8">
+                <div class="col-md-7 col-sm-8">
                   <p id="c1k"></p>
                   <ul>
                     <li>Lataa tiedosto: <a id="c1l" href="">Yrityskuvaus</a></li>
@@ -183,8 +183,8 @@
 
               <div class="row w-100">
                 <div class="col-1"></div>
-                <div class="col-sm-5">TEHTÄVÄN NIMI</div>
-                <div class="col-sm-5 opintojakso">OPINTOJAKSO</div>
+                <div class="col-sm-5 d-none d-sm-block">TEHTÄVÄN NIMI</div>
+                <div class="col-sm-5 d-none d-sm-block">OPINTOJAKSO</div>
               </div>
             </div>
           </div>
@@ -200,14 +200,20 @@
             <button data-mdb-collapse-init class="accordion-button collapsed" type="button" data-mdb-target="#t`+i+`"
               aria-expanded="false" aria-controls="t`+i+`">
               <div class="row w-100">
+                
                 <div class="col-1">
                   <span class="tasknr" style='background: url("${case1t[i].ikoni2}") no-repeat center; background-size: contain;width: 40px; height: 40px;'>
                   <img
                     src="`+case1t[i].ikoni+`"
                     height="40px"></span>
                 </div>
-                <div class="col-sm-5">`+case1t[i].otsikko+`</div>
-                <div class="col-sm-5 opintojakso">`+case1t[i].opintojakso+`</div>
+                <div class="col-10 col-sm-5">
+                  <p class="alaotsikko d-block d-sm-none">TEHTÄVÄN NIMI</p>
+                  `+case1t[i].otsikko+`</div>
+                  
+                <div class="offset-1 offset-sm-0 col-10 col-sm-5">
+                  <p class="alaotsikko d-block d-sm-none">OPINTOJAKSO</p>
+                  `+case1t[i].opintojakso+`</div>
               </div>
             </button>
           </h2>
