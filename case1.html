@@ -201,7 +201,7 @@
               aria-expanded="false" aria-controls="t`+i+`">
               <div class="row w-100">
                 
-                <div class="col-1">
+                <div class="col-2 col-sm-1">
                   <span class="tasknr" style='background: url("${case1t[i].ikoni2}") no-repeat center; background-size: contain;width: 40px; height: 40px;'>
                   <img
                     src="`+case1t[i].ikoni+`"
@@ -211,7 +211,7 @@
                   <p class="alaotsikko d-block d-sm-none">TEHTÄVÄN NIMI</p>
                   `+case1t[i].otsikko+`</div>
                   
-                <div class="offset-1 offset-sm-0 col-10 col-sm-5">
+                <div class="offset-2 offset-sm-0 col-10 col-sm-5">
                   <p class="alaotsikko d-block d-sm-none">OPINTOJAKSO</p>
                   `+case1t[i].opintojakso+`</div>
               </div>
@@ -219,7 +219,7 @@
           </h2>
           <div id="t`+i+`" class="accordion-collapse collapse" aria-labelledby="t`+i+`heading">
             <div class="accordion-body">
-              <div class="row"><div class="col-md-1"></div><div class="col-md-10">`;
+              <div class="row"><div class="col-1"></div><div class="col-11 col-sm-10">`;
               
               if (case1t[i].kuvaus != "" && Array.isArray(case1t[i].kuvaus)) {
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN KUVAUS</h6>

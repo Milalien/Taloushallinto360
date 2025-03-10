@@ -303,11 +303,10 @@ position: absolute;
   padding: 15px 0 5px 15px;
 }
 #tehtavat .head .col-sm-5{
-  display: flex;
-  justify-content: center;
+  text-align: center;  
   color: #6A6A6A !important;
 }
-#tehtavat .accordion-body .col-md-10 {
+#tehtavat .accordion-body .col-sm-10 {
   max-width: 645px;
   padding: 0;
 }
@@ -323,9 +322,7 @@ position: absolute;
   width: 36px; 
   height: 36px;
   margin-right: 30px;
-} #tehtavat .col-1{
-  min-width: 45px;
-}
+} 
 .tasknr {
   position: absolute;
   top: 4px;
@@ -477,7 +474,7 @@ position: absolute;
 }
 @media only screen and (max-width: 1100px) {
   .nav-item{
-    margin: 0 15px;
+    margin: 0 10px;
   }
 }
 @media only screen and (max-width: 991px) {
