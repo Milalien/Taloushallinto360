@@ -29,10 +29,10 @@
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
+              <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="case2.html">Eevan Nakkikioski Tmi </a>
+              <a class="nav-link" href="case2.html">Eevan Nakkikioski Tmi</a>
             </li>
 
             <li class="nav-item">
@@ -42,15 +42,13 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="case4.html">
-                Golfkauppa Ranta Oy
-              </a>
+              <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy</a>
             </li>
           </ul>
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="opintojaksot.html"> Opintojaksot </a>
+              <a class="nav-link" href="opintojaksot.html">Opintojaksot ja polut</a>
             </li>
           </ul>
         </div>
@@ -68,21 +66,21 @@
       
         <ul class="navbar-nav">
           <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case1.html"> Saimaa Account Oy </a>
+            <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
           </li>
           <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case2.html"> Eevan Nakkikioski Tmi</a>
-          </li>
-
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case3.html"> Kalustetehdas Tyynelä Oy </a>
+            <a class="nav-link" href="case2.html">Eevan Nakkikioski Tmi</a>
           </li>
 
           <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case4.html"> Golfkauppa Ranta Oy </a>
+            <a class="nav-link" href="case3.html">Kalustetehdas Tyynelä Oy </a>
+          </li>
+
+          <li data-mdb-ripple-init class="nav-item">
+            <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy </a>
           </li>
           <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="opintojaksot.html"> Opintojaksot </a>
+            <a class="nav-link" href="opintojaksot.html">Opintojaksot ja polut</a>
           </li>
         </ul>
         </div>
@@ -97,7 +95,7 @@
         
           <h1 class="card-title">Taloushallinto<span style="margin-left:3px;">360</span></h1>
 
-          <p class="card-text">
+          <p class="card-text" id="lyhytteksti">
             Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden
             liiketoimintoihin ja prosesseihin!
           </p>
@@ -200,8 +198,9 @@
         })
         .then((data) => {
             const etusivu = data.etusivu;
-    
+            document.getElementById('lyhytteksti').innerHTML = etusivu.lyhytkuvaus.join("");
             document.getElementById('etusivuteksti').innerHTML = etusivu.teksti.join(" ");
+    
         })
         .catch(error => console.error('Failed to fetch data:', error));
       }

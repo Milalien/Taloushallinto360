@@ -459,7 +459,10 @@
     }
   ],
   "etusivu": {
-    "lyhytkuvaus": "Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden liiketoimintoihin ja prosesseihin!",
+    "lyhytkuvaus": [
+      "Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden liiketoimintoihin ja prosesseihin!<br><br>",
+      "Tällä sivustolla voit myös suunnitella oman polkusi taloushallinnon asiantuntijaksi."
+    ],
     "teksti": [
       "Taloushallinnon taiturit -case-aineisto kokoaa opiskelijat, opintojaksot ja niiden opettajat saman työelämälähtöisen aineiston äärelle.",
       "Tämä ainutlaatuinen kokonaisuus yhdistää talouden osaprosessit ja monipuoliset asiantuntijatehtävät, tarjoten syvällistä näkökulmaa alan substanssiosaamiseen.<br><br>",
@@ -726,87 +729,6 @@
     {
       "nimi": "Liiketoimintayksikön täydentävän osaamisen tarjonta 2025-2026 (AMK): LLABTO25H",
       "linkki": "https://opinto-opas.lab.fi/70192/fi/70060/70193/2088"
-    }
-  ],
-  "opintopolut": [
-    {
-      "nimi": "Ulkoinen laskentatoimi - Taloushallinnon asiantuntijaksi",
-      "kuvaus": [
-        "Haluatko kehittyä taloushallinnon ammattilaiseksi ja varmistaa, että yritykset pysyvät taloudellisesti kestävällä pohjalla?",
-        "Ulkoisen laskentatoimen opintopolku antaa sinulle valmiudet kirjanpitoon, palkanlaskentaan, tilinpäätöksiin ja verotukseen",
-        "<br>- taitoja, joita tarvitaan jokaisessa yrityksessä."
-      ],
-      "tekeminen": [
-        "Laatimaan ja analysoimaan tilinpäätöksiä",
-        "Tekemään palkanlaskentaa",
-        "Huolehtimaan yritysten veroasioista ja sääntelyn noudattamisesta",
-        "Ymmärtämään, miten yrityksen taloudellinen raportointi tukee päätöksentekoa"
-      ],
-      "työt": [
-        "Kirjanpitäjänä",
-        "Palkanlaskijana",
-        "Talousasiantuntijana tai -suunnittelijana",
-        "Työkokemuksen karttuessa talouspäällikkönä tai talousjohtajana",
-        "Yrittäjänä tarjoten taloushallinnon palveluita"
-      ],
-      "opintojaksot": [
-        "Taloushallinto 5 op",
-        "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
-        "English for Accounting 5 op",
-        "Kirjanpito ja tuloslaskenta 5 op",
-        "Taloushallinnon prosessit ja järjestelmät 5 op",
-        "Tilipäätöksen laadinta 5 op",
-        "Tilinpäätösanalyysit 5 op",
-        "Kustannuslaskenta ja hinnoittelu 5 op",
-        "BI, analytiikka ja raportointi 5 op",
-        "Excelin ja toimistosovellusten jatko 5 op",
-        "Henkilöverotus 5 op",
-        "Käytännön arvonlisäverotus 5 op",
-        "Yritysverotus ja tilinpäätössuunnittelu 5 op",
-        "Erillistilinpäätös 5 op",
-        "Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit 5 op",
-        "Osakeyhtiön erityiskysymykset ja yritysjärjestelyt 5 op",
-        "Työoikeus ja palkanlaskenta 5 op",
-        "Palkanlaskennan erityiskysymykset ja sovellukset 5 op"
-      ]
-    },
-    {
-      "nimi": "Johdon laskentatoimi – Luvut strategisen päätöksenteon tukena",
-      "kuvaus": [
-        "Pidätkö numeroista, analyyseistä ja haluat auttaa yrityksiä tekeminen fiksuja päätöksiä?",
-        "Johdon laskentatoimi antaa sinulle työkalut budjetointiin, kustannuslaskentaan ja kannattavuuden analysointiin.",
-        "Tämä on loistava polku sinulle, jos haluat tulevaisuudessa työskennellä liiketoiminnan kehittämisen parissa!"
-      ],
-      "tekeminen": [
-        "Selvittämään, mitkä tuotteet ja palvelut ovat oikeasti kannattavia",
-        "Laatimaan budjetteja ja seuraamaan yrityksen taloudellista tilannetta",
-        "Tukemaan johtoa päätöksenteossa talousdatan avulla"
-      ],
-      "työt": [
-        "Controllerina tai talouspäällikkönä",
-        "Rahoitusanalyytikkona tai liiketoiminnan kehittäjänä",
-        "Yrittäjänä, joka hyödyntää numeroita menestyäkseen"
-      ],
-      "opintojaksot": [
-        "Taloushallinto 5 op",
-        "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
-        "English for Accounting 5 op",
-        "Kirjanpito ja tuloslaskenta 5 op",
-        "Taloushallinnon prosessit ja järjestelmät 5 op",
-        "Tilipäätöksen laadinta 5 op",
-        "Tilinpäätösanalyysit 5 op",
-        "Kustannuslaskenta ja hinnoittelu 5 op",
-        "BI, analytiikka ja raportointi 5 op",
-        "Excelin ja toimistosovellusten jatko 5 op",
-        "Liiketoimintaosaaminen ja yrityssimulaatio 5 op",
-        "Yrityksen rahoitus 5 op",
-        "Sijoitustoiminta 5 op",
-        "Investoinnit ja rahoitussuunnittelu 5 op",
-        "Finanssioikeus 5 op",
-        "Tiedon hallinta ja data-alustat 5 op",
-        "Data-analytiikka 5 op",
-        "Prosessilouhinta, ohjelmistorobotti ja tekoäly 5 op"
-      ]
     }
   ]
 }

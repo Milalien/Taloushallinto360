@@ -526,8 +526,11 @@ position: absolute;
   #opintojaksot .row.indent{
     margin-left: 30px;
   }
-  #polut img.icon{
-  margin-right:5px;
+  .polkuikoni{
+  margin-right:10px;
+}
+#polut .accordion-body {
+  margin-left: 20px;
 }
 }
 @media only screen and (max-width: 450px) {
