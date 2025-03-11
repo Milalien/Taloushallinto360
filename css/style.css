@@ -382,6 +382,11 @@ position: absolute;
   list-style: none;
   align-items: center;
 }
+#polut ul {
+  padding-left: 0;
+} #polut ul li {
+  padding-left: 32px;
+}
 #tehtavat ul li *, #polut ul li *, #caseaineisto ul li *{
   white-space: pre-wrap;
 }
