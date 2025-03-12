@@ -3,15 +3,10 @@
     {
       "otsikko": "Yrityksen perustaminen tehtävä",
       "kuvaus": [
-        "Tehtävänäsi on perustaa Saimaa Account Oy. Olet yrityksen ainut omistaja. Mitkä ovat yrityksen perustamiseen tarvittavat toimenpiteet?<br>",
-        "<ul>",
-        "<li>Yrityksen perustaminen YTJ-palvelussa: nimenkirjoitusoikeuden määrittäminen, rekistereihin liittyminen, tilikauden määrittäminen ja yrityksen perustamissopimuksen laatiminen</li>",
-        "<li>Yrityksen pankkitilin avaaminen</li>",
-        "<li>Yrittäjä ottaa itselleen YEL-vakuutuksen</li>",
-        "<li>Tietokoneen hankkiminen</li>",
-        "<li>Kirjanpito-ohjelmiston hankkiminen kirjanpitoon ja palkanlaskentaan</li>",
-        "<li>Asiakkaiden hankkiminen</li>",
-        "</ul>"
+        "Tehtävänäsi on perustaa tilitoimisto Saimaa Accounting Oy. Olet yrityksen ainoa omistaja.",
+        "<br>Mitä sinun pitää selvittää ennen yrityksen perustamista?",
+        "<br>Mitkä ovat yrityksen perustamiseen tarvittavat lakisääteiset toimenpiteet ja pöytäkirjat?",
+        "<br>Mitä muuta sinun pitää huomioida yritystä perustaessasi?"
       ],
       "opintojakso": "Taloushallinto",
       "nimi": "",
@@ -22,12 +17,7 @@
     {
       "otsikko": "Mitä tilitoimisto tekee tehtävä",
       "kuvaus": [
-        "Olet perustanut tilitoimiston. Mitä tilitoimisto tekee?<br>",
-        "<ul>",
-        "<li>asiakkaiden kirjanpito ja lakisääteiset ilmoitukset</li>",
-        "<li>palkanlaskenta, jos asiakas maksaa palkkoja</li>",
-        "<li>asiakkaiden tukeminen taloushallintoon liittyvissä asioissa</li>",
-        "</ul>"
+        "Selvitä asiat, joita tilitoimisto tekee asiakkailleen. Mitä kaikkea tilitoimiston työtehtäviin voi kuulua?"
       ],
       "opintojakso": "Taloushallinto",
       "nimi": "",
@@ -37,7 +27,11 @@
     },
     {
       "otsikko": "Tilitoimisto kirjaukset",
-      "kuvaus": "Ensimmäinen alv-tehtävä",
+      "kuvaus": [
+        "Olet perustanut Saimaa Accounting Oy -tilitoimiston ja aloitat sen kirjanpidon.",
+        "<br>Tee ensimmäisen kuukauden 1.1.-31.1. kirjaukset oheisen liitteen mukaisesti Netvisoriin.",
+        "<br>Koska kyse on uudesta yrityksestä, avaavaa tasetta ei ole."
+      ],
       "opintojakso": "Kirjanpito ja tuloslaskenta",
       "nimi": "Tilitoimisto kirjaukset.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2378074/mod_resource/content/5/Tilitoimisto%20kirjaukset.xlsx",
@@ -76,7 +70,11 @@
     {
       "otsikko": "Kirjanpito Excelissä",
       "opintojakso": "Taloushallinto",
-      "kuvaus": "Tehtävässä tehdään 31 kirjanpitokirjausta Eevan nakkikioski Tmi:lle. Tehtävä sisältää poistojen ja varaston muutoksen kirjauksen, mutta kirjaukset tehdään ilman arvonlisäveroa. Kirjausten jälkeen laaditaan niiden perusteella tuloslaskelma ja tase.",
+      "kuvaus": [
+        "Tehtävässä tehdään 31 kirjanpitokirjausta Eevan nakkikioski Tmi:lle.",
+        "<br>Tehtävä sisältää poistojen ja varaston muutoksen kirjauksen, mutta kirjaukset tehdään ilman arvonlisäveroa.",
+        "Kirjausten jälkeen laaditaan niiden perusteella tuloslaskelma ja tase."
+      ],
       "nimi": "Nakkikioski tilitapahtumat.xlxs",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462697/mod_resource/content/4/Nakkikioski%20tilitapahtumat.xlsx",
       "ikoni": "images/logo-and-numbers-02/02-reg-01.png",
@@ -94,8 +92,8 @@
     {
       "otsikko": "Palkanlaskennan tehtävä",
       "opintojakso": "Työoikeus ja palkanlaskenta",
-      "nimi": "Nakkikioskin palkanlaskenta.docx",
       "kuvaus": "Lasketaan nakkikioskin osa-aikaiselle tuntityöntekijälle palkat (perustuntipalkka, ylityöt, lauantai- ja iltalisät sekä pidätykset)",
+      "nimi": "Nakkikioskin palkanlaskenta.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462727/mod_resource/content/3/Nakkikioskin%20palkanlaskenta.docx",
       "ikoni": "images/logo-and-numbers-02/02-reg-03.png",
       "ikoni2": "images/logo-and-numbers-02/02-bold-03.png"
@@ -159,7 +157,10 @@
     {
       "otsikko": "Opi tuloslaskelma, tase ja kassavirta -tehtävä",
       "opintojakso": "Liiketoimintaosaaminen ja yrityssimulaatio",
-      "kuvaus": "",
+      "kuvaus": [
+        "Tehtävässä on esitetty Kalustetehdas Tyynelän tuloslaskelma, tase ja kassavirta.",
+        "<br>Tarkoituksena on ymmärtää näiden raporttien keskeinen sisältö tutkimalla laskelmia ja vastaamalla esitettyihin kysymyksiin."
+      ],
       "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx",
       "ikoni": "images/logo-and-numbers-03/03-reg-01.png",
@@ -177,7 +178,10 @@
     },
     {
       "otsikko": "Investointien tehtävä",
-      "kuvaus": "Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia. Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla.",
+      "kuvaus": [
+        "Tehtävässä harkintaan Kalustetehdas Tyynelä Oy:lle mahdollista kone- ja laiteinvestointia.",
+        "Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla."
+      ],
       "opintojakso": "Investoinnit ja rahoitussuunnittelu",
       "nimi": "Case huonekalutehdas laiteinvestointi_15.1.2025.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx",
@@ -187,7 +191,7 @@
     {
       "otsikko": "Yritysjärjestelyiden tehtävä",
       "opintojakso": "Osakeyhtiön erityskysymykset ja yritysjärjestelyt",
-      "kuvaus": "",
+      "kuvaus": "Kalustetalo Tyynelä on suunnittelemassa laajentumista.",
       "nimi": "Kalustetalo Tyynelä oy OYERKY.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx",
       "ikoni": "images/logo-and-numbers-03/03-reg-04.png",
@@ -196,7 +200,11 @@
     {
       "otsikko": "Konsernitilinpäätöksen tehtävä",
       "opintojakso": "Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit",
-      "kuvaus": "",
+      "kuvaus": [
+        "Kalustetalo Tyynelä on laajentunut ja se on ostanut VG-huonekalut oy:n koko osakekannan ja omistaa sen nyt 100 %.",
+        "<br>Yritys on nyt laatimassa ensimmäistä konsernitilinpäätöstään.",
+        "<br>Selvitä, miten prosessi etenee."
+      ],
       "nimi": "Kalustetalo Tyynelä oy Konserni.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx",
       "ikoni": "images/logo-and-numbers-03/03-reg-05.png",
@@ -214,7 +222,10 @@
     {
       "otsikko": "Sijoitustoiminnan tehtävä",
       "opintojakso": "Sijoitustoiminta",
-      "kuvaus": "Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi? Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten.",
+      "kuvaus": [
+        "Tee Kalustetalo Tyynelälle sijoitusehdotus. Millaiset sijoitustuotteet heille mielestäsi sopisivat ja miksi?",
+        "Mikä ei mielestäsi sovi yrityksen tavoitteisiin ja miksi? Perustele ehdotuksesi opintojakson materiaaleihin nojaten."
+      ],
       "nimi": "Huonekaluliike Tyynelä sijoitukset.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2462964/mod_resource/content/4/Huonekaluliike%20Tyynel%C3%A4%20sijoitukset%2C%20teht%C3%A4v%C3%A4n%20hahmotelmaa.docx",
       "ikoni": "images/logo-and-numbers-03/03-reg-07.png",
@@ -335,7 +346,7 @@
     {
       "otsikko": "Tilintarkastuksen tehtävä",
       "opintojakso": "Tilintarkastus käytännössä",
-      "kuvaus": "",
+      "kuvaus": "Yrityksen toiminta on niin laajaa, että yritys on tilintarkastusvelvollinen.",
       "nimi": "Golfkauppa Ranta oy Tilintarkastus.docx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx",
       "ikoni": "images/logo-and-numbers-04/04-reg-09.png",
