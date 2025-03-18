@@ -74,7 +74,7 @@ footer .row *{
 }
 footer a {
   color: #F8F8F8;
-  margin-left: 48pxf;
+  margin-left: 48px;
   letter-spacing: 0.24px;
 }
 #mobilefooter a {
@@ -118,6 +118,7 @@ a.nav-link {
 .nav-item{
   align-content: center;
   margin: 0 24px;
+  white-space: nowrap;
 }
 .navbar-nav .nav-link:hover,
 .btn-link:hover {
@@ -206,7 +207,6 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 .btn-floating {
   width: 30px;
   height: 30px;
-  background-size: cover;
   background-color: #00000000;
   border: none;
 }
@@ -214,18 +214,23 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   visibility: hidden;
 }
 .btn1.collapsed{
-position: absolute;
+  position: absolute;
   bottom: 25px;
   right: 25px;
 }
+.btn2 {
+  margin-right: 5px;
+}
 .btn-floating.collapsed,
 .accordion-button::after {
-  background-image: url("../images/button_plus.png");
+  background: #00000000 no-repeat center url("../images/button_plus.png");
+  background-size: contain;
   padding: 5px;
 }
 .btn-floating,
 .accordion-button:not(.collapsed)::after {
-  background-image: url("../images/button_minus.png");
+  background: #00000000 no-repeat center url("../images/button_minus.png");
+  background-size: contain;
   padding: 5px;
 }
 .accordion-button:not(.collapsed) {
@@ -278,8 +283,6 @@ position: absolute;
 }
 #opintojaksot .row.indent {
   margin-left: 70px;
-  
-
 } #opintojaksot .row.indent img{ 
   margin: 2px;
 }
@@ -307,12 +310,14 @@ position: absolute;
 }
 #tehtavat .accordion-body .col-10 {
   max-width: 645px;
-  padding: 0;
+}
+#tehtavat .col-10, #polut .col-10 {
+  padding-left: 17px;
 }
 #tehtavat .accordion-body {
-  padding: 48px 20px 48px 30px;
+  padding: 48px 12px;
 } #polut .accordion-body {
-  padding: 48px 15px;
+  padding: 48px 12px 48px 17px;
   margin-left: 8.33%;
   max-width: 740px;
 }
@@ -485,6 +490,10 @@ position: absolute;
 @media only screen and (max-width: 1100px) {
   .nav-item{
     margin: 0 10px;
+  } .active img{
+    margin-right: 5px;
+  } #mobilenav .active img{
+    margin-right: 8px;
   }
 }
 @media only screen and (max-width: 991px) {
@@ -509,8 +518,8 @@ position: absolute;
   h2 {
     font-size: 30px;
   }
-  .tasknr, .polkuikoni{
-    left: 10px;
+  .tasknr,.polkuikoni{
+    left: 7px;
   }
 }
 @media only screen and (max-width: 576px) {
