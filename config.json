@@ -450,7 +450,7 @@
       "lyhytkuvaus": [
         "Golfkauppa Ranta Oy harjoittaa golftarvikkeiden myyntiä kotimaahan ja ulkomaille sekä järjestää koulutustilaisuuksia. Yhtiö on osakeyhtiö, jossa on kolme osakasta. Golfkauppa omistaa paikkakunnalla sijaitsevan golfkentän osakkeita, joista se maksaa vastiketta.",
         "Yhtiön pääomistaja Mika työskentelee kaupassa vakituisesti ja tämän lisäksi yhtiöllä on osa-aikainen tuntityöntekijä.",
-        "Yhtiön liikevaihto on päättyneellä tilikaudella ollut noin 700 000 euroa ja taseen loppusumma noin 130 000 euroa."
+        "Yhtiön liikevaihto on päättyneellä tilikaudella ollut noin 700000 euroa ja taseen loppusumma noin 130000 euroa."
       ],
       "kuvaus": [
         "Mika on intohimoinen golfin pelaaja, joka on pelannut lajia lapsuudestaan asti. Hän huomasi, että paikallisella alueella on puutetta laadukkaista golftarvikkeista ja päättää perustaa oman golftarvikekaupan paikallisen golfkentän yhteyteen.<br><br>",
@@ -458,12 +458,12 @@
         "Alkuvaiheessa asiakkaita oli vähän, mutta Mika ei lannistunut. Hän alkoi matkustaa golftapahtumiin, joissa esiteli tuotteitaan. Pikkuhiljaa sana alkoi levitä, ja asiakaskunta alkoi kasvaa.<br><br>",
         "Vuosien kuluessa Mikan kauppa kasvoi ja laajeni. Hän alkoi tuoda maahan erikoistuotteita ja tarjoaa myös räätälöityjä palveluita, kuten mailojen sovitusta ja korjausta. Mika palkkasi lisää henkilökuntaa ja avasi verkkokaupan, joka tavoittaa asiakkaita ympäri maata.",
         "Laajennuksen yhteydessä Mika otti lisää osakkaita yhtiöönsä. Omistus on jaettu niin, että Mika omistaa 80 osaketta, hänen veljensä Manu 40 osaketta ja sisko Maija 50 osaketta.",
-        "Yhtiö on perustettu vuonna 2010 ja yhtiön osakepääoma yhden osakkeen merkintähinta on ollut 20 e/kpl. Lisäksi Mika on sijoittanut svop-rahastoon 5000 euroa, Manu 3000 euroa ja Maija 4000 euroa.<br>",
+        "Yhtiö on perustettu vuonna 2010 ja yhtiön osakepääoma yhden osakkeen merkintähinta on ollut 20e/kpl. Lisäksi Mika on sijoittanut svop-rahastoon 5000 euroa, Manu 3000 euroa ja Maija 4000 euroa.<br>",
         "Sijoitukset on tehty 2018 tulevia investointeja varten. Lisäksi yrityksellä on vierasta pääomaa paikallispankilta xx euroa.<br><br>",
         "Kauppa ei ole vain liiketoimintaa, vaan myös paikallisen golfyhteisön keskus. Kauppa sponsoroi nuoria pelaajia ja järjestää koulutustapahtumia.",
         "Yrittäjät eivät lepää laakereillaan. Heillä on suuria suunnitelmia tulevaisuudelle, kuten uusien myymälöiden avaaminen ja kansainvälistyminen. Yritys haluaa myös jatkaa golfin edistämistä ja innostaa uusia sukupolvia lajin pariin.<br><br>",
         "Yhtiön tilikausi on 1.5.-30.4.20XX.<br><br>",
-        "Golfkauppa omistaa kaksi golf-osaketta paikkakunnan golf-radalta. Osakkeiden hankintahinta on ollut 500 e/kpl. Näiden osakkeiden yhteenlaskettu vuosivastike on 1000 euroa.",
+        "Golfkauppa omistaa kaksi golf-osaketta paikkakunnan golf-radalta. Osakkeiden hankintahinta on ollut 500e/kpl. Näiden osakkeiden yhteenlaskettu vuosivastike on 1000 euroa.",
         "Golf-radan kanssa on tehty sopimus, joka oikeuttaa käyttämään golf-kenttää rajattomasti 10 euron kertamaksulla/hlö.  Kenttää käytetään mm. Green gard-opetuksiin."
       ],
       "linkki": "https://moodle.lut.fi/pluginfile.php/2463129/mod_resource/content/4/Golfkauppa%20Ranta%20case%20kuvaus.docx"
@@ -471,11 +471,11 @@
   ],
   "etusivu": {
     "lyhytkuvaus": [
-      "Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden liiketoimintoihin ja prosesseihin!<br><br>",
+      "Tervetuloa tutustumaan tilitoimiston ja sen asiakkaiden liiketoimintoihin ja prosesseihin!<br>",
       "Tällä sivustolla voit myös suunnitella oman polkusi taloushallinnon asiantuntijaksi."
     ],
     "teksti": [
-      "Taloushallinnon taiturit -case-aineisto kokoaa opiskelijat, opintojaksot ja niiden opettajat saman työelämälähtöisen aineiston äärelle.",
+      "Taloushallinto360 -case-aineisto kokoaa opiskelijat, opintojaksot ja niiden opettajat saman työelämälähtöisen aineiston äärelle.",
       "Tämä ainutlaatuinen kokonaisuus yhdistää talouden osaprosessit ja monipuoliset asiantuntijatehtävät, tarjoten syvällistä näkökulmaa alan substanssiosaamiseen.<br><br>",
       "Case-aineiston avulla LABin taloushallinnon opintojaksot kytkeytyvät tiiviisti toisiinsa, muodostaen yhtenäisen ja selkeän oppimiskokonaisuuden.",
       "Tämä lähestymistapa korostaa eri aihealueiden välisiä yhteyksiä ja auttaa opiskelijoita hahmottamaan taloushallinnon kokonaisuuden monipuolisuutta.<br><br>",

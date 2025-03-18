@@ -45,10 +45,6 @@ p, .accordion-button, .accordion-body {
   line-height: 24px;
   letter-spacing: 0.36px;
 }
-.accordion-body{
-  padding-left: 20px;
-  padding-right: 20px;
-}
 .main {
   margin: 60px auto;
   max-width: 1160px;
@@ -68,9 +64,8 @@ footer {
   height: fit-content;
   color: #F8F8F8;
 }
-footer .row{
+footer .row *{
   align-items: center;
-  justify-content: space-between;
 }
 .footer{
   position: absolute;
@@ -79,15 +74,19 @@ footer .row{
 }
 footer a {
   color: #F8F8F8;
-  margin-left: 48px;
+  margin-left: 48pxf;
   letter-spacing: 0.24px;
-  
+}
+#mobilefooter a {
+  margin:0;
 }
 footer a img {
   margin:8px;
 }
 footer a:hover {
   color: white;
+  font-weight: 600;
+  transition: all 0.4s;
 }
 /* YLÄVALIKON MUOTOILU */
 nav.navbar {
@@ -185,7 +184,6 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   max-width: 740px;
   padding-top: 10px;
 }
-
 .accordion {
   width: 100%;
   margin-top: -30px;
@@ -197,19 +195,14 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 }
 #caseaineisto .accordion-body {
   padding-top: 70px;
- 
 }
 #caseaineisto .accordion-body .col-sm-4 {
   justify-items: center;
 }
-
 #caseaineisto .accordion-body .row * {
   align-self: baseline;
 }
 /* AVAUS NAPPIEN MUOTOILU */
-.accordion-button{
-    padding: 0 20px;
-}
 .btn-floating {
   width: 30px;
   height: 30px;
@@ -242,6 +235,9 @@ position: absolute;
   border-bottom: 2px solid;
   transition: border 0ms;
 }
+.accordion-button:not(.collapsed) .alaotsikko{
+  font-weight: 400 !important;
+}
 /* AVAUTUVIEN ALA-REUNAN MUOTO */
 .accordion-item.bottom{
   border-bottom-right-radius: 15px !important;
@@ -253,9 +249,12 @@ position: absolute;
   border-bottom-left-radius: 15px !important;
 }
 /* OPINTOJAKSO LISTAUS JA TEHTÄVÄLISTA MUOTOILUJA */
-#polut .accordion-button, #opintojaksot .accordion-button, #tehtavat .accordion-button {
-  padding: 12px 30px;
-}
+#polut .accordion-button, #tehtavat .accordion-button{
+    padding: 12px 20px 12px 12px;
+  }
+  #opintojaksot .accordion-button{
+    padding: 12px 20px;
+  }
 #polut .head, #opintojaksot .head {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -306,27 +305,33 @@ position: absolute;
   text-align: center;  
   color: #6A6A6A !important;
 }
-#tehtavat .accordion-body .col-sm-10 {
+#tehtavat .accordion-body .col-10 {
   max-width: 645px;
   padding: 0;
 }
-#tehtavat .accordion-body, #polut .accordion-body {
-  padding: 48px 20px;
+#tehtavat .accordion-body {
+  padding: 48px 20px 48px 30px;
 } #polut .accordion-body {
-  margin-left: 75px;
+  padding: 48px 15px;
+  margin-left: 8.33%;
   max-width: 740px;
 }
 .polkuikoni{
-  background: url("../images/icon_opintojaksot_square.png") no-repeat center;
+  position: absolute;
+  top: 6px;
+  bottom:6px;
+  background: url("../images/labin-opintojaksot_bullet_layer01.png") no-repeat center;
   background-size: contain;
   width: 36px; 
   height: 36px;
-  margin-right: 30px;
+  left: 20px;
+  align-self: center;
 } 
 .tasknr {
   position: absolute;
   top: 4px;
   bottom:4px;
+  left: 20px;
   display: block;
   align-self: center;
 }
@@ -382,11 +387,7 @@ position: absolute;
   list-style: none;
   align-items: center;
 }
-#polut ul {
-  padding-left: 0;
-} #polut ul li {
-  padding-left: 32px;
-}
+
 #tehtavat ul li *, #polut ul li *, #caseaineisto ul li *{
   white-space: pre-wrap;
 }
@@ -426,8 +427,12 @@ position: absolute;
   background: url("../images/logo_02_golfkauppa-ranta-oy.png") no-repeat center;
   background-size: contain;
 }
-#polut ul li::before {
-  background: url("../images/icon_opintojaksot_square.png") no-repeat center;
+#polut ul li::before, #polut ul ul li::before {
+  background: url("../images/labin-opintojaksot_bullet_layer01.png") no-repeat center;
+  background-size: contain;
+}
+#polut ul ul ul li::before{
+  background: url("../images/labin-opintojaksot_bullet_layer02.png") no-repeat center;
   background-size: contain;
 }
 
@@ -504,11 +509,8 @@ position: absolute;
   h2 {
     font-size: 30px;
   }
-  #polut .accordion-button, #opintojaksot .accordion-button, #tehtavat .accordion-button{
-    padding: 12px;
-  }
-  .tasknr{
-    margin-left: -5px;
+  .tasknr, .polkuikoni{
+    left: 10px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -521,9 +523,6 @@ position: absolute;
   .main{
     padding: 0 10px;
   }
-  .tasknr{
-    align-self: center;
-  }
   .col-10 .alaotsikko {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -531,13 +530,15 @@ position: absolute;
   #opintojaksot .row.indent{
     margin-left: 30px;
   }
-  .polkuikoni{
-  margin-right:10px;
+  
+  #polut ul {
+    padding-left: 15px;
+  }
+  #caseaineisto .accordion-body .col-sm-4 {
+  justify-items: start;
 }
-#polut .accordion-body {
-  margin-left: 20px;
 }
-}
+
 @media only screen and (max-width: 450px) {
   
   .accordion .head, .accordion-button{
