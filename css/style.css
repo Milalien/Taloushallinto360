@@ -16,7 +16,7 @@ body {
 .page {
   position: relative;
   min-height: 100vh;
-  padding: 70px 0;
+  padding: 70px 20px;
 }
 h1,
 h2,
@@ -54,7 +54,7 @@ p, .accordion-button, .accordion-body {
 }
 /* FOOTERIN MUOTOILU */
 footer {
-  font-size: 12px;
+  font-size: 14px;
   background-color: #1A1A1A;
   padding: 24px 20px;
   letter-spacing: 0.24px;
@@ -70,6 +70,7 @@ footer .row *{
 .footer{
   position: absolute;
   bottom: 0;
+  left:0;
   width: 100%;
 }
 footer a {
@@ -88,6 +89,10 @@ footer a:hover {
   font-weight: 600;
   transition: all 0.4s;
 }
+footer a.active {
+  font-weight: 600;
+  color: white;
+}
 /* YLÄVALIKON MUOTOILU */
 nav.navbar {
   align-items: center;
@@ -97,6 +102,9 @@ nav.navbar {
   margin: auto;
   box-shadow: none;
 }
+nav.navbar .container-fluid {
+    padding: 0;
+  }
 .navbar-nav .nav-link,
 .btn-link {
   color: #F8F8F8;
@@ -120,6 +128,13 @@ a.nav-link {
   margin: 0 24px;
   white-space: nowrap;
 }
+.nav-item.last{
+  margin-right: 0 !important;
+}
+.navbar-brand {
+  padding: 0;
+  margin-right: 24px;
+}
 .navbar-nav .nav-link:hover,
 .btn-link:hover {
   color: rgb(255, 255, 255);
@@ -130,25 +145,20 @@ a.nav-link {
   font-size: 35px;
 }
 #mobilenav {
-  padding-bottom: 15px;
+  padding: 10px 40px 15px;
   box-shadow: 0 20px 20px -15px #000000;
-}
-#mobilenav .row{
   align-items:flex-start;
-}
-nav.navbar#mobilenav {
-  padding: 5px !important;
-}
-#mobilenav .navbar-brand {
-  padding-left: 5px;
 }
 #mobilenav .nav-item{
   margin: 5px 0;
 }
-#mobilenav .col-8{
+#mobilenav .navbar-nav {
   text-align: end;
-  padding-right: 0;
 }
+#mobilenav .navbar-brand{
+  margin: 5px 0;
+}
+
 .active img{
   margin-right: 8px;
 }
@@ -181,9 +191,12 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 .card.tietoa {
   padding: 20px;
 }
+.card .card-body{
+  padding: 20px;
+}
 .card .card-text {
   max-width: 740px;
-  padding-top: 10px;
+  padding: 10px 0 20px;
 }
 .accordion {
   width: 100%;
@@ -209,23 +222,24 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   height: 30px;
   background-color: #00000000;
   border: none;
-}
-.btn1:not(.collapsed){
-  visibility: hidden;
-}
-.btn1.collapsed{
   position: absolute;
   bottom: 25px;
   right: 25px;
 }
-.btn2 {
-  margin-right: 5px;
-}
+
 .btn-floating.collapsed,
 .accordion-button::after {
   background: #00000000 no-repeat center url("../images/button_plus.png");
   background-size: contain;
   padding: 5px;
+}
+.btn-floating:not(.collapsed){
+  transform: rotate(-180deg);
+  transition: transform 0.2s ease-in-out;
+}
+.btn-floating.collapsed{
+  transition: transform 0.2s ease-in-out;
+  transform: rotate(0deg);
 }
 .btn-floating,
 .accordion-button:not(.collapsed)::after {
@@ -245,13 +259,13 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 }
 /* AVAUTUVIEN ALA-REUNAN MUOTO */
 .accordion-item.bottom{
-  border-bottom-right-radius: 15px !important;
-  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 22px !important;
+  border-bottom-left-radius: 22px !important;
   height: 24px;
 }
 .accordion-item:last-of-type,.accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
-  border-bottom-right-radius: 15px !important;
-  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 22px !important;
+  border-bottom-left-radius: 22px !important;
 }
 /* OPINTOJAKSO LISTAUS JA TEHTÄVÄLISTA MUOTOILUJA */
 #polut .accordion-button, #tehtavat .accordion-button{
@@ -260,11 +274,15 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   #opintojaksot .accordion-button{
     padding: 12px 20px;
   }
-#polut .head, #opintojaksot .head {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  padding: 20px 0 40px 20px;
-  color: #1A1A1A;
+#tehtavat .head, #polut .head, #opintojaksot .head {
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
+#polut .head, #opintojaksot .head{
+  padding: 20px 20px 40px 20px;
+}
+#tehtavat .head {
+  padding: 15px 0 5px 15px;
 }
 #opintojaksot .linkit {
   padding-top: 48px;
@@ -299,11 +317,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 #tehtavat, #opintojaksot {
   margin: 50px 0;
 }
-#tehtavat .head {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  padding: 15px 0 5px 15px;
-}
+
 #tehtavat .head .col-sm-5{
   text-align: center;  
   color: #6A6A6A !important;
@@ -311,14 +325,14 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 #tehtavat .accordion-body .col-10 {
   max-width: 645px;
 }
-#tehtavat .col-10, #polut .col-10 {
-  padding-left: 17px;
+#tehtavat .col-1, #polut .col-1 {
+  width: 60px;
 }
 #tehtavat .accordion-body {
   padding: 48px 12px;
 } #polut .accordion-body {
-  padding: 48px 12px 48px 17px;
-  margin-left: 8.33%;
+  padding: 48px 12px 48px 12px;
+  margin-left: 60px;
   max-width: 740px;
 }
 .polkuikoni{
@@ -476,16 +490,14 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   position: relative;
 }
 /* MUKAUTUVUUSASETUKSET ELI MUOTOILU ERI KOKOISILLE NÄYTÖILLE */
-@media only screen and (min-width: 1440px) {
-  
-  nav.navbar>* {
-    padding: 0;
-  }
-}
-@media only screen and (max-width: 1439px) {
-  .main{
-    padding: 0 20px;
-  }
+
+@media only screen and (max-width: 1170px) {
+ nav.navbar{
+  padding: 24px 40px;
+ }
+ footer{
+  padding: 24px 40px;
+ }
 }
 @media only screen and (max-width: 1100px) {
   .nav-item{
@@ -504,7 +516,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
     }
   }
   .page{
-    padding-top:140px;
+    padding-top:120px;
   }
   #opintojaksot .accordion-body .row{
     padding-left: 5px;
@@ -518,8 +530,8 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   h2 {
     font-size: 30px;
   }
-  .tasknr,.polkuikoni{
-    left: 7px;
+  .img-container{
+    bottom: 130px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -529,9 +541,10 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   h2{
     font-size: 28px;
   }
-  .main{
-    padding: 0 10px;
+  .page{
+    padding: 120px 10px 70px;
   }
+  
   .col-10 .alaotsikko {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -539,7 +552,18 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   #opintojaksot .row.indent{
     margin-left: 30px;
   }
-  
+  #mobilenav{
+    padding: 10px 22px 15px;
+  }
+  .tasknr,.polkuikoni{
+    left: 12px;
+  }
+  footer{
+  padding: 24px 22px;
+ }
+  .card .card-body, .card.tietoa{
+    padding: 12px;
+  }
   #polut ul {
     padding-left: 15px;
   }
@@ -549,8 +573,22 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 }
 
 @media only screen and (max-width: 450px) {
-  
-  .accordion .head, .accordion-button{
+  #tehtavat .head, #polut .head, #opintojaksot .head {
     padding: 10px;
+  }
+  #tehtavat .col-1, #polut .col-1 {
+  width: 48px;
+}
+#polut .accordion-body{
+  margin-left: 48px;
+}
+#opintojaksot .accordion-body .row.indent{
+  margin-left: 15px;
+}
+#opintojaksot .accordion-body{
+  padding:12px;
+}
+  #tehtavat .accordion-button, #opintojaksot .accordion-button, #polut .accordion-button{
+    padding: 12px;
   }
 }

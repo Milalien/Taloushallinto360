@@ -679,21 +679,16 @@
       "osuus": "Harjoittelu (yhteensä 30 op, pakollinen)",
       "opintopaketit": [
         {
-          "nimi": "",
-          "opintojaksot": [
-            {
-              "jakso": "Harjoittelu 1",
-              "opintopisteet": "10 op"
-            },
-            {
-              "jakso": "Harjoittelu 2",
-              "opintopisteet": "10 op"
-            },
-            {
-              "jakso": "Harjoittelu 3",
-              "opintopisteet": "10 op"
-            }
-          ]
+          "nimi": "Harjoittelu 1 10op",
+          "opintojaksot": []
+        },
+        {
+          "nimi": "Harjoittelu 2 10op",
+          "opintojaksot": []
+        },
+        {
+          "nimi": "Harjoittelu 3 10op",
+          "opintojaksot": []
         }
       ]
     },
@@ -701,21 +696,16 @@
       "osuus": "Opinnäytetyö (yhteensä 15 op, pakollinen)",
       "opintopaketit": [
         {
-          "nimi": "",
-          "opintojaksot": [
-            {
-              "jakso": "Opinnäytetyön suunnittelu",
-              "opintopisteet": "5 op"
-            },
-            {
-              "jakso": "Opinnäytetyön toteutus",
-              "opintopisteet": "5 op"
-            },
-            {
-              "jakso": "Opinnäytetyön raportointi",
-              "opintopisteet": "5 op"
-            }
-          ]
+          "nimi": "Opinnäytetyön suunnittelu 5 op",
+          "opintojaksot": []
+        },
+        {
+          "nimi": "Opinnäytetyön toteutus 5 op",
+          "opintojaksot": []
+        },
+        {
+          "nimi": "Opinnäytetyön raportointi 5 op",
+          "opintojaksot": []
         }
       ]
     }
