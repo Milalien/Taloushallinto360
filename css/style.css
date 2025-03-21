@@ -196,7 +196,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 }
 .card .card-text {
   max-width: 740px;
-  padding: 10px 0 20px;
+  padding: 10px 0 30px;
 }
 .accordion {
   width: 100%;
@@ -282,7 +282,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   padding: 20px 20px 40px 20px;
 }
 #tehtavat .head {
-  padding: 15px 0 5px 15px;
+  padding: 15px 20px;
 }
 #opintojaksot .linkit {
   padding-top: 48px;
@@ -459,7 +459,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 .img-container {
   bottom: 100px;
   z-index: 1;
-  max-width: 1160px;
+  max-width: 1120px;
   position: absolute;
   flex-wrap:wrap-reverse;
   display: flex;
@@ -511,16 +511,13 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 @media only screen and (max-width: 991px) {
   #caseaineisto .accordion-body {
     padding-left: 20px;
-    .row * {
-      padding: 5px;
-    }
   }
   .page{
     padding-top:120px;
   }
   #opintojaksot .accordion-body .row{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -559,11 +556,19 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
     left: 12px;
   }
   footer{
-  padding: 24px 22px;
- }
+  padding: 15px 22px;
+ } #tehtavat .head, #polut .head {
+    padding: 12px;
+  }
+  #opintojaksot .head{
+    padding: 12px 12px 24px;
+  }
   .card .card-body, .card.tietoa{
     padding: 12px;
   }
+ #caseaineisto .accordion-body{
+  padding: 50px 12px 12px;
+ }
   #polut ul {
     padding-left: 15px;
   }
