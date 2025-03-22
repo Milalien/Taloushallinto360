@@ -218,20 +218,21 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 }
 /* AVAUS NAPPIEN MUOTOILU */
 .btn-floating {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   background-color: #00000000;
   border: none;
   position: absolute;
-  bottom: 25px;
-  right: 25px;
+  bottom: 20px;
+  right: 20px;
 }
-
 .btn-floating.collapsed,
 .accordion-button::after {
   background: #00000000 no-repeat center url("../images/button_plus.png");
   background-size: contain;
   padding: 5px;
+  width: 24px;
+  height: 24px;
 }
 .btn-floating:not(.collapsed){
   transform: rotate(-180deg);
@@ -253,6 +254,10 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   border-top: 2px solid;
   border-bottom: 2px solid;
   transition: border 0ms;
+}
+.accordion-button.collapsed:hover{
+  color: #1A1A1A;
+  font-weight: 700;
 }
 .accordion-button:not(.collapsed) .alaotsikko{
   font-weight: 400 !important;
@@ -355,9 +360,9 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   align-self: center;
 }
 #tehtavat .accordion-button.collapsed .tasknr, #polut .accordion-button.collapsed .polkuikoni {
-  background: none !important;
+  background-image: unset;
 }
-#tehtavat .accordion-button:not(.collapsed) .tasknr img, #polut .accordion-button:not(.collapsed) .polkuikoni img {
+#tehtavat .accordion-button:not(.collapsed) .tasknr img, #polut .accordion-button:not(.collapsed) .polkuikoni img, #tehtavat .accordion-button.collapsed:hover .tasknr img{
   display: none;
 }
 
