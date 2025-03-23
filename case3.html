@@ -20,6 +20,7 @@
 <body>
   <div class="page">
     <header>
+      <!-- TIETOKONE-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
         <div class="container-fluid">
           
@@ -27,8 +28,6 @@
               <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png"
                 height="48px" />
             </a>
-       
-
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
@@ -40,12 +39,10 @@
               <a class="nav-link active" href="case3.html">
                 <img src="images/logo_03_kalustetehdas-tyynela-oy.png" height="24px">Kalustetehdas Tyynelä Oy</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy</a>
             </li>
           </ul>
-
           <ul class="navbar-nav">
             <li class="nav-item last">
               <a class="nav-link" href="opintojaksot.html">Opintojaksot ja polut</a>
@@ -53,39 +50,32 @@
           </ul>
         </div>
       </nav>
+      <!-- MOBIILI-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar fixed-top d-lg-none" id="mobilenav">
-        
-          
           <a class="navbar-brand" href="aloitus.html">
             <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png" height="48px" />
           </a>
-        
-       
-      
-      
-        <ul class="navbar-nav">
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
-          </li>
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case2.html">Eevan Nakkikioski Tmi</a>
-          </li>
-
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link active" href="case3.html"><img src="images/logo_03_kalustetehdas-tyynela-oy.png" height="24px">Kalustetehdas Tyynelä Oy</a>
-          </li>
-
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy</a>
-          </li>
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link " href="opintojaksot.html">Opintojaksot ja polut</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav">
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
+            </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case2.html">Eevan Nakkikioski Tmi</a>
+            </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link active" href="case3.html"><img src="images/logo_03_kalustetehdas-tyynela-oy.png" height="24px">Kalustetehdas Tyynelä Oy</a>
+            </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy</a>
+            </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link " href="opintojaksot.html">Opintojaksot ja polut</a>
+            </li>
+          </ul>
         
       </nav>
     </header>
-
+<!-- PÄÄSISÄLTÖ -->
     <div class="main align-items-center">
       
       <div class="card case3">
@@ -118,13 +108,10 @@
                 <div  class="col-md-7 col-sm-8">
                   <p id="c3k"></p>
                   <ul>
-                  <li>
-                    Lataa tiedosto: <a id="c3l" href="">Yrityskuvaus</a>
-                  </li>
-                </ul>
-              
-
-                  
+                    <li>
+                      Lataa tiedosto: <a id="c3l" href="">Yrityskuvaus</a>
+                    </li>
+                  </ul>
                 </div>
               
               </div>
@@ -138,6 +125,7 @@
       
       </div>
     </div>
+    <!-- FOOTER -->
     <div class="footer">
 
     <footer>
@@ -162,6 +150,7 @@
     </div>
   </div>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- JAVASCRIPT TIETOJEN HAKUUN JSON:STA -->
    <script type="text/javascript">
     function fetchJSONData() {
     fetch('./config.json')

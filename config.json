@@ -731,5 +731,839 @@
       "nimi": "Liiketoimintayksikön täydentävän osaamisen tarjonta 2025-2026 (AMK): LLABTO25H",
       "linkki": "https://opinto-opas.lab.fi/70192/fi/70060/70193/2088"
     }
+  ],
+  "opintopolut": [
+    {
+      "nimi": "Ulkoinen laskentatoimi - Taloushallinnon asiantuntijaksi",
+      "kuvaus": [
+        "Haluatko kehittyä taloushallinnon ammattilaiseksi ja varmistaa, että yritykset pysyvät taloudellisesti kestävällä pohjalla?",
+        "<br>Ulkoisen laskentatoimen opintopolku antaa sinulle valmiudet kirjanpitoon, palkanlaskentaan, tilinpäätöksiin ja verotukseen - taitoja, joita tarvitaan jokaisessa yrityksessä."
+      ],
+      "tehtavat": [
+        "Laatimaan ja analysoimaan tilinpäätöksiä",
+        "Tekemään palkanlaskentaa",
+        "Huolehtimaan yritysten veroasioista ja sääntelyn noudattamisesta",
+        "Ymmärtämään, miten yrityksen taloudellinen raportointi tukee päätöksentekoa"
+      ],
+      "tyot": [
+        "Kirjanpitäjänä",
+        "Palkanlaskijana",
+        "Talousasiantuntijana tai -suunnittelijana",
+        "Työkokemuksen karttuessa talouspäällikkönä tai talousjohtajana",
+        "Yrittäjänä tarjoten taloushallinnon palveluita"
+      ],
+      "osaamistarpeet": [
+        "Kirjanpidon ja tilinpäätöksen osaaminen: Ymmärrys kirjanpidon ja arvonlisäverotuksen perusteista, tilinpäätöksen laatimisesta ja tuloslaskelman sekä taseen koostamisesta nykyaikaisia järjestelmiä hyödyntäen.",
+        "Palkanlaskenta ja verotus: Kyky suorittaa palkanlaskentaa ja verotukseen liittyviä tehtäviä.",
+        "Verolainsäädännön tuntemus: Ymmärrys verolainsäädännön vaikutuksista yritykselle sekä sen omistajille.",
+        "Analyysikyky ja raportointitaito: Kyky analysoida talousdataa, havainnoida poikkeamia ja virheellisyyksiä sekä laatia selkeitä raportteja tukemaan yrityksen päätöksentekoa."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Yhteiset opinnot (yhteensä 15 op)",
+          "opintopaketit": []
+        },
+        {
+          "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
+                "English for Accounting 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op",
+                "Tilinpäätösanalyysit 5 op"
+              ]
+            },
+            {
+              "nimi": "Johdon laskentatoimi 15 op",
+              "jaksot": [
+                "Kustannuslaskenta ja hinnoittelu 5 op",
+                "BI, analytiikka ja raportointi 5 op",
+                "Excelin ja toimistosovellusten jatko 5 op"
+              ]
+            },
+            {
+              "nimi": "Verotus 15 op",
+              "jaksot": [
+                "Henkilöverotus 5 op",
+                "Käytännön arvonlisäverotus 5 op",
+                "Yritysverotus ja tilinpäätössuunnittelu 5 op"
+              ]
+            },
+            {
+              "nimi": "Ulkoisen laskentatoimen syventävät 15 op",
+              "jaksot": [
+                "Erillistilinpäätös 5 op",
+                "Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit 5 op",
+                "Osakeyhtiön erityiskysymykset ja yritysjärjestelyt 5 op"
+              ]
+            },
+            {
+              "nimi": "Palkanlaskenta ja työoikeus 10 op",
+              "jaksot": [
+                "Työoikeus ja palkanlaskenta 5 op",
+                "Palkanlaskennan erityiskysymykset ja sovellukset 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Johdon laskentatoimi - Luvut strategisen päätöksenteon tukena",
+      "kuvaus": [
+        "Pidätkö numeroista, analyyseistä ja haluat auttaa yrityksiä tekemään fiksuja päätöksiä?",
+        "<br>Johdon laskentatoimi antaa sinulle työkalut budjetointiin, kustannuslaskentaan ja kannattavuuden analysointiin.",
+        "Tämä on loistava polku sinulle, jos haluat tulevaisuudessa työskennellä liiketoiminnan kehittämisen parissa!"
+      ],
+      "tehtavat": [
+        "Selvittämään, mitkä tuotteet ja palvelut ovat oikeasti kannattavia",
+        "Laatimaan budjetteja ja seuraamaan yrityksen taloudellista tilannetta",
+        "Tukemaan johtoa päätöksenteossa talousdatan avulla",
+        "Tekemään kehitystyötä prosessien, järjestelmien ja datan parissa",
+        "Osallistumaan johtoryhmätyöskentelyyn"
+      ],
+      "tyot": [
+        "Controllerina tai talouspäällikkönä",
+        "Rahoitusanalyytikkona tai liiketoiminnan kehittäjänä",
+        "Yrittäjänä, joka hyödyntää numeroita menestyäkseen"
+      ],
+      "osaamistarpeet": [
+        "Budjetointi ja kustannuslaskenta: Kyky laatia budjetteja ja seurata talouden toteutumia verrattuna budjettiin.",
+        "Kannattavuuden arviointi: Osaaminen arvioida tuotteiden ja palveluiden sekä investointien kannattavuutta.",
+        "Analyysitaitoja: Taito lukea tilinpäätöksiä ja ymmärtää niiden sisältö. Kyky tehdä syvällisiä analyysejä ja käyttää taloudellista dataa yrityksen päätöksenteon tukena.",
+        "Strateginen ajattelu: Ymmärrys liiketoiminnan kehittämisestä ja sen tukemisesta taloudellisin perustein."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Yhteiset opinnot (yhteensä 15 op)",
+          "opintopaketit": []
+        },
+        {
+          "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
+                "English for Accounting 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op",
+                "Tilinpäätösanalyysit 5 op"
+              ]
+            },
+            {
+              "nimi": "Johdon laskentatoimi 20 op",
+              "jaksot": [
+                "Kustannuslaskenta ja hinnoittelu 5 op",
+                "BI, analytiikka ja raportointi 5 op",
+                "Excelin ja toimistosovellusten jatko 5 op",
+                "Liiketoimintaosaaminen ja yrityssimulaatio 5 op"
+              ]
+            },
+            {
+              "nimi": "Finanssimarkkinat 20 op",
+              "jaksot": [
+                "Yrityksen rahoitus 5 op",
+                "Sijoitustoiminta 5 op",
+                "Investoinnit ja rahoitussuunnittelu 5 op",
+                "Finanssioikeus 5 op"
+              ]
+            },
+            {
+              "nimi": "BI-asiantuntijaksi 15 op",
+              "jaksot": [
+                "Tiedon hallinta ja data-alustat 5 op",
+                "Data-analytiikka 5 op",
+                "Prosessilouhinta, ohjelmistorobotti ja tekoäly 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Finanssimarkkinat ja sijoittaminen - Mielenkiintoisiin tehtäviin pankki- ja vakuutusalalle",
+      "kuvaus": [
+        "Kiinnostavatko sinua pankki- ja vakuutustoiminta sekä rahoitusmarkkinoiden ilmiöt? Finanssimarkkinoiden opintopolku antaa sinulle ymmärryksen sijoitusmarkkinoista,",
+        "rahoituslähteistä, riskienhallinnasta sekä finanssialaan liittyvästä lainsäädännöstä. Tällä opintopolulla saat työkalut myös",
+        "investointilaskelmiin, rahoitussuunnitteluun ja vakuutusratkaisuihin."
+      ],
+      "tehtavat": [
+        "Neuvomaan asiakkaita heidän talouteensa liittyvissä kysymyksissä",
+        "Työskentelemään vakuuttamisen parissa",
+        "Vertailemaan erilaisia rahoituslähteitä ja -muotoja",
+        "Opastamaan asiakkaita säästämisen ja sijoittamisen maailmassa"
+      ],
+      "tyot": [
+        "Asiakaspalvelijana rahoitusalalla, kuten pankkineuvojana",
+        "Sijoitusneuvojana pankissa tai varainhoitoyhtiössä",
+        "Asiantuntijatehtävissä vakuutusyhtiössä",
+        "Työkokemuksen karttuessa vaativissa rahoitusalan tehtävissä"
+      ],
+      "osaamistarpeet": [
+        "Asiakaspalvelu: Kyky tunnistaa henkilö- ja yritysasiakkaan tarpeita ja hoitaa asiakassuhteita tavoitteellisesti.",
+        "Sijoittamisen ja säästämisen asiantuntemus: Sijoitusinstrumenttien ja -tuotteiden tuntemus sekä kyky neuvoa asiakkaita sijoittamisessa ja talouden suunnittelussa.",
+        "Lainsäädännön tuntemus: Ymmärrys finanssialan sääntelystä ja lainsäädännöstä.",
+        "Riskienhallinta: Kyky tunnistaa ja hallita finanssialaan liittyviä riskejä.",
+        "Rahoituslähteiden tuntemus: Ymmärrys eri rahoituslähteistä ja -muodoista, kuten lainoista, sijoituksista ja joukkovelkakirjalainoista."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Yhteiset opinnot (yhteensä 15 op)",
+          "opintopaketit": []
+        },
+        {
+          "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
+                "English for Accounting 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op",
+                "Tilinpäätösanalyysit 5 op"
+              ]
+            },
+            {
+              "nimi": "Finanssimarkkinat 27 op",
+              "jaksot": [
+                "Yrityksen rahoitus 5 op",
+                "Sijoitustoiminta 5 op",
+                "Investoinnit ja rahoitussuunnittelu 5 op",
+                "Finanssioikeus 5 op",
+                "Asiantuntijana vakuutusalalla 5 op",
+                "Perheoikeudelliset asiakirjat 2 op"
+              ]
+            },
+            {
+              "nimi": "Muut opinnot 25 op",
+              "jaksot": [
+                "Henkilöverotus 5 op",
+                "Asunto-osakeyhtiön talous 5 op",
+                "Yritysverotus ja tilinpäätössuunnittelu 5 op",
+                "Liiketoimintaosaaminen ja yrityssimulaatio 5 op",
+                "Työyhteisötaidot 5 op"
+              ]
+            },
+            {
+              "nimi": "Digitaalinen markkinointi ja asiakaskokemus 10 op",
+              "jaksot": [
+                "Asikaskokemuksen kehittäminen 5 op",
+                "Tuloksekas myynti asiakaskohtaamisissa 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Data-analytiikka - Talouslukujen tulkitsijaksi ",
+      "kuvaus": [
+        "Haluatko oppia käyttämään dataa liiketoiminnan kehittämisessä? Kentien tykkäät myös esittää kysymyksiä ja löytää vastauksia.",
+        "Data-analytiikan opintopolku antaa sinulle valmiudet analysoida talousdataa, visualisoida tietoa ja tehdä päätöksiä datan pohjalta. "
+      ],
+      "tehtavat": [
+        "Analysoimaan dataa ja tunnistamaan trendejä",
+        "Ennustamaan tulevaa kehitystä datan avulla",
+        "Visualisoimaan tietoa Power BI:n ja muiden työkalujen avulla"
+      ],
+      "tyot": [
+        "Data-analyytikkona tai business intelligence -asiantuntijana",
+        "Controllerina, joka hyödyntää analytiikkaa päätöksenteossa",
+        "Talousjohtajana, joka nojaa numeroihin"
+      ],
+      "osaamistarpeet": [
+        "Talousdatan analysointi ja visualisointi: Kyky käsitellä suuria tietomääriä ja esittää ne selkeästi visualisoinnin avulla. Osaamista tilastotieteen menetelmistä.",
+        "Ennustaminen ja trendianalyysi: Käyttää dataa liiketoiminnan kehityksen ennustamiseen. Erinomaiset Excel-taidot. ",
+        "Business Intelligence -taitojen hallinta: Kyky hyödyntää Power BI:tä tai muita analytiikkatyökaluja päätöksenteon tukena.",
+        "Tietokantakyselyt: Osaamista tietokannoista, datamalleista ja perusosaaminen SQL-kyselyistä."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Yhteiset opinnot (yhteensä 15 op)",
+          "opintopaketit": []
+        },
+        {
+          "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
+                "English for Accounting 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op",
+                "Tilinpäätösanalyysit 5 op"
+              ]
+            },
+            {
+              "nimi": "Johdon laskentatoimi 20 op",
+              "jaksot": [
+                "Kustannuslaskenta ja hinnoittelu 5 op",
+                "BI, analytiikka ja raportointi 5 op",
+                "Excelin ja toimistosovellusten jatko 5 op",
+                "Liiketoimintaosaaminen ja yrityssimulaatio 5 op"
+              ]
+            },
+            {
+              "nimi": "BI-asiantuntijaksi 15 op",
+              "jaksot": [
+                "Tiedon hallinta ja data-alustat 5 op",
+                "Data-analytiikka 5 op",
+                "Prosessilouhinta, ohjelmistorobotti ja tekoäly 5 op"
+              ]
+            },
+            {
+              "nimi": "Muita tietotekniikan ja ohjemoinnin kursseja 20 op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Verotus - Yritysten ja yksilöiden verosuunnittelijaksi",
+      "kuvaus": [
+        "Verotus vaikuttaa kaikkiin yrityksiin ja yksityishenkilöihin.",
+        "Verotuksen opintojen kautta opit ymmärtämään verolainsäädännön vaikutukset luonnollisten henkilöiden ja yritysten verotukseen sekä kirjanpitoon ja tilinpäätökseen."
+      ],
+      "tehtavat": [
+        "Neuvomaan yrityksiä ja yksityishenkilöitä verotukseen liittyvissä kysymyksissä",
+        "Arvioimaan erilaisten liiketoimien ratkaisujen verovaikutuksia",
+        "Tulkitsemaan verolainsäädännön muutosten vaikutuksia liiketoimintaan"
+      ],
+      "tyot": [
+        "Verohallinnossa erilaisissa tehtävissä",
+        "Veroasiantuntijana tai veroneuvojana",
+        "Yritysten talousosastoilla tai tilitoimistossa"
+      ],
+      "osaamistarpeet": [
+        "Verolainsäädännön tuntemus: Ymmärrys verolakien ja -sääntöjen vaikutuksista eri liiketoimintamuodoille.",
+        "Verosuunnittelu ja veroneuvonta: Kyky neuvoa asiakkaita verotuksen riskienarvioinnissa ja suunnittelussa.",
+        "Erilaiset verotuksen alueet: Ymmärrys arvonlisäverosta, tuloverosta, perintöverosta ja muista verotuksen osa-alueista.",
+        "Verovalvonta ja -tarkastus: Kyky tarkastella verovelvollisuuden toteutumista ja tehdä korjauksia tarvittaessa."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Yhteiset opinnot (yhteensä 15 op)",
+          "opintopaketit": []
+        },
+        {
+          "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
+                "English for Accounting 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op",
+                "Tilinpäätösanalyysit 5 op"
+              ]
+            },
+            {
+              "nimi": "Verotus 15 op",
+              "jaksot": [
+                "Henkilöverotus 5 op",
+                "Käytännön arvonlisäverotus 5 op",
+                "Yritysverotus ja tilinpäätössuunnittelu 5 op"
+              ]
+            },
+            {
+              "nimi": "Tarkastustoiminta 15 op",
+              "jaksot": [
+                "Tilintarkastus 5 op",
+                "Sisäinen valvonta, tarkastus ja talousrikosoikeus 5 op",
+                "Yritysvastuu ja kestävyysraportointi 5 op"
+              ]
+            },
+            {
+              "nimi": "Ulkoisen laskentatoimen syventävät 15 op",
+              "jaksot": [
+                "Erillistilinpäätös 5 op",
+                "Konsernitilinpäätös ja kansainväliset tilinpäätösstandardit 5 op",
+                "Osakeyhtiön erityiskysymykset ja yritysjärjestelyt 5 op"
+              ]
+            },
+            {
+              "nimi": "Palkanlaskenta ja työoikeus 10 op",
+              "jaksot": [
+                "Työoikeus ja palkanlaskenta 5 op",
+                "Palkanlaskennan erityiskysymykset ja sovellukset 5 op"
+              ]
+            },
+            {
+              "nimi": "Juridiikan muut opinnot (2 op)",
+              "jaksot": [
+                "Perheoikeudelliset asiakirjat 2 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Tilintarkastajaksi - Luotettavuuden ja tarkkuuden ammattilaiseksi",
+      "kuvaus": [
+        "Haluatko työskennellä yritysten taloudellisen luotettavuuden varmistajana ja varmistaa, että talousraportointi on läpinäkyvää ja lainmukaista?",
+        "Tilintarkastajan ammattia varten opinnot on suunniteltava huolella, jotta voi riittävän työkokemuksen jälkeen osallistua suorittamaan HT-tutkintoa.  "
+      ],
+      "tehtavat": [
+        "Tarkastamaan yritysten ja yhteisöjen kirjanpitoa, hallintoa sekä tilinpäätöksiä",
+        "Neuvomaan asiakkaita taloushallinnon ja lainsäädännön kysymyksissä",
+        "Varmistamaan, että yritysten ja yhteisöjen tilinpäätökset ovat lainmukaisia ja luotettavia"
+      ],
+      "tyot": [
+        "Tilintarkastusyhteisöissä",
+        "Yritysten talousosastoilla sisäisen tarkastuksen tehtävissä",
+        "Julkisella sektorilla tarkastustehtävissä",
+        "Laaja-alaisesti taloushallinnon vaativissa tehtävissä sekä yksityisellä että julkisella sektorilla"
+      ],
+      "osaamistarpeet": [
+        "Substanssiosaaminen: Hyvä osaaminen taloushallinnon kokonaisuudesta. Vahva eettinen perusta ja vastuullinen suhtautuminen talousraportointiin.",
+        "Tarkastustaidot: Kyky suorittaa tilintarkastuksia ja arvioida talousraporttien luotettavuutta.",
+        "Lainsäädäntö ja sääntely: Ymmärrys taloushallinnon ja tilintarkastuksen sääntelystä ja lainsäädännöstä.",
+        "Auditointitekniikat: Kyky käyttää erilaisia tarkastustekniikoita ja työkaluja (esim. tilintarkastusohjelmistot)."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Tilintarkastuksen ja laskentatoimen opinnot (vähintään 52 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 20 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op",
+                "Tilinpäätösanalyysit 5 op"
+              ]
+            },
+            {
+              "nimi": "Johdon laskentatoimi 10 op",
+              "jaksot": [
+                "Kustannuslaskenta ja hinnoittelu 5 op",
+                "Liiketoimintaosaaminen ja yrityssimulaatio 5 op"
+              ]
+            },
+            {
+              "nimi": "Tarkastustoiminta 10 op",
+              "jaksot": [
+                "Tilintarkastus 5 op",
+                "Sisäinen valvonta, tarkastus ja talousrikosoikeus 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Kauppa- ja taloustieteen opinnot (vähintään 22 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Kansantalous 3 op",
+                "Yrityksen rahoitus 5 op",
+                "Liike-elämän matematiikka 4 op",
+                "Tutkimusmenetelmät 5 op",
+                "Työvälineosaaminen 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Oikeustieteen opinnot (vähintään 22 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Yritysjuridiikka 4 op",
+                "Finanssioikeus 5 op",
+                "Yritysverotus ja tilinpäätössuunnittelu 5 op",
+                "Arvonlisäverotus 5 op",
+                "Työoikeus ja palkanlaskenta 5 op",
+                "Henkilöverotus 5 op",
+                "Sopimusoikeus 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nimi": "Kiinteistöliiketoiminta - Isännöintialan osaajaksi ",
+      "kuvaus": [
+        "Kiinteistöliiketoiminnan osaaja opintokokonaisuudessa kasvatat valmiuksiasi työskennellä kiinteistöalalla etenkin asunto-osakeyhtiön isännöinnin näkökulmasta.",
+        "Kiinteistöliiketoiminnan isännöintialaan keskittyvä opintokokonaisuus soveltuu sinulle, joka olet kiinnostunut isännöinnistä tai työskentelystä isännöintitoimistossa",
+        "tulevana ammattivaihtoehtona tai haluat oppia perustiedot tietyn aihealueen osalta.",
+        "Opintokokonaisuus soveltuu myös asunto-osakeyhtiöiden hallitusten jäsenille sekä asuntosijoittamisesta kiinnostuneille. Osallistuminen ei edellytä ennakkotietoja aihealueista."
+      ],
+      "tehtavat": [
+        "Johtamaan taloyhtiöiden toimintaa",
+        "Huolehtimaan taloyhtiöiden taloudesta ja hallinnosta",
+        "Hoitamaan asukkaiden ja osakkeenomistajien asiakaspalvelua",
+        "Hallitsemaan kiinteistöjen ylläpitoa ja kehittämistä"
+      ],
+      "tyot": [
+        "Isännöitsijänä asunto-osakeyhtiöissä",
+        "Kiinteistösihteerinä isännöintitoimistossa",
+        "Kiinteistökirjanpitäjänä",
+        "Isännöitsijänä vuokrataloyhtiöissä",
+        "Asuntosijoittamisen parissa"
+      ],
+      "osaamistarpeet": [
+        "Lainsäädäntö ja sääntely: Taloyhtiöiden hallintoa hoidetaan noudattaen voimassa olevaa lainsäädäntöä. Kyky selvittää lainsäädännön muutosten vaikutuksia.",
+        "Talousosaaminen: Kyky huolehtia taloyhtiöiden taloudesta, budjetoinnista ja talouden seurannasta.",
+        "Kiinteistön teknisen ylläpidon ymmärrys: Ymmärrys talotekniikan perusteista, korjaushankkeiden prosessista, energian hallinnasta sekä vahinkotapauksissa toimimisesta.",
+        "Asiakaspalvelu- ja viestintätaidot: Ymmärrys asiakaskokemuksesta sekä vahvat viestintätaidot nykyaikaisia välineitä hyödyntäen.",
+        "Projektinhallintaosaaminen: Dokumentointitaidot, verkostojenhallinta, organisointitaidot sekä kyky sietää keskeneräisyyttä."
+      ],
+      "opintojaksot": [
+        {
+          "osuus": "Yhteiset opinnot (yhteensä 15 op)",
+          "opintopaketit": []
+        },
+        {
+          "osuus": "Ammatillinen ydinosaaminen ja täydentävä osaaminen (yhteensä 150 op)",
+          "opintopaketit": [
+            {
+              "nimi": "",
+              "jaksot": [
+                "Taloushallinto 5 op",
+                "Kannattavuuslaskenta ja talouden suunnittelu 5 op",
+                "Projektin hallinta ja työelämäprojekti 5 op"
+              ]
+            },
+            {
+              "nimi": "Hyvä tilinpäätöskäytäntö 15 op",
+              "jaksot": [
+                "Kirjanpito ja tuloslaskenta 5 op",
+                "Taloushallinnon prosessit ja järjestelmät 5 op",
+                "Tilinpäätöksen laadinta 5 op"
+              ]
+            },
+            {
+              "nimi": "Johdon laskentatoimi 10 op",
+              "jaksot": [
+                "BI, analytiikka ja raportointi 5 op",
+                "Excelin ja toimistosovellusten jatko 5 op"
+              ]
+            },
+            {
+              "nimi": "Finanssimarkkinat 5 op",
+              "jaksot": [
+                "Investoinnit ja rahoitussuunnittelu 5 op"
+              ]
+            },
+            {
+              "nimi": "Verotus 10 op",
+              "jaksot": [
+                "Henkilöverotus 5 op",
+                "Käytännön arvonlisäverotus 5 op"
+              ]
+            },
+            {
+              "nimi": "BI-asiantuntijaksi 5 op",
+              "jaksot": [
+                "Prosessilouhinta, ohjelmistorobotti ja tekoäly 5 op"
+              ]
+            },
+            {
+              "nimi": "Isännöitsijän kiinteistöliiketoiminta  30 op",
+              "jaksot": [
+                "Isännöintiala 5 op",
+                "Asunto-osakeyhtiön hallinto 5 op",
+                "Asunto-osakeyhtiön talous 5 op",
+                "Isännöitsijän asiakaspalvelu ja viestintä 5 op",
+                "Korjausrakentamisen perusteet 5 op",
+                "Talonrakentamisen perusteet ja kiinteistön ylläpito 5 op"
+              ]
+            }
+          ]
+        },
+        {
+          "osuus": "Harjoittelu (yhteensä 30 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Harjoittelu 1 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 2 10op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Harjoittelu 3 10op",
+              "jaksot": []
+            }
+          ]
+        },
+        {
+          "osuus": "Opinnäytetyö (yhteensä 15 op)",
+          "opintopaketit": [
+            {
+              "nimi": "Opinnäytetyön suunnittelu 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön toteutus 5 op",
+              "jaksot": []
+            },
+            {
+              "nimi": "Opinnäytetyön raportointi 5 op",
+              "jaksot": []
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

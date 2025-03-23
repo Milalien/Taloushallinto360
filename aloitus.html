@@ -18,6 +18,7 @@
 <body>
   <div class="page">
     <header>
+        <!-- TIETOKONE-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
         <div class="container-fluid">
           
@@ -53,6 +54,7 @@
           </ul>
         </div>
       </nav>
+      <!-- MOBIILI-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar fixed-top d-lg-none" id="mobilenav">
       
           <a class="navbar-brand" href="aloitus.html">
@@ -81,7 +83,7 @@
    
       </nav>
     </header>
-
+  <!-- PÄÄSISÄLTÖ -->
     <div class="main align-items-center">
 
       <div class="card home">
@@ -122,6 +124,7 @@
         </div>
       </div>
     </div>
+      <!-- ANIMOIDUT NUMEROT JA IKONIT -->
     <div class="img-container-out">
 
     <div class="img-container">
@@ -154,7 +157,7 @@
       
 
     </div>
-
+<!-- FOOTER -->
 
     <div class="footer">
       <footer>
@@ -182,6 +185,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/animation.js"></script>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- JAVASCRIPT TIETOJEN HAKUUN JSON:STA -->
   <script type="text/javascript">
     function fetchJSONData() {
     fetch('./config.json')

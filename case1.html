@@ -18,6 +18,7 @@
 <body>
   <div class="page">
     <header>
+      <!-- TIETOKONE-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
         <div class="container-fluid">
          
@@ -52,14 +53,11 @@
           </ul>
         </div>
       </nav>
+      <!-- MOBIILI-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar fixed-top d-lg-none" id="mobilenav">
-     
-          
           <a class="navbar-brand" href="aloitus.html">
             <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png" height="48px" />
           </a>
-        
-        
         <ul class="navbar-nav">
           <li data-mdb-ripple-init class="nav-item">
             <a class="nav-link active" href="case1.html"><img src="images/logo_01_saimaa-account-oy.png" height="24px">Saimaa Account Oy</a>
@@ -82,7 +80,7 @@
        
       </nav>
     </header>
-
+<!-- PÄÄSISÄLTÖ -->
     <div class="main align-items-center">
       <div class="card case1">
         
@@ -126,33 +124,34 @@
       <div class="accordion case1" id="tehtavat">
         <!--TÄHÄN TIEDOSTON ALAOSASSA OLEVA JAVASCRIPT KIRJOITTAA SISÄLLÖN, JOKA HAETAAN CONFIG.JSON TIEDOSTOSTA-->
          
-
       </div>
     </div>
+    <!-- FOOTER -->
     <div class="footer">
 
-    <footer>
-            <div class="row">
-                 <div class="col-6 d-flex justify-content-start">
-                    © 2025 Lab-ammattikorkeakoulu Oy. Kaikki oikeudet pidätetään.
-                </div>
+      <footer>
+        <div class="row">
+              <div class="col-6 d-flex justify-content-start">
+                © 2025 Lab-ammattikorkeakoulu Oy. Kaikki oikeudet pidätetään.
+            </div>
 
-                <div class="col-6 d-none d-md-flex justify-content-end">
-                        <a href="tietoa.html">Tietoa projektista</a>
-                        <a href="aloitus.html">Home</a>
-                </div>
-                <div id="mobilefooter" class="col d-flex d-md-none justify-content-end">
-                    <div class="row text-end">
-                        
-                        <a href="tietoa.html">Tietoa projektista</a>
-                        <a href="aloitus.html">Home</a>
-                    </div>
+            <div class="col-6 d-none d-md-flex justify-content-end">
+                    <a href="tietoa.html">Tietoa projektista</a>
+                    <a href="aloitus.html">Home</a>
+            </div>
+            <div id="mobilefooter" class="col d-flex d-md-none justify-content-end">
+                <div class="row text-end">
+                    
+                    <a href="tietoa.html">Tietoa projektista</a>
+                    <a href="aloitus.html">Home</a>
                 </div>
             </div>
-        </footer>
+        </div>
+      </footer>
     </div>
   </div>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- JAVASCRIPT TIETOJEN HAKUUN JSON:STA -->
   <script type="text/javascript">
     function fetchJSONData() {
     fetch('./config.json')

@@ -18,6 +18,7 @@
 <body>
   <div class="page">
     <header>
+      <!-- TIETOKONE-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar navbar-expand-lg d-none d-lg-flex fixed-top">
         <div class="container-fluid">
          
@@ -50,39 +51,34 @@
           </ul>
         </div>
       </nav>
+      <!-- MOBIILI-NÄKYMÄN YLÄVALIKKO -->
       <nav class="navbar fixed-top d-lg-none" id="mobilenav">
-        
-          
           <a class="navbar-brand" href="aloitus.html">
             <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png" height="48px" />
           </a>
-        
-        
-        
-      
-        <ul class="navbar-nav">
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
-          </li>
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link active" href="case2.html"><img src="images/logo_04_eevan-nakkikioski-tmi_corners5.png" height="22px">Eevan Nakkikioski Tmi</a>
-          </li>
+          <ul class="navbar-nav">
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
+            </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link active" href="case2.html"><img src="images/logo_04_eevan-nakkikioski-tmi_corners5.png" height="22px">Eevan Nakkikioski Tmi</a>
+            </li>
 
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case3.html">Kalustetehdas Tyynelä Oy</a>
-          </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case3.html">Kalustetehdas Tyynelä Oy</a>
+            </li>
 
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy</a>
-          </li>
-          <li data-mdb-ripple-init class="nav-item">
-            <a class="nav-link " href="opintojaksot.html">Opintojaksot ja polut</a>
-          </li>
-        </ul>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link" href="case4.html">Golfkauppa Ranta Oy</a>
+            </li>
+            <li data-mdb-ripple-init class="nav-item">
+              <a class="nav-link " href="opintojaksot.html">Opintojaksot ja polut</a>
+            </li>
+          </ul>
         
       </nav>
     </header>
-
+    <!-- PÄÄSISÄLTÖ -->
     <div class="main align-items-center">
       <div class="card case2">
      
@@ -115,9 +111,6 @@
                   <ul>
                   <li>Lataa tiedosto: <a id="c2l" href="">Yrityskuvaus</a></li>
                 </ul>
-              
-
-                 
                 </div>
               </div>
             </div>
@@ -130,6 +123,7 @@
         
       </div>
     </div>
+    <!-- FOOTER -->
     <div class="footer">
 
     <footer>
@@ -154,6 +148,7 @@
     </div>
   </div>
   <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+  <!-- JAVASCRIPT TIETOJEN HAKUUN JSON:STA -->
   <script type="text/javascript">
     function fetchJSONData() {
     fetch('./config.json')

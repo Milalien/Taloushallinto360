@@ -340,6 +340,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   margin-left: 60px;
   max-width: 740px;
 }
+/* TEHTÄVÄLISTAN NUMEROIKONI JA OPINTOPOLKUJEN IKONIT */
 .polkuikoni{
   position: absolute;
   top: 6px;
