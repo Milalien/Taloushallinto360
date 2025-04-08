@@ -314,7 +314,8 @@
       "kuvaus": "",
       "nimi": "",
       "linkki": "",
-      "ikoni": "images/logo-and-numbers-04/04-reg-05.png"
+      "ikoni": "images/logo-and-numbers-04/04-reg-05.png",
+      "ikoni2": "images/logo-and-numbers-04/04-bold-05.png"
     },
     {
       "otsikko": "Ostolaskujen automaattinen käsittely FabricAI:ssa tehtävä",
