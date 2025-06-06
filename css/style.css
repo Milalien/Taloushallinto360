@@ -75,11 +75,20 @@ footer .row *{
 }
 footer a {
   color: #F8F8F8;
-  margin-left: 48px;
+  
+  width: 140px;
   letter-spacing: 0.24px;
+  text-align: end;
 }
 #mobilefooter a {
   margin:0;
+  width: 100%;
+}
+#mobilefooter a.active {
+  margin:0;
+  width: 100%;
+
+
 }
 footer a img {
   margin:8px;
@@ -87,11 +96,14 @@ footer a img {
 footer a:hover {
   color: white;
   font-weight: 600;
-  transition: all 0.4s;
+  transition: font-weight 0.3s ease-in-out;
 }
 footer a.active {
   font-weight: 600;
   color: white;
+  width: 170px;
+  text-align: end;
+
 }
 /* YLÄVALIKON MUOTOILU */
 nav.navbar {
@@ -114,9 +126,15 @@ nav.navbar .container-fluid {
   font-weight: 400;
   text-transform: none;
   align-self: center; 
+  transition: all 0.3s;
 }
 a.nav-link {
   padding: 0 !important;
+  width: 150px;
+  text-align: center;
+}
+a.nav-link.active{
+  width: 192px;
 }
 .navbar-nav .nav-link.active,
 .btn-link.active {
@@ -126,7 +144,9 @@ a.nav-link {
 .nav-item{
   align-content: center;
   margin: 0 24px;
+  text-align: center;
   white-space: nowrap;
+  
 }
 .nav-item.last{
   margin-right: 0 !important;
@@ -139,7 +159,7 @@ a.nav-link {
 .btn-link:hover {
   color: rgb(255, 255, 255);
   font-weight: 600;
-  transition: all 0.4s;
+  
 }
 .navbar-toggler>.fas {
   font-size: 35px;
@@ -151,6 +171,14 @@ a.nav-link {
 }
 #mobilenav .nav-item{
   margin: 5px 0;
+  text-align: end;
+  text-align: -webkit-right;
+  
+} 
+#mobilenav .nav-link{
+  width: fit-content;
+  text-align: -webkit-right;
+  text-align: end;
 }
 #mobilenav .navbar-nav {
   text-align: end;
@@ -259,6 +287,9 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   color: #1A1A1A;
   font-weight: 700;
 }
+.accordion-button.collapsed{
+  transition: font-weight 0.3s;
+}
 .accordion-button:not(.collapsed) .alaotsikko{
   font-weight: 400 !important;
 }
@@ -289,9 +320,7 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
 #tehtavat .head {
   padding: 15px 20px;
 }
-#opintojaksot .linkit {
-  padding-top: 48px;
-}
+
 
 #opintojaksot .accordion-body .row {
   padding: 5px 100px 5px 60px;
@@ -339,6 +368,10 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   padding: 48px 12px 48px 12px;
   margin-left: 60px;
   max-width: 740px;
+}
+#polut .accordion-body.linkit, #opintojaksot .accordion-body.linkit {
+  padding: 48px 24px 36px 24px;
+  margin-left: 0;
 }
 /* TEHTÄVÄLISTAN NUMEROIKONI JA OPINTOPOLKUJEN IKONIT */
 .polkuikoni{

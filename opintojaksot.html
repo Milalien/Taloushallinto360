@@ -167,6 +167,7 @@
           });
           
           const ops = data.OPSlinkit;
+          const kirjalinkit = data.kirjalinkit;
           const opinnot = data.opinnot;
           let opintojaksot = `
         <div class="accordion-item head">
@@ -297,8 +298,13 @@
               opintopolut += `</ul></div></div></div>`;
 
         }
-          opintopolut += `<div class="accordion-item bottom">      
-        </div>`;
+        opintopolut += `<div class="accordion-item">
+          <div class="accordion-body linkit">
+                  Katso e-kirja: <a href="`+kirjalinkit[0].linkki+`" target="_blank">${kirjalinkit[0].nimi}</a><br>
+                Katso juliste: <a href="`+kirjalinkit[1].linkki+`" target="_blank">${kirjalinkit[1].nimi}</a><br>
+                Katso e-kirja Issuussa: <a href="`+kirjalinkit[2].linkki+`" target="_blank">${kirjalinkit[2].nimi}</a><br>
+                  </div></div>`;
+          
           document.getElementById('polut').innerHTML = opintopolut;
 
             
