@@ -26,7 +26,7 @@
               <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png"
                 height="48px" />
             </a>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav center">
             <li class="nav-item">
               <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
             </li>
@@ -114,7 +114,7 @@
     <div class="footer">
 
     <footer>
-            <div class="row">
+            <div class="row gx-0">
                  <div class="col-6 d-flex justify-content-start">
                     © 2025 Lab-ammattikorkeakoulu Oy. Kaikki oikeudet pidätetään.
                 </div>
@@ -253,9 +253,13 @@
           </h2>
           
           <div id="p${x}" class="accordion-collapse collapse" aria-labelledby="ph${x}">
-            <div class="accordion-body">
-              ${polut[x].kuvaus}
-              <h6 class="alaotsikko">MITÄ PÄÄSET TEKEMÄÄN?</h6><ul>`;
+            <div class="accordion-body">`;
+              if (polut[x].kuvaus != "" && Array.isArray(polut[x].kuvaus )) {
+              opintopolut += polut[x].kuvaus.join(" ");
+            } else if (polut[x].kuvaus != "") {
+              opintopolut += polut[x].kuvaus;
+            }
+              opintopolut += `<h6 class="alaotsikko">MITÄ PÄÄSET TEKEMÄÄN?</h6><ul>`;
               for(var i = 0; i < polut[x].tehtavat.length; i++) {
                 opintopolut += `
                   <li>${polut[x].tehtavat[i]}</li>
@@ -300,9 +304,9 @@
         }
         opintopolut += `<div class="accordion-item">
           <div class="accordion-body linkit">
-                  Katso e-kirja: <a href="`+kirjalinkit[0].linkki+`" target="_blank">${kirjalinkit[0].nimi}</a><br>
-                Katso juliste: <a href="`+kirjalinkit[1].linkki+`" target="_blank">${kirjalinkit[1].nimi}</a><br>
-                Katso e-kirja Issuussa: <a href="`+kirjalinkit[2].linkki+`" target="_blank">${kirjalinkit[2].nimi}</a><br>
+                ${kirjalinkit[0].nimi}<a href="${kirjalinkit[0].linkki}" target="_blank">LAB Taloushallinnon opintojaksot ja polut</a><br>
+                ${kirjalinkit[1].nimi}<a href="${kirjalinkit[1].linkki}" target="_blank">LAB Taloushallinnon opintojaksot ja polut</a><br>
+                ${kirjalinkit[2].nimi}<a href="${kirjalinkit[2].linkki}" target="_blank">LAB Taloushallinnon opintojaksot ja polut</a><br>
                   </div></div>`;
           
           document.getElementById('polut').innerHTML = opintopolut;

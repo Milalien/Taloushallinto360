@@ -26,9 +26,7 @@
               <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png"
                 height="48px" />
             </a>
-         
-
-          <ul class="navbar-nav">
+          <ul class="navbar-nav center">
             <li class="nav-item">
               <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
             </li>
@@ -127,7 +125,7 @@
     <div class="footer">
 
     <footer>
-            <div class="row">
+            <div class="row gx-0">
                  <div class="col-6 d-flex justify-content-start">
                     © 2025 Lab-ammattikorkeakoulu Oy. Kaikki oikeudet pidätetään.
                 </div>
@@ -214,18 +212,19 @@
               <div class="kuvaus">`+ case2t[i].kuvaus +`</div>`;
             }
               
+            if(case2t[i].linkki != "" && typeof case2t[i].linkki !== "undefined"){
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
-              <ul >
+              <ul>
                 <li>Lataa tiedosto: <a href="`+case2t[i].linkki+`" target="_blank">`+case2t[i].nimi+`</a>
                 </li>`;
-if(case2t[i].h5p != "" && typeof case2t[i].h5p !== "undefined"){
+                if(case2t[i].h5p != "" && typeof case2t[i].h5p !== "undefined"){
                 tasks+=`
                   <li>H5P tehtävä: <a href="`+case2t[i].h5p+`" target="_blank">H5P-tehtävä</a>
                 </li>
-                 `;
+                  `;
               }
-             tasks+=` </ul>
-            </div>
+             tasks+=` </ul>`;}
+            tasks+=`</div>
             </div>
             </div>
           </div>

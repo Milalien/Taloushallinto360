@@ -118,8 +118,8 @@
       "otsikko": "Verotettava tulo",
       "kuvaus": "Laske Eevan nakkikioski Tmi:n verotettava tulo ja nettovarallisuus.",
       "opintojakso": "Yritysverotus ja tilinpäätössuunnittelu",
-      "nimi": "",
-      "linkki": "",
+      "nimi": "Nakkikioski tehtävä yritysverotus.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2464973/mod_resource/content/6/Nakkikioski%20teht%C3%A4v%C3%A4%20yrve.pdf",
       "ikoni": "images/logo-and-numbers-02/02-reg-06.png",
       "ikoni2": "images/logo-and-numbers-02/02-bold-06.png"
     },
@@ -127,8 +127,8 @@
       "otsikko": "Kannattavuuslaskennan tehtävä",
       "kuvaus": "Suunnitellaan toimenpiteitä kannattavuuden parantamiseksi ja laaditaan tulosbudjetti seuraavalle tilikaudelle.",
       "opintojakso": "Kannattavuuslaskenta ja talouden suunnittelu",
-      "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/5/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.docx",
+      "nimi": "Kannattavuuslaskennan tehtävä nakkikioskiin.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462686/mod_resource/content/8/Kannattavuuslaskennan%20teht%C3%A4v%C3%A4%20nakkikioskiin.pdf",
       "ikoni": "images/logo-and-numbers-02/02-reg-07.png",
       "ikoni2": "images/logo-and-numbers-02/02-bold-07.png"
     },
@@ -136,8 +136,8 @@
       "otsikko": "Tilinpäätösanalyysien tehtävä",
       "kuvaus": "Tulkitaan Netvisorissa tehtyä tuloslaskelmaa ja tasetta sekä lasketaan tunnuslukuja.",
       "opintojakso": "Tilinpäätösanalyysit",
-      "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/3/Nakkikioski%20tilinp%C3%A4%C3%A4t%C3%B6ksen%20kertausteht%C3%A4v%C3%A4.docx",
+      "nimi": "Nakkikioski tilinpäätöksen kertaustehtävä.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462731/mod_resource/content/6/Eevan%20Nakkikioski%20tpanalyysit.pdf",
       "ikoni": "images/logo-and-numbers-02/02-reg-08.png",
       "ikoni2": "images/logo-and-numbers-02/02-bold-08.png"
     },
@@ -159,8 +159,8 @@
         "Tehtävässä on esitetty Kalustetehdas Tyynelän tuloslaskelma, tase ja kassavirta.",
         "<br>Tarkoituksena on ymmärtää näiden raporttien keskeinen sisältö tutkimalla laskelmia ja vastaamalla esitettyihin kysymyksiin."
       ],
-      "nimi": "Huonekalutehdas tulos, tase, kassavirta.xlsx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/3/Huonekalutehdas%20tulos%2C%20tase%2C%20kassavirta.xlsx",
+      "nimi": "Huonekalutehdas tulos, tase, kassavirta",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462961/mod_resource/content/7/Kalustetehdas%20Tyynel%C3%A4%20Oy_tulostasekassavirtateht%C3%A4v%C3%A4.pdf",
       "ikoni": "images/logo-and-numbers-03/03-reg-01.png",
       "ikoni2": "images/logo-and-numbers-03/03-bold-01.png"
     },
@@ -168,8 +168,8 @@
       "otsikko": "Kustannuslaskennan tehtävä",
       "opintojakso": "Kustannuslaskenta ja hinnoittelu",
       "kuvaus": "Lasketaan ruokapöydän omakustannusarvo ja myyntihinta hyödyntäen toimintolaskentaa.",
-      "nimi": "h5p tehtävänanto johtopäätöksiin.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2506613/mod_resource/content/1/H5P%20teht%C3%A4v%C3%A4nanto%20johtop%C3%A4%C3%A4t%C3%B6ksiin.docx",
+      "nimi": "h5p tehtävänanto johtopäätöksiin.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2541842/mod_resource/content/3/Kustannuslaskennan%20teht%C3%A4v%C3%A4%20johtop%C3%A4%C3%A4t%C3%B6kset.pdf",
       "h5p": "https://moodle.lut.fi/mod/h5pactivity/view.php?id=1624712",
       "ikoni": "images/logo-and-numbers-03/03-reg-02.png",
       "ikoni2": "images/logo-and-numbers-03/03-bold-02.png"
@@ -181,8 +181,8 @@
         "Tehtävässä pitää arvioida mahdollisen investoinnin kannattavuutta yleisempien investointilaskelmien avulla."
       ],
       "opintojakso": "Investoinnit ja rahoitussuunnittelu",
-      "nimi": "Case huonekalutehdas laiteinvestointi_15.1.2025.xlsx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/9/Case%20huonekalutehdas%20laiteinvestointi_15.1.2025.xlsx",
+      "nimi": "Case huonekalutehdas laiteinvestointi.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463040/mod_resource/content/12/Case%20huonekalutehdas%20laiteinvestointi.pdf",
       "ikoni": "images/logo-and-numbers-03/03-reg-03.png",
       "ikoni2": "images/logo-and-numbers-03/03-bold-03.png"
     },
@@ -190,8 +190,8 @@
       "otsikko": "Yritysjärjestelyiden tehtävä",
       "opintojakso": "Osakeyhtiön erityskysymykset ja yritysjärjestelyt",
       "kuvaus": "Kalustetalo Tyynelä on suunnittelemassa laajentumista.",
-      "nimi": "Kalustetalo Tyynelä oy OYERKY.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20OYERKY.docx",
+      "nimi": "Yritysjärjestelyjen tehtävä.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462945/mod_resource/content/3/Yritysj%C3%A4rjestelyiden%20teht%C3%A4v%C3%A4.pdf",
       "ikoni": "images/logo-and-numbers-03/03-reg-04.png",
       "ikoni2": "images/logo-and-numbers-03/03-bold-04.png"
     },
@@ -203,17 +203,17 @@
         "<br>Yritys on nyt laatimassa ensimmäistä konsernitilinpäätöstään.",
         "<br>Selvitä, miten prosessi etenee."
       ],
-      "nimi": "Kalustetalo Tyynelä oy Konserni.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20Konserni.docx",
+      "nimi": "Konsernitilinpäätöksen tehtävä.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462947/mod_resource/content/3/Konsernitilinp%C3%A4%C3%A4t%C3%B6ksen%20teht%C3%A4v%C3%A4.pdf",
       "ikoni": "images/logo-and-numbers-03/03-reg-05.png",
       "ikoni2": "images/logo-and-numbers-03/03-bold-05.png"
     },
     {
       "otsikko": "Sisäisen valvonnan tehtävä",
       "opintojakso": "Sisäinen tarkastus ja valvonta",
-      "kuvaus": "",
-      "nimi": "Kalustetalo Tyynelä oy sisäine valvonta.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/2/Kalustetalo%20Tyynel%C3%A4%20oy%20sis%C3%A4ine%20valvonta.docx",
+      "kuvaus": "Perehdy hyvin yrityksen case-kuvaukseen ja pohdi, miten yrityksen tulisi järjestää tehtävän asiakirjassa kuvatut prosessit.",
+      "nimi": "Kalustetalo Tyynelä oy sisäine valvonta.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462942/mod_resource/content/5/Kalustetalo%20tyynel%C3%A4%20oy%20sis%C3%A4inen%20valvonta.pdf",
       "ikoni": "images/logo-and-numbers-03/03-reg-06.png",
       "ikoni2": "images/logo-and-numbers-03/03-bold-06.png"
     },
@@ -251,8 +251,8 @@
       "otsikko": "Datan analysointi ja visualisointi",
       "opintojakso": "BI, analytiikka ja raportointi",
       "kuvaus": [
-        "Tehtävänäsi on luoda visuaalinen tilinpäätösraportti Kalustetalo Tyynelä Oy:n toimitusjohtaja Petra Rannalle.",
-        "<br>Ohessa on yrityksen tuloslaskelma ja tase edelliseltä kahdelta vuodelta. Datatiedostot ovat tallennettu yrityksen käytössä olevasta Procountor-ohjelmistosta CSV-tiedostoina."
+        "Tehtävänäsi on luoda visuaalinen tilinpäätösraportti Kalustetalo Tyynelä Oy:n toimitusjohtaja Petra Rannalle. ",
+        "Ohessa on yrityksen tuloslaskelma ja tase edelliseltä kahdelta vuodelta. Datatiedostot ovat tallennettu yrityksen käytössä olevasta Procountor-ohjelmistosta CSV-tiedostoina."
       ],
       "nimi": "Data Huonekalutehdas Tyynelä Oy.xlsx",
       "linkki": "https://moodle.lut.fi/pluginfile.php/2464764/mod_resource/content/5/Data%20Huonekalutehdas%20Tyynel%C3%A4%20Oy.xlsx",
@@ -330,7 +330,7 @@
     {
       "otsikko": "Varojen jakaminen tehtävä",
       "opintojakso": "Yritysverotus ja tilinpäätössuunnittelu",
-      "kuvaus": "Selvitä millä kaikilla tavoilla omistajat voivat nostaa varoja osakeyhtiöstä. Laske, miten näitä eri tapoja verotetaan.",
+      "kuvaus": "Selvitä millä kaikilla tavoilla omistajat voivat nostaa varoja osakeyhtiöstä. Laske, miten näitä eri tapoja verotetaan. Ota huomioon myös lainaaminen ja laittomat voitonjakotavat.",
       "nimi": "",
       "linkki": "",
       "ikoni": "images/logo-and-numbers-04/04-reg-07.png",
@@ -340,8 +340,8 @@
       "otsikko": "Osingonjako tehtävä",
       "opintojakso": "Henkilöverotus",
       "kuvaus": "Yrittäjä nostaa osinkoa. Laske, miten osinkoa verotetaan.  ",
-      "nimi": "",
-      "linkki": "",
+      "nimi": "Osingonjako tehtävä.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2464999/mod_resource/content/6/Osingonjako%20teht%C3%A4v%C3%A4.pdf",
       "ikoni": "images/logo-and-numbers-04/04-reg-08.png",
       "ikoni2": "images/logo-and-numbers-04/04-bold-08.png"
     },
@@ -349,8 +349,8 @@
       "otsikko": "Tilintarkastuksen tehtävä",
       "opintojakso": "Tilintarkastus käytännössä",
       "kuvaus": "Yrityksen toiminta on niin laajaa, että yritys on tilintarkastusvelvollinen.",
-      "nimi": "Golfkauppa Ranta oy Tilintarkastus.docx",
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/5/Golfkauppa%20Ranta%20oy%20Tilintarkastus.docx",
+      "nimi": "Golfkauppa Ranta oy tilintarkastus.pdf",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463144/mod_resource/content/6/Golfkauppa%20Ranta%20Oy%20tilintarkastus.pdf",
       "ikoni": "images/logo-and-numbers-04/04-reg-09.png",
       "ikoni2": "images/logo-and-numbers-04/04-bold-09.png"
     }
@@ -392,19 +392,22 @@
         "Hän oli työskennellyt vuosia erilaisissa ravintoloissa ja kahviloissa, mutta haaveili omasta liiketoiminnasta.",
         "Eräänä päivänä hän käveli kaupungin vilkkaalla torilla ja huomasi vanhan, hieman nuhjuisen nakkikioskin nurkassa.<br><br>",
         "Eeva tiesi heti, että tässä oli tilaisuus. Hän päätti vuokrata kioskin ja tehdä siitä oman unelmansa.",
-        "Vuokranantaja kunnosti kioskin, maalasi sen raikkailla väreillä ja Eeva loi sille uuden nimen: “Eevan nakkikioski”.<br>",
+        "Vuokranantaja kunnosti kioskin, maalasi sen raikkailla väreillä ja Eeva loi sille uuden nimen: “Eevan nakkikioski”.",
+        "Eeva nosti pankista hieman lainaa ja hankki sillä ruoan valmistukseen tarvittavat koneet ja laitteet. Lainaa on jo maksettu takaisin hyvän aikaa ja sitä on jäljellä maltillinen määrä.<br><br>",
         "Eeva ei halunnut tarjota pelkästään perinteisiä nakkeja, vaan hänellä oli visio laajemmasta valikoimasta.",
         "Hän alkoi valmistaa itse erilaisia makkaroita ja lisukkeita. Asiakkaat saivat valita erilaisia makuyhdistelmiä, ja Eevan nakkikioski tuli nopeasti suosituksi paikaksi.<br>",
-        "Yrittäjyys ei ollut aina helppoa. Eeva teki pitkiä päiviä, mutta hän nautti jokaisesta hetkestä. Hän oppi tuntemaan vakioasiakkaansa ja heidän mieltymyksensä.",
-        "Eeva hymyili aina, kun näki lasten iloiset kasvot, kun he saivat hodarin tai grillimakkarat.<br><br>",
-        "Vuodet kuluivat, ja Eevan nakkikioski kasvoi. Hän palkkasi lisää henkilökuntaa ja laajensi valikoimaa.",
-        "Eeva ei unohtanut juurtaan - hän tarjosi edelleen perinteisiä nakkeja, mutta myös gourmet-makkaroita ja vegaanivaihtoehtoja.",
-        "Eeva ei ollut vain nakkikioskin omistaja, vaan hänestä tuli osa kaupungin yhteisöä. Hän järjesti tapahtumia, kuten nakkikarnevaaleja ja makkarakilpailuja.",
-        "Eeva tiesi, että ruoka yhdistää ihmisiä, ja hän halusi tarjota paikan, jossa kaikki tuntevat olonsa tervetulleiksi.<br><br>",
-        "Nyt Eeva seisoo hymyillen nakkikioskinsa tiskin takana. Hän katsoo ympärilleen ja näkee onnellisia asiakkaita.",
-        "Unelma omasta nakkikioskista oli toteutunut, ja Eeva tietää, että hän teki oikean päätöksen."
+        "Yhdeksi tärkeäksi asiakasryhmäksi muodostuivat myös ulkomaalaiset turistit, jotka haluavat kokea aidon suomalaisen nakkikioskin tunnelman.",
+        "He ovat löytäneet Eevan nakkikioskin sosiaalisen median kautta. Palvellakseen tätä asiakasryhmää, Eeva on ottanut tuotevalikoimaan mukaan myös matkamuistot.",
+        "Niitä hän hankkii yhteistyökumppaniyritykseltään ja myy eteenpäin.<br><br>",
+        "Nakkikioskin toiminnan kasvaessa, Eeva palkkasi myös yhden osa-aikaisen työntekijän.",
+        "Hän auttaa Eevaa etenkin kiireisinä aikoina ja on suureksi avuksi myös sosiaalisen median tilien päivityksessä.",
+        "Kiireisimmät ajat ovat tietysti kesäkuukaudet, jolloin suuri osa yrityksen myynnistä tehdään.",
+        "Talvikuukausina (joulu-helmikuu) on hiljaisempaa, mutta silloin on mahdollista kehittää toimintaa.",
+        "Luoda uusia annoksia, hoitaa hallinnollisia asioita sekä markkinointia.<br><br>",
+        "Kirjanpitoa hoitamaan, Eeva löysi oivan yhteistyökumppanin, Saimaa Accounting Oy:n. He osaavat auttaa Eevaa suunnittelemaan talousasioita niin,",
+        "että liiketoiminta on voitollista ja sitä on mahdollista kehittää. "
       ],
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2462680/mod_resource/content/4/Nakkikioski%20case%2010.9.2024.docx"
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2462680/mod_resource/content/5/Nakkikioski%20Case%20kuvaus.pdf"
     },
     {
       "nimi": "Kalustetalo Tyynelä Oy",
@@ -450,25 +453,32 @@
     {
       "nimi": "Golfkauppa Ranta Oy",
       "lyhytkuvaus": [
-        "Golfkauppa Ranta Oy harjoittaa golftarvikkeiden myyntiä kotimaahan ja ulkomaille sekä järjestää koulutustilaisuuksia. Yhtiö on osakeyhtiö, jossa on kolme osakasta. Golfkauppa omistaa paikkakunnalla sijaitsevan golfkentän osakkeita, joista se maksaa vastiketta.",
+        "Golfkauppa Ranta Oy harjoittaa golftarvikkeiden myyntiä kotimaahan ja ulkomaille sekä järjestää koulutustilaisuuksia. Yhtiö on osakeyhtiö, jossa on kolme osakasta.",
+        "Golfkauppa omistaa paikkakunnalla sijaitsevan golfkentän osakkeita, joista se maksaa vastiketta.",
         "Yhtiön pääomistaja Mika työskentelee kaupassa vakituisesti ja tämän lisäksi yhtiöllä on osa-aikainen tuntityöntekijä.",
         "Yhtiön liikevaihto on päättyneellä tilikaudella ollut noin 700000 euroa ja taseen loppusumma noin 130000 euroa."
       ],
       "kuvaus": [
-        "Mika on intohimoinen golfin pelaaja, joka on pelannut lajia lapsuudestaan asti. Hän huomasi, että paikallisella alueella on puutetta laadukkaista golftarvikkeista ja päättää perustaa oman golftarvikekaupan paikallisen golfkentän yhteyteen.<br><br>",
-        "Mika aloittaa pienestä. Hän vuokrasi pienen liiketilan golfkentän vierestä ja hankki aluksi vain perustuotteita, kuten golfpalloja, hanskoja ja mailoja. Hän käytti säästöjään ja otti pienen lainan pankista.<br><br>",
+        "Mika on intohimoinen golfin pelaaja, joka on pelannut lajia lapsuudestaan asti. Hän huomasi, että paikallisella alueella on puutetta laadukkaista golftarvikkeista",
+        "ja päättää perustaa oman golftarvikekaupan paikallisen golfkentän yhteyteen.<br><br>",
+        "Mika aloittaa pienestä. Hän vuokrasi pienen liiketilan golfkentän vierestä ja hankki aluksi vain perustuotteita, kuten golfpalloja, hanskoja ja mailoja.",
+        "Hän käytti säästöjään ja otti pienen lainan pankista.<br><br>",
         "Alkuvaiheessa asiakkaita oli vähän, mutta Mika ei lannistunut. Hän alkoi matkustaa golftapahtumiin, joissa esiteli tuotteitaan. Pikkuhiljaa sana alkoi levitä, ja asiakaskunta alkoi kasvaa.<br><br>",
-        "Vuosien kuluessa Mikan kauppa kasvoi ja laajeni. Hän alkoi tuoda maahan erikoistuotteita ja tarjoaa myös räätälöityjä palveluita, kuten mailojen sovitusta ja korjausta. Mika palkkasi lisää henkilökuntaa ja avasi verkkokaupan, joka tavoittaa asiakkaita ympäri maata.",
+        "Vuosien kuluessa Mikan kauppa kasvoi ja laajeni. Hän alkoi tuoda maahan erikoistuotteita ja tarjoaa myös räätälöityjä palveluita, kuten Greencard kursseja yhteistyökumppaneiden avulla.",
+        "Tuotevalikoimaan kaupassa kuuluvat myös golfkirjat sekä elintarvikemyynti golfkentällä pelaaville.",
+        "Mika palkkasi lisää henkilökuntaa ja avasi verkkokaupan, joka tavoittaa asiakkaita ympäri maata.<br><br>",
         "Laajennuksen yhteydessä Mika otti lisää osakkaita yhtiöönsä. Omistus on jaettu niin, että Mika omistaa 80 osaketta, hänen veljensä Manu 40 osaketta ja sisko Maija 50 osaketta.",
         "Yhtiö on perustettu vuonna 2010 ja yhtiön osakepääoma yhden osakkeen merkintähinta on ollut 20e/kpl. Lisäksi Mika on sijoittanut svop-rahastoon 5000 euroa, Manu 3000 euroa ja Maija 4000 euroa.<br>",
-        "Sijoitukset on tehty 2018 tulevia investointeja varten. Lisäksi yrityksellä on vierasta pääomaa paikallispankilta xx euroa.<br><br>",
+        "Sijoitukset on tehty 2018 tulevia investointeja varten. Lisäksi yrityksellä on vierasta pääomaa paikallispankilta 65000 euroa.<br><br>",
         "Kauppa ei ole vain liiketoimintaa, vaan myös paikallisen golfyhteisön keskus. Kauppa sponsoroi nuoria pelaajia ja järjestää koulutustapahtumia.",
-        "Yrittäjät eivät lepää laakereillaan. Heillä on suuria suunnitelmia tulevaisuudelle, kuten uusien myymälöiden avaaminen ja kansainvälistyminen. Yritys haluaa myös jatkaa golfin edistämistä ja innostaa uusia sukupolvia lajin pariin.<br><br>",
+        "Yrittäjät eivät lepää laakereillaan. Heillä on suuria suunnitelmia tulevaisuudelle, kuten uusien myymälöiden avaaminen ja kansainvälistyminen.",
+        "Yritys haluaa myös jatkaa golfin edistämistä ja innostaa uusia sukupolvia lajin pariin. Toiminnan kasvaessa, jo alkavalla tilikaudella tulee tehdä pieniä investointeja.",
+        "Golfkärryjä tarvitaan lisää ja lisävarastotilaksi on suunnitteilla merikontin hankinta. Maksujärjestelmätkin kaipaavat uusimista.<br><br>",
         "Yhtiön tilikausi on 1.5.-30.4.20XX.<br><br>",
         "Golfkauppa omistaa kaksi golf-osaketta paikkakunnan golf-radalta. Osakkeiden hankintahinta on ollut 500e/kpl. Näiden osakkeiden yhteenlaskettu vuosivastike on 1000 euroa.",
-        "Golf-radan kanssa on tehty sopimus, joka oikeuttaa käyttämään golf-kenttää rajattomasti 10 euron kertamaksulla/hlö.  Kenttää käytetään mm. Green gard-opetuksiin."
+        "Golf-radan kanssa on tehty sopimus, joka oikeuttaa käyttämään golf-kenttää rajattomasti 10 euron kertamaksulla/hlö.<br>Kenttää käytetään mm. Green gard-opetuksiin."
       ],
-      "linkki": "https://moodle.lut.fi/pluginfile.php/2463129/mod_resource/content/4/Golfkauppa%20Ranta%20case%20kuvaus.docx"
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2463129/mod_resource/content/7/Golfkauppa%20Ranta%20case%20kuvaus.pdf"
     }
   ],
   "etusivu": {
@@ -712,6 +722,20 @@
       ]
     }
   ],
+  "kirjalinkit": [
+    {
+      "nimi": "Katso e-kirja: ",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2629109/mod_resource/content/1/lab-taloushallinnon-opintojaksot-ja-polut_EKIRJA_1-page-pdf_300ppi.pdf"
+    },
+    {
+      "nimi": "Katso juliste: ",
+      "linkki": "https://moodle.lut.fi/pluginfile.php/2629110/mod_resource/content/1/lab-taloushallinnon-opintojaksot-ja-polut_JULISTE_300ppi.pdf"
+    },
+    {
+      "nimi": "Katso e-kirja Issuussa: ",
+      "linkki": "https://issuu.com/taloushallinto360/docs/lab_taloushallinnon_opintojaksot_ja_polut"
+    }
+  ],
   "OPSlinkit": [
     {
       "nimi": "Tradenomi (AMK), liiketalous 25S, päivätoteutus, Lappeenranta: Älykäs taloushallinto",
@@ -732,20 +756,6 @@
     {
       "nimi": "Liiketoimintayksikön täydentävän osaamisen tarjonta 2025-2026 (AMK): LLABTO25H",
       "linkki": "https://opinto-opas.lab.fi/70192/fi/70060/70193/2088"
-    }
-  ],
-  "kirjalinkit": [
-    {
-      "nimi": "LAB Taloushallinnon opintojaksot ja polut",
-      "linkki": " "
-    },
-    {
-      "nimi": "LAB Taloushallinnon opintojaksot ja polut",
-      "linkki": " "
-    },
-    {
-      "nimi": "TLAB Taloushallinnon opintojaksot ja polut",
-      "linkki": " "
     }
   ],
   "opintopolut": [
@@ -836,15 +846,15 @@
           "osuus": "Harjoittelu (yhteensä 30 op)",
           "opintopaketit": [
             {
-              "nimi": "Harjoittelu 1 10 op",
+              "nimi": "Harjoittelu 1 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 2 10 op",
+              "nimi": "Harjoittelu 2 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 3 10 op",
+              "nimi": "Harjoittelu 3 10op",
               "jaksot": []
             }
           ]
@@ -950,15 +960,15 @@
           "osuus": "Harjoittelu (yhteensä 30 op)",
           "opintopaketit": [
             {
-              "nimi": "Harjoittelu 1 10 op",
+              "nimi": "Harjoittelu 1 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 2 10 op",
+              "nimi": "Harjoittelu 2 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 3 10 op",
+              "nimi": "Harjoittelu 3 10op",
               "jaksot": []
             }
           ]
@@ -1067,15 +1077,15 @@
           "osuus": "Harjoittelu (yhteensä 30 op)",
           "opintopaketit": [
             {
-              "nimi": "Harjoittelu 1 10 op",
+              "nimi": "Harjoittelu 1 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 2 10 op",
+              "nimi": "Harjoittelu 2 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 3 10 op",
+              "nimi": "Harjoittelu 3 10op",
               "jaksot": []
             }
           ]
@@ -1173,15 +1183,15 @@
           "osuus": "Harjoittelu (yhteensä 30 op)",
           "opintopaketit": [
             {
-              "nimi": "Harjoittelu 1 10 op",
+              "nimi": "Harjoittelu 1 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 2 10 op",
+              "nimi": "Harjoittelu 2 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 3 10 op",
+              "nimi": "Harjoittelu 3 10op",
               "jaksot": []
             }
           ]
@@ -1300,15 +1310,15 @@
           "osuus": "Harjoittelu (yhteensä 30 op)",
           "opintopaketit": [
             {
-              "nimi": "Harjoittelu 1 10 op",
+              "nimi": "Harjoittelu 1 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 2 10 op",
+              "nimi": "Harjoittelu 2 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 3 10 op",
+              "nimi": "Harjoittelu 3 10op",
               "jaksot": []
             }
           ]
@@ -1427,15 +1437,15 @@
           "osuus": "Harjoittelu (yhteensä 30 op)",
           "opintopaketit": [
             {
-              "nimi": "Harjoittelu 1 10 op",
+              "nimi": "Harjoittelu 1 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 2 10 op",
+              "nimi": "Harjoittelu 2 10op",
               "jaksot": []
             },
             {
-              "nimi": "Harjoittelu 3 10 op",
+              "nimi": "Harjoittelu 3 10op",
               "jaksot": []
             }
           ]

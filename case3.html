@@ -28,7 +28,7 @@
               <img src="images/logo_00_color_taloushallinnon-taituri_corners5.png"
                 height="48px" />
             </a>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav center">
             <li class="nav-item">
               <a class="nav-link" href="case1.html">Saimaa Account Oy</a>
             </li>
@@ -129,7 +129,7 @@
     <div class="footer">
 
     <footer>
-            <div class="row">
+            <div class="row gx-0">
                  <div class="col-6 d-flex justify-content-start">
                     © 2025 Lab-ammattikorkeakoulu Oy. Kaikki oikeudet pidätetään.
                 </div>
@@ -215,9 +215,9 @@
               <div class="kuvaus">`+ case3t[i].kuvaus +`</div>`;
             }
              
-             
+            if(case3t[i].linkki != "" && typeof case3t[i].linkki !== "undefined"){
               tasks+=`<h6 class="alaotsikko">TEHTÄVÄN ASIAKIRJAT</h6>
-              <ul >
+              <ul>
                 <li>Lataa tiedosto: <a href="`+case3t[i].linkki+`" target="_blank">`+case3t[i].nimi+`</a>
                 </li>`;
                 if(case3t[i].h5p != "" && typeof case3t[i].h5p !== "undefined"){
@@ -226,8 +226,8 @@
                 </li>
                   `;
               }
-              tasks+=`</ul>
-            </div>
+             tasks+=` </ul>`;}
+            tasks+=`</div>
             </div>
             </div>
           </div>
