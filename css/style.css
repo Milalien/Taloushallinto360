@@ -18,6 +18,9 @@ body {
   min-height: 100vh;
   padding: 70px 20px;
 }
+.page.home{
+  padding-bottom: 200px !important;
+}
 h1,
 h2,
 h3,
@@ -583,7 +586,10 @@ background: #ffffff url("../images/background_01_saimaa-account-oy_LAST.png") no
   .page{
     padding: 120px 10px 70px;
   }
-  
+  .numbers1, .numbers2, .numbers3 {
+    height: 80px;
+    width: 80px;
+  }
   .col-10 .alaotsikko {
     margin-bottom: 5px;
     margin-top: 5px;
