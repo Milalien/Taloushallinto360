@@ -1,6 +1,7 @@
 # Taloushallinto 360
 
 A static website developed as a part of a project for LAB University of Applied Sciences.
+Information about the project: https://lab.fi/en/project/expert-financial-management-comprehensive-modular-exercise
 The site features four case companies, that each have their own background stories and excercises for Financial Management students to complete. The purpose is to bring the orientations of their studies together to make their connections more clear.
 
 The website is a basic HTML+CSS+JavaScript page, and most of the texts are in the "config.json" file for easier updating without a database. This was a demand for the project, since it will be linked to Moodle courses for easy access.
